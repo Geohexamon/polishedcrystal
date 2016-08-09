@@ -1,10 +1,10 @@
 	db RHYDON ; 112
 
 if DEF(FAITHFUL)
-	db 110, 135, 125,  40,  48,  48
+	db 105, 130, 120,  40,  45,  45
 	;   hp  atk  def  spd  sat  sdf
 else
-	db 105, 130, 120,  40,  45,  45
+	db 110, 135, 125,  40,  48,  48
 	;   hp  atk  def  spd  sat  sdf
 endc
 
@@ -12,7 +12,7 @@ endc
 	db 60 ; catch rate
 	db 204 ; base exp
 	db NO_ITEM ; item 1
-	db NO_ITEM ; item 2
+	db PROTECTOR ; item 2
 	db 127 ; gender
 	db 100 ; unknown
 	db 20 ; step cycles to hatch

@@ -47,7 +47,7 @@ ENDM
 	trigger_def ROUTE_34_ILEX_FOREST_GATE,              wRoute34IlexForestGateTrigger
 	trigger_def ECRUTEAK_HOUSE,                         wEcruteakHouseTrigger
 	trigger_def WISE_TRIOS_ROOM,                        wWiseTriosRoomTrigger
-	trigger_def ECRUTEAK_POKECENTER_1F,                 wEcruteakPokecenter1FTrigger ; TODO: remove unused trigger
+	trigger_def ECRUTEAK_POKECENTER_1F,                 wEcruteakPokecenter1FTrigger
 	trigger_def ECRUTEAK_GYM,                           wEcruteakGymTrigger
 	trigger_def MAHOGANY_TOWN,                          wMahoganyTownTrigger
 	trigger_def ROUTE_42,                               wRoute42Trigger
@@ -92,5 +92,8 @@ ENDM
 	trigger_def SEAGALLOP_FERRY_NAVEL_GATE,             wSeagallopFerryNavelGateTrigger
 	trigger_def FARAWAY_ISLAND,                         wFarawayIslandTrigger
 	trigger_def ROUTE_48,                               wRoute48Trigger
+	trigger_def DAYCARE,                                wDayCareTrigger
+	trigger_def DARK_CAVE_VIOLET_ENTRANCE,              wDarkCaveVioletEntranceTrigger
+	trigger_def VIOLET_GYM,                             wVioletGymTrigger
 	db -1
 ; 4d15b

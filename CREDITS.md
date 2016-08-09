@@ -6,18 +6,17 @@
 * Tauwasser, comet, and other members of Skeetendo for help and advice
 * PikalaxALT, pigdevil2010, Koolboyman, chaos_lord2, padz, and everyone else who developed TPP Anniversary Crystal 251 and made the code public (namely the Move Relearner and Gen VI money loss code)
 * VictoriaLacroix for their Running Shoes routine
-* Blue Emerald, Chamber, solo993, Lake, Neslug, and Pikachu25 for many Pokémon sprites and icons
+* Blue Emerald, Chamber, solo993, Lake, Neslug, and Pikachu25 for many sprites and icons
 * FroggestSpirit for ported and demixed music from RBY, HGSS, and DPPt
-* Mmmmmm for the Cinnabar Volcano, Faraway Island, and final battle music
+* Mmmmmm for many music covers
 * Pigu for the Ho-oh, Lugia, and Kanto legendary battle music
 * Pum for the Route 47 and Yellow Forest music
 * ShantyTown for the Rock Tunnel music
 * Serious Senator for some trainer dialogs
 * tonyism for the in-battle shiny icon code
 * jpmac26 for editing the Pokémon Center signs and fixing a typo
-* Twilir for Lyra's sprite
+* Twilir for Lyra's back sprite
 * Danny-E for Lorelei's sprite
-* Poketto for Giovanni's sprite
 * Nic7C5 for Yellow's sprite
 * BettyNewbie for Green's sprite
 * bloodless for Game Freak's sprite

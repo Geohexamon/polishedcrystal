@@ -7,7 +7,7 @@ UnusedPhoneScript: ; 0xbcea5
 MomPhoneScript: ; 0xbceaa
 	checkevent EVENT_TALKED_TO_MOM_AFTER_MYSTERY_EGG_QUEST
 	iftrue .bcec5
-	checkevent EVENT_DUDE_TALKED_TO_YOU
+	checkevent EVENT_LEARNED_TO_CATCH_POKEMON
 	iftrue MomPhoneLectureScript
 	checkevent EVENT_GAVE_MYSTERY_EGG_TO_ELM
 	iftrue MomPhoneNoGymQuestScript
@@ -295,6 +295,31 @@ ElmPhoneScript2: ; 0xbd081
 	specialphonecall SPECIALCALL_NONE
 	end
 ; bd0d0
+
+; Lyra
+
+LyraPhoneScript:
+	checkday
+	iftrue .daygreet
+	checknite
+	iftrue .nitegreet
+	farwritetext LyraPhoneMornGreetingText
+	buttonsound
+	jump .main
+
+.daygreet
+	farwritetext LyraPhoneDayGreetingText
+	buttonsound
+	jump .main
+
+.nitegreet
+	farwritetext LyraPhoneNiteGreetingText
+	buttonsound
+	jump .main
+
+.main
+	farwritetext LyraPhoneMainText
+	end
 
 ; Jack
 

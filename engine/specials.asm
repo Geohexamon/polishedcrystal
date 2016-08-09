@@ -95,8 +95,8 @@ SpecialsPointers:: ; c029
 	add_special Special_ActivateFishingSwarm
 	add_special ToggleMaptileDecorations
 	add_special ToggleDecorationsVisibility
-	add_special SpecialGiveAipom
-	add_special SpecialReturnAipom
+	add_special SpecialGiveWobbuffet
+	add_special SpecialReturnWobbuffet
 	add_special Special_BillsGrandfather
 	add_special SpecialCheckPokerus
 	add_special Special_DisplayCoinCaseBalance
@@ -124,7 +124,7 @@ SpecialsPointers:: ; c029
 	add_special ProfOaksPCBoot
 	add_special SpecialGameboyCheck
 	add_special SpecialTrainerHouse
-	add_special PhotoStudio
+	add_special Special_CianwoodPhotograph
 	add_special InitRoamMons
 	add_special Special_FadeOutMusic
 	add_special Diploma

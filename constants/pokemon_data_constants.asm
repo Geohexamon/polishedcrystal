@@ -209,12 +209,11 @@ const_value SET 1
 	const ICON_FLAAFFY
 	const ICON_AMPHAROS
 	const ICON_BELLOSSOM
+	const ICON_RHYPERIOR
 	const ICON_SUDOWOODO
 	const ICON_POLITOED
-	const ICON_HOPPIP
-	const ICON_SKIPLOOM
-	const ICON_JUMPLUFF
-	const ICON_AIPOM
+	const ICON_SUNKERN
+	const ICON_SUNFLORA
 	const ICON_YANMA
 	const ICON_YANMEGA
 	const ICON_WOOPER
@@ -229,6 +228,7 @@ const_value SET 1
 	const ICON_MISDREAVUS
 	const ICON_MISMAGIUS
 	const ICON_UNOWN
+	const ICON_WOBBUFFET
 	const ICON_GIRAFARIG
 	const ICON_PINECO
 	const ICON_FORRETRESS
@@ -261,13 +261,13 @@ const_value SET 1
 	const ICON_PHANPY
 	const ICON_DONPHAN
 	const ICON_PORYGON2
-	const ICON_STANTLER
 	const ICON_SMEARGLE
 	const ICON_TYROGUE
 	const ICON_HITMONTOP
-	const ICON_SMOOCHUM
 	const ICON_ELEKID
+	const ICON_ELECTIVIRE
 	const ICON_MAGBY
+	const ICON_MAGMORTAR
 	const ICON_MILTANK
 	const ICON_BLISSEY
 	const ICON_RAIKOU
@@ -291,6 +291,8 @@ const_value SET 1
 	const EVOLVE_HAPPINESS
 	const EVOLVE_STAT
 	const EVOLVE_LOCATION
+	const EVOLVE_MOVE
+	const EVOLVE_STAT_EXP
 
 
 BASE_HAPPINESS        EQU 70
@@ -303,6 +305,7 @@ const_value SET 1
 	const TR_MORNDAY
 	const TR_NITE
 
+STAT_EXP_TO_EVOLVE EQU 50
 
 ; stat evolution triggers
 const_value SET 1

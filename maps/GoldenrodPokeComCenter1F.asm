@@ -159,10 +159,7 @@ WonderTradeIntroText:
 
 	para "You can trade"
 	line "#mon with other"
-
-	para "people far away"
-	line "up to three times"
-	cont "a day."
+	cont "people far away."
 	done
 
 WonderTradeGoodbyeText:
@@ -392,7 +389,7 @@ UnknownText_0x61e5c:
 	text "Some girl I don't"
 	line "know sent me her"
 
-	para "Hoppip."
+	para "Sunflora."
 	line "You should trade"
 
 	para "for a #mon that"
@@ -402,8 +399,10 @@ UnknownText_0x61e5c:
 ; unused
 UnknownText_0x61eb2:
 	text "I received a"
-	line "female Hoppip, but"
-	cont "its named Stanley!"
+	line "female Sunflora,"
+
+	para "but it's named"
+	line "Stanley!"
 
 	para "That's my dad's"
 	line "name!"

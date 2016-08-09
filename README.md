@@ -279,8 +279,36 @@ I was hesitant to make original changes like this, because the goal is to be an 
 
 These changes have been made since the previous 1.1.2 release. If you build the project as-is, it will include all of them.
 
-* Add: Battle Cal in Trainer House if you're a girl, Kay if you're a boy
+* Add: Replace {Hoppip, Skiploom, Jumpluff, Aipom, Stantler, Smoochum} with {Rhyperior, Electivire, Magmortar, Sunkern, Sunflora, Wobbuffet}.
+* Add: New trainer classes: Officer♀, Sr. & Jr., Couple, PI, Dragon Tamer, Roughneck, Steven, and Cynthia.
+* Add: Add Protector, Electirizer, and Magmarizer items.
+* Add: Machoke, Graveler, Haunter, and Kadabra evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is sufficient).
+* Add: Replace Synthesis with Hurricane.
+* Add: Meet Falkner in Dark Cave to make him return to the gym, encouraging the player to beat Sprout Tower first.
+* Add: Lyra is your friendly rival.
+   * Battle Lyra in Prof. Elm's lab.
+   * Lyra defends you after the Pokémon theft (from HG/SS).
+   * Lyra shows you how to catch Pokémon (from HG/SS).
+   * Battle Lyra on Route 34.
+   * Get Lyra's phone number (from HG/SS).
+* Add: Replace Cianwood Photo Studio with an event that makes your Pokémon happier.
+* Add: Battle Cal in Trainer House if you're a girl, Kay if you're a boy.
 * Add: Meganium can learn Calm Mind.
-* Fix: Slightly debuff the Kimono Girls.
+* Add: Pokémon sprites for Joey and Mike's battle and for Amphy.
+* Add: Rocket Executive in Slowpoke Well.
+* Add: Pokémon are found via Headbutt on Route 47+48 and in Yellow Forest.
+* Add: Restore unused dialog about Prof. Silktree to the Ruins of Alph.
+* Add: Politoed is Water/Grass.
+* Add: Sunflora is Grass/Fire.
+* Add: Electivire is Electric/Fighting.
+* Add: Magmortar is Fire/Steel.
+* Add: Improve Buena's prizes.
+* Fix: No more daily limit on Wonder Trades.
+* Fix: Tangela, Yanma, and Pilowsine evolve by knowing AncientPower.
+* Fix: Replace Pryce's Seel and Shellder with Piloswine and Sneasel.
 * Fix: Replace broken Trainer House tiles with a Poké Ball pattern.
+* Fix: Ellipses print too high during battle (thanks, comet).
 * Fix: Typo "your" for "you" (thanks, jpmac26).
+* Fix: Consistent gatehouse between Route 36 and the Ruins of Alph.
+* Fix: Consistent gatehouse between Route 48 and Yellow Forest.
+* Fix: Rocket outside Radio Tower isn't visible from Goldenrod Harbor.

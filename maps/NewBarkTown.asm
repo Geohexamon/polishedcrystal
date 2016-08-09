@@ -2,6 +2,7 @@ const_value set 2
 	const NEWBARKTOWN_TEACHER
 	const NEWBARKTOWN_FISHER
 	const NEWBARKTOWN_SILVER
+	const NEWBARKTOWN_LYRA
 
 NewBarkTown_MapScriptHeader:
 .MapTriggers:
@@ -75,6 +76,30 @@ NewBarkTown_TeacherStopsYouTrigger2:
 	special RestartMapMusic
 	end
 
+NewBarkTown_LyraTrigger:
+	appear NEWBARKTOWN_LYRA
+	applymovement NEWBARKTOWN_LYRA, Movement_LyraEnters_NBT
+	showemote EMOTE_SHOCK, NEWBARKTOWN_LYRA, 15
+	applymovement NEWBARKTOWN_LYRA, Movement_LyraApproaches_NBT
+	spriteface PLAYER, LEFT
+	opentext
+	writetext Text_LyraIntro
+	waitbutton
+	closetext
+	follow PLAYER, NEWBARKTOWN_LYRA
+	applymovement PLAYER, Movement_PlayerOrLyraEntersLab_NBT
+	stopfollow
+	playsound SFX_EXIT_BUILDING
+	disappear PLAYER
+	applymovement NEWBARKTOWN_LYRA, Movement_PlayerOrLyraEntersLab_NBT
+	playsound SFX_EXIT_BUILDING
+	disappear NEWBARKTOWN_LYRA
+	dotrigger $2
+	special FadeOutPalettes
+	pause 15
+	warpfacing UP, ELMS_LAB, $4, $b
+	end
+
 NewBarkTownTeacherScript:
 	faceplayer
 	opentext
@@ -141,7 +166,7 @@ MapNewBarkTownSignpost2Script:
 	jumptext ElmsLabSignText
 
 MapNewBarkTownSignpost3Script:
-	jumptext ElmsHouseSignText
+	jumptext LyrasHouseSignText
 
 Movement_TeacherRunsToYou1_NBT:
 	step_left
@@ -190,6 +215,22 @@ Movement_SilverShovesYouOut_NBT:
 
 Movement_SilverReturnsToTheShadows_NBT:
 	step_right
+	step_end
+
+Movement_LyraEnters_NBT:
+	step_right
+	step_right
+	step_right
+	step_end
+
+Movement_LyraApproaches_NBT:
+	step_up
+	step_up
+	step_right
+	step_end
+
+Movement_PlayerOrLyraEntersLab_NBT:
+	step_up
 	step_end
 
 Text_GearIsImpressive:
@@ -265,6 +306,21 @@ NewBarkTownRivalText2:
 	line "staring at?"
 	done
 
+Text_LyraIntro:
+	text "Lyra: Oh, hello,"
+	line "<PLAYER>!"
+
+	para "Are you meeting"
+	line "Prof.Elm?"
+
+	para "Let me come with"
+	line "you! He always has"
+
+	para "interesting things"
+	line "to say about"
+	cont "#mon."
+	done
+
 NewBarkTownSignText:
 	text "New Bark Town"
 
@@ -281,8 +337,8 @@ ElmsLabSignText:
 	text "Elm #mon Lab"
 	done
 
-ElmsHouseSignText:
-	text "Elm's House"
+LyrasHouseSignText:
+	text "Lyra's House"
 	done
 
 NewBarkTown_MapEventHeader:
@@ -290,26 +346,29 @@ NewBarkTown_MapEventHeader:
 	db 0, 0
 
 .Warps:
-	db 4
+	db 5
 	warp_def $3, $6, 1, ELMS_LAB
-	warp_def $5, $d, 1, KRISS_HOUSE_1F
+	warp_def $5, $f, 1, KRISS_HOUSE_1F
 	warp_def $b, $3, 1, KRISS_NEIGHBORS_HOUSE
-	warp_def $d, $b, 1, ELMS_HOUSE
+	warp_def $d, $b, 1, LYRAS_HOUSE_1F
+	warp_def $2, $a, 2, ELMS_HOUSE
 
 .XYTriggers:
-	db 2
+	db 3
 	xy_trigger 0, $8, $1, $0, NewBarkTown_TeacherStopsYouTrigger1, $0, $0
 	xy_trigger 0, $9, $1, $0, NewBarkTown_TeacherStopsYouTrigger2, $0, $0
+	xy_trigger 0, $4, $6, $0, NewBarkTown_LyraTrigger, $0, $0
 
 .Signposts:
 	db 4
 	signpost 8, 8, SIGNPOST_READ, NewBarkTownSign
-	signpost 5, 11, SIGNPOST_READ, MapNewBarkTownSignpost1Script
+	signpost 5, 13, SIGNPOST_READ, MapNewBarkTownSignpost1Script
 	signpost 3, 3, SIGNPOST_READ, MapNewBarkTownSignpost2Script
 	signpost 13, 9, SIGNPOST_READ, MapNewBarkTownSignpost3Script
 
 .PersonEvents:
-	db 3
+	db 4
 	person_event SPRITE_TEACHER, 8, 6, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 1, -1, -1, 0, PERSONTYPE_SCRIPT, 0, NewBarkTownTeacherScript, -1
 	person_event SPRITE_FISHER, 9, 12, SPRITEMOVEDATA_WALK_UP_DOWN, 1, 0, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, NewBarkTownFisherScript, -1
-	person_event SPRITE_SILVER, 2, 3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, NewBarkTownSilverScript, EVENT_RIVAL_NEW_BARK_TOWN
+	person_event SPRITE_CHERRYGROVE_RIVAL, 2, 3, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, NewBarkTownSilverScript, EVENT_RIVAL_NEW_BARK_TOWN
+	person_event SPRITE_NEW_BARK_LYRA, 6, 1, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_LYRA_NEW_BARK_TOWN

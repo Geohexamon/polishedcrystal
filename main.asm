@@ -3713,14 +3713,14 @@ CatchTutorial:: ; 4e554
 	ld hl, wDudeNumBalls
 	ld a, 1
 	ld [hli], a
-	ld a, POKE_BALL ; 5
+	ld a, POKE_BALL
 	ld [hli], a
 	ld [hli], a
 	ld [hl], -1
 	ret
 
 .Dude: ; 4e5da
-	db "Dude@"
+	db "Lyra@"
 
 .AutoInput: ; 4e5df
 	db NO_INPUT, $ff ; end
@@ -3861,7 +3861,7 @@ MaleTrainers: ; 4e95d
 	db HIKER
 	db GRUNTM
 	db POKEFANM
-	db OFFICER
+	db OFFICERM
 	db POKEMANIAC
 	db SUPER_NERD
 	db FIREBREATHER
@@ -3875,11 +3875,14 @@ MaleTrainers: ; 4e95d
 	db SAILOR
 	db SWIMMERM
 	db BURGLAR
+	db PI
 	db SCIENTIST
 	db BOARDER
 	db BLACKBELT_T
+	db DRAGON_TAMER
 	db GUITARISTM
 	db BIKER
+	db ROUGHNECK
 	db COOLTRAINERM
 	db EXECUTIVEM
 MaleTrainersEnd:
@@ -3889,12 +3892,14 @@ FemaleTrainers: ; 4e976
 	db TWINS
 	db GRUNTF
 	db POKEFANF
+	db OFFICERF
 	db LASS
 	db BEAUTY
 	db SCHOOLGIRL
 	db HEX_MANIAC
 	db MEDIUM
 	db KIMONO_GIRL
+	db SR_AND_JR
 	db COWGIRL
 	db SWIMMERF
 	db SKIER
@@ -5163,6 +5168,7 @@ INCBIN "gfx/misc/unknown_egg.5x5.2bpp.lz"
 SECTION "bank19", ROMX, BANK[$19]
 
 INCLUDE "text/phone/extra.asm"
+INCLUDE "text/phone/lyra.asm"
 
 SECTION "bank20", ROMX, BANK[$20]
 
@@ -5275,8 +5281,8 @@ ChrisNameMenuHeader: ; 882b5
 	db "New Name@"
 MalePlayerNameArray: ; 882c9
 	db "Chris@"
-	db "Matt@"
-	db "Allen@"
+	db "Ethan@"
+	db "Vincent@"
 	db "James@"
 	db 2 ; displacement
 	db " Name @" ; title
@@ -5295,8 +5301,8 @@ KrisNameMenuHeader: ; 882e5
 	db "New Name@"
 FemalePlayerNameArray: ; 882f9
 	db "Kris@"
-	db "Daisy@"
-	db "Julia@"
+	db "Marina@"
+	db "Reina@"
 	db "Sylvie@"
 	db 2 ; displacement
 	db " Name @" ; title

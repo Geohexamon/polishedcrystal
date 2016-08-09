@@ -1,13 +1,13 @@
-SpecialGiveAipom: ; 7305
+SpecialGiveWobbuffet: ; 7305
 
 ; Adding to the party.
 	xor a
 	ld [MonType], a
 
-; Level 15 Aipom.
-	ld a, AIPOM
+; Level 20 Wobbuffet.
+	ld a, WOBBUFFET
 	ld [CurPartySpecies], a
-	ld a, 15
+	ld a, 20
 	ld [CurPartyLevel], a
 
 	predef TryAddMonToParty
@@ -41,7 +41,7 @@ SpecialGiveAipom: ; 7305
 	dec a
 	ld hl, PartyMonNicknames
 	call SkipNames
-	ld de, SpecialAipomNick
+	ld de, SpecialWobbuffetNick
 	call CopyName2
 
 ; OT.
@@ -49,12 +49,12 @@ SpecialGiveAipom: ; 7305
 	dec a
 	ld hl, PartyMonOT
 	call SkipNames
-	ld de, SpecialAipomOT
+	ld de, SpecialWobbuffetOT
 	call CopyName2
 
 ; Engine flag for this event.
 	ld hl, DailyFlags
-	set 5, [hl] ; ENGINE_AIPOM_GIVEN
+	set 5, [hl] ; ENGINE_WOBBUFFET_GIVEN
 	ld a, 1
 	ld [ScriptVar], a
 	ret
@@ -64,17 +64,17 @@ SpecialGiveAipom: ; 7305
 	ld [ScriptVar], a
 	ret
 
-SpecialAipomOT:
+SpecialWobbuffetOT:
 	db "Kirk@"
-SpecialAipomNick:
-	db "Pom-Pom@"
+SpecialWobbuffetNick:
+	db "Buffy@"
 
-SpecialReturnAipom: ; 737e
+SpecialReturnWobbuffet: ; 737e
 	callba SelectMonFromParty
 	jr c, .refused
 
 	ld a, [CurPartySpecies]
-	cp AIPOM
+	cp WOBBUFFET
 	jr nz, .DontReturn
 
 	ld a, [CurPartyMon]
@@ -94,7 +94,7 @@ SpecialReturnAipom: ; 737e
 	ld a, [CurPartyMon]
 	ld hl, PartyMonOT
 	call SkipNames
-	ld de, SpecialAipomOT
+	ld de, SpecialWobbuffetOT
 .CheckOT:
 	ld a, [de]
 	cp [hl]
@@ -163,6 +163,10 @@ Special_OlderHaircutBrother: ; 7418
 
 Special_DaisyMassage: ; 741d
 	ld hl, Data_DaisyMassage
+	jr MassageOrHaircut
+
+Special_CianwoodPhotograph:
+	ld hl, Data_CianwoodPhotograph
 
 MassageOrHaircut: ; 7420
 	push hl
@@ -177,13 +181,6 @@ MassageOrHaircut: ; 7420
 	call CopyPokemonName_Buffer1_Buffer3
 	pop hl
 	call Random
-; Bug: Subtracting $ff from $ff fails to set c.
-; This can result in overflow into the next data array.
-; In the case of getting a massage from Daisy, we bleed
-; into CopyPokemonName_Buffer1_Buffer3, which passes
-; $d0 to ChangeHappiness and returns $73 to the script.
-; The end result is that there is a 0.4% chance your
-; Pokemon's happiness will not change at all.
 .loop
 	sub [hl]
 	jr c, .ok
@@ -221,7 +218,12 @@ Data_OlderHaircutBrother: ; 7462
 	db $ff, 4, HAPPINESS_OLDERCUT3 ; 30% chance
 
 Data_DaisyMassage: ; 746b
-	db $ff, 2, HAPPINESS_MASSAGE ; 99.6% chance
+	db $80, 2, HAPPINESS_MASSAGE ; 50% chance
+	db $ff, 2, HAPPINESS_MASSAGE ; 50% chance
+
+Data_CianwoodPhotograph:
+	db $80, 2, HAPPINESS_PHOTOGRAPH ; 50% chance
+	db $ff, 2, HAPPINESS_PHOTOGRAPH ; 50% chance
 
 CopyPokemonName_Buffer1_Buffer3: ; 746e
 	ld hl, StringBuffer1

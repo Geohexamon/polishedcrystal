@@ -229,7 +229,7 @@ BattleTowerTrainers: ; 1f814e
 	db "Morse@@@@@", SUPER_NERD
 	db "Yufune@@@@", BLACKBELT_T
 	db "Rajan@@@@@", COOLTRAINERF
-	db "Rodriguez@", OFFICER
+	db "Rodriguez@", OFFICERM
 	db "Santiago@@", PSYCHIC_T
 	db "Stock@@@@@", POKEFANM
 	db "Thurman@@@", SCIENTIST
@@ -259,7 +259,7 @@ BattleTowerTrainers: ; 1f814e
 	db "Sells@@@@@", BIRD_KEEPER
 	db "Rockwell@@", BOARDER
 	db "Thornton@@", LASS
-	db "Turner@@@@", OFFICER
+	db "Turner@@@@", OFFICERM
 	db "Van Dyke@@", SKIER
 	db "Walker@@@@", SCHOOLBOY
 	db "Meyer@@@@@", SWIMMERF
@@ -4059,7 +4059,7 @@ BattleTowerMons7:
 
 	db VENUSAUR
 	db BRIGHTPOWDER
-	db SUNNY_DAY, SOLAR_BEAM, SYNTHESIS, HYPER_BEAM
+	db SUNNY_DAY, SOLAR_BEAM, MORNING_SUN, HYPER_BEAM
 	dw 0 ; OT ID
 	dt 343000 ; Exp
 	; Stat exp

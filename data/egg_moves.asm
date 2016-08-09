@@ -142,7 +142,7 @@ OddishEggMoves:
 	db CHARM
 	db FLAIL
 	db RAZOR_LEAF
-	db SYNTHESIS
+	db MORNING_SUN
 	db SWORDS_DANCE
 	db $ff
 
@@ -243,7 +243,7 @@ BellsproutEggMoves:
 	db LEECH_LIFE
 	db SWORDS_DANCE
 	db REFLECT
-	db SYNTHESIS
+	db MORNING_SUN
 	db $ff
 
 TentacoolEggMoves:
@@ -358,7 +358,7 @@ KrabbyEggMoves:
 ExeggcuteEggMoves:
 	db MEGA_DRAIN
 	db MOONLIGHT
-	db SYNTHESIS
+	db MORNING_SUN
 	db ANCIENTPOWER
 	db REFLECT
 	db $ff
@@ -444,6 +444,11 @@ ScytherEggMoves:
 	db SAFEGUARD
 	db LIGHT_SCREEN
 	db NIGHT_SLASH
+	db $ff
+
+JynxEggMoves:
+	db MEDITATE
+	db NASTY_PLOT
 	db $ff
 
 PinsirEggMoves:
@@ -625,25 +630,7 @@ SudowoodoEggMoves:
 	db SELFDESTRUCT
 	db $ff
 
-HoppipEggMoves:
-	db CONFUSION
-	db ENCORE
-	db GROWL
-	db PAY_DAY
-	db DOUBLE_EDGE
-	db REFLECT
-	db CALM_MIND
-	db SEED_BOMB
-	db $ff
-
-AipomEggMoves:
-	db DOUBLE_SLAP
-	db PURSUIT
-	db SLAM
-	db COUNTER
-	db SCREECH
-	db AGILITY
-	db GUNK_SHOT
+SunkernEggMoves:
 	db $ff
 
 YanmaEggMoves:
@@ -678,6 +665,11 @@ MisdreavusEggMoves:
 	db DESTINY_BOND
 	db NASTY_PLOT
 	db SCREECH
+	db $ff
+
+WobbuffetEggMoves:
+	db CHARM
+	db ENCORE
 	db $ff
 
 GirafarigEggMoves:
@@ -833,19 +825,6 @@ PhanpyEggMoves:
 	db GUNK_SHOT
 	db $ff
 
-StantlerEggMoves:
-	db BITE
-	db DISABLE
-	db DOUBLE_KICK
-	db EXTRASENSORY
-	db MEGAHORN
-	db RAGE
-	db THRASH
-	db REFLECT
-	db LIGHT_SCREEN
-	db ZEN_HEADBUTT
-	db $ff
-
 TyrogueEggMoves:
 	db BULLET_PUNCH
 	db HI_JUMP_KICK
@@ -853,11 +832,6 @@ TyrogueEggMoves:
 	db PURSUIT
 	db RAPID_SPIN
 	db LOCK_ON
-	db $ff
-
-SmoochumEggMoves:
-	db MEDITATE
-	db NASTY_PLOT
 	db $ff
 
 ElekidEggMoves:
