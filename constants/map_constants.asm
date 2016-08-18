@@ -138,13 +138,13 @@ MAP_NONE   EQU 0
 	mapgroup ECRUTEAK_CITY,                              18, 20 ;  9
 	mapgroup ROUTE_35,                                   18, 10 ; 10
 	mapgroup ROUTE_36,                                    9, 30 ; 11
-	mapgroup ROUTE_37,                                    9, 10 ; 12
+	mapgroup ROUTE_37,                                   10, 10 ; 12
 	mapgroup ROUTE_35_GOLDENROD_GATE,                     4,  5 ; 13
 	mapgroup ROUTE_35_NATIONAL_PARK_GATE,                 4,  4 ; 14
 	mapgroup ROUTE_36_RUINS_OF_ALPH_GATE,                 4,  5 ; 15
 	mapgroup ROUTE_36_NATIONAL_PARK_GATE,                 4,  5 ; 16
 	mapgroup ROUTE_36_VIOLET_GATE,                        4,  5 ; 17
-	mapgroup BELLCHIME_TRAIL,                             6, 12 ; 18
+	mapgroup BELLCHIME_TRAIL,                             7, 12 ; 18
 
 	newgroup                                                    ;  5
 
@@ -155,9 +155,9 @@ MAP_NONE   EQU 0
 	mapgroup BLACKTHORN_MART,                             4,  6 ;  5
 	mapgroup BLACKTHORN_POKECENTER_1F,                    4,  5 ;  6
 	mapgroup MOVE_DELETERS_HOUSE,                         4,  4 ;  7
-	mapgroup ROUTE_45,                                   45, 10 ;  8
+	mapgroup ROUTE_45,                                   46, 12 ;  8
 	mapgroup ROUTE_46,                                   18, 10 ;  9
-	mapgroup BLACKTHORN_CITY,                            18, 20 ; 10
+	mapgroup BLACKTHORN_CITY,                            19, 20 ; 10
 
 	newgroup                                                    ;  6
 
@@ -384,6 +384,8 @@ MAP_NONE   EQU 0
 	mapgroup MOBILE_BATTLE_ROOM,                          4,  5 ;  6
 	mapgroup YELLOW_FOREST_GATE,                          4,  5 ;  7
 	mapgroup YELLOW_FOREST,                              25, 29 ;  8
+	mapgroup ECRUTEAK_SHRINE_OUTSIDE,                     8,  6 ;  9
+	mapgroup ECRUTEAK_SHRINE_INSIDE,                      6,  6 ; 10
 
 	newgroup                                                    ; 21
 
@@ -417,7 +419,7 @@ MAP_NONE   EQU 0
 
 	newgroup                                                    ; 22
 
-	mapgroup ROUTE_40,                                   18, 10 ;  1
+	mapgroup ROUTE_40,                                   19, 10 ;  1
 	mapgroup ROUTE_41,                                   27, 25 ;  2
 	mapgroup CIANWOOD_CITY,                              27, 15 ;  3
 	mapgroup MANIAS_HOUSE,                                4,  4 ;  4
@@ -439,7 +441,7 @@ MAP_NONE   EQU 0
 	mapgroup ROUTE_2,                                    27, 10 ;  1
 	mapgroup ROUTE_22,                                    9, 20 ;  2
 	mapgroup VIRIDIAN_CITY,                              18, 20 ;  3
-	mapgroup VIRIDIAN_GYM,                                9,  5 ;  4
+	mapgroup VIRIDIAN_GYM,                               23,  7 ;  4
 	mapgroup VIRIDIAN_NICKNAME_SPEECH_HOUSE,              4,  4 ;  5
 	mapgroup TRAINER_HOUSE_1F,                            7,  5 ;  6
 	mapgroup TRAINER_HOUSE_B1F,                           8, 10 ;  7

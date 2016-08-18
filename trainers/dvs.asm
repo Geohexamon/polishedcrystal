@@ -106,6 +106,7 @@ TrainerClassDVs: ; 270d6
 	db $DD, $DD ; roughneck
 	db $EE, $EE ; cooltrainerm
 	db $7E, $EE ; cooltrainerf
+	db $EE, $EE ; ace duo
 	db $DF, $FF ; executivem
 	db $7F, $FF ; executivef
 	db $FF, $FF ; pokemon prof
@@ -122,6 +123,7 @@ TrainerClassDVs: ; 270d6
 	db $FF, $FF ; cynthia
 	db $FF, $FF ; towertycoon
 	db $7F, $FF ; valerie
+	db $6E, $EE ; rei
 	db $00, $00 ; omastar fossil
 	db $00, $00 ; kabutops fossil
 	db $00, $00 ; aerodactyl fossil

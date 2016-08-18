@@ -159,6 +159,7 @@ BTTrainerClassGenders: ; 11f2f0
 	db MALE   ; ROUGHNECK
 	db MALE   ; COOLTRAINERM
 	db FEMALE ; COOLTRAINERF
+	db MALE   ; COUPLE
 	db MALE   ; EXECUTIVEM
 	db FEMALE ; EXECUTIVEF
 	db MALE   ; POKEMON_PROF
@@ -175,6 +176,7 @@ BTTrainerClassGenders: ; 11f2f0
 	db FEMALE ; CYNTHIA
 	db MALE   ; TOWERTYCOON
 	db FEMALE ; VALERIE
+	db FEMALE ; REI
 
 
 BTMaleTrainerTexts: ; 11f332

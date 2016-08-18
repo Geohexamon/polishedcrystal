@@ -102,6 +102,7 @@ TrainerEncounterMusic: ; e9027
 	db MUSIC_HIKER_ENCOUNTER		; roughneck
 	db MUSIC_HIKER_ENCOUNTER		; cooltrainerm
 	db MUSIC_BEAUTY_ENCOUNTER		; cooltrainerf
+	db MUSIC_HIKER_ENCOUNTER		; ace_duo
 	db MUSIC_ROCKET_ENCOUNTER		; executivem
 	db MUSIC_ROCKET_ENCOUNTER		; executivef
 	db MUSIC_HIKER_ENCOUNTER		; pokemon_prof
@@ -117,4 +118,5 @@ TrainerEncounterMusic: ; e9027
 	db MUSIC_HIKER_ENCOUNTER		; cynthia
 	db MUSIC_HIKER_ENCOUNTER		; towertycoon
 	db MUSIC_KIMONO_ENCOUNTER		; valerie
+	db MUSIC_KIMONO_ENCOUNTER		; rei
 ; e906e

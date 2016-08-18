@@ -78,6 +78,7 @@
 	add_pic RoughneckPic
 	add_pic CooltrainermPic
 	add_pic CooltrainerfPic
+	add_pic AceDuoPic
 	add_pic ExecutivemPic
 	add_pic ExecutivefPic
 	add_pic PokemonProfPic
@@ -94,6 +95,7 @@
 	add_pic CynthiaPic
 	add_pic TowerTycoonPic
 	add_pic ValeriePic
+	add_pic ReiPic
 	add_pic OmastarFossilPic
 	add_pic KabutopsFossilPic
 	add_pic AerodactylFossilPic

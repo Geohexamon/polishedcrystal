@@ -280,7 +280,7 @@ I was hesitant to make original changes like this, because the goal is to be an 
 These changes have been made since the previous 1.1.2 release. If you build the project as-is, it will include all of them.
 
 * Add: Replace {Hoppip, Skiploom, Jumpluff, Aipom, Stantler, Smoochum} with {Rhyperior, Electivire, Magmortar, Sunkern, Sunflora, Wobbuffet}.
-* Add: New trainer classes: Officer♀, Sr. & Jr., Couple, PI, Dragon Tamer, Roughneck, Steven, and Cynthia.
+* Add: New trainer classes: Officer♀, Sr. & Jr., Couple, PI, Dragon Tamer, Ace Duo, Roughneck, Steven, and Cynthia.
 * Add: Add Protector, Electirizer, and Magmarizer items.
 * Add: Machoke, Graveler, Haunter, and Kadabra evolve by having sufficient stat exp in Attack, Defense, Speed, and Special respectively (five Protein, Iron, Carbos, or Calcium is sufficient).
 * Add: Replace Synthesis with Hurricane.
@@ -288,12 +288,18 @@ These changes have been made since the previous 1.1.2 release. If you build the 
 * Add: Lyra is your friendly rival.
    * Battle Lyra in Prof. Elm's lab.
    * Lyra defends you after the Pokémon theft (from HG/SS).
-   * Lyra shows you how to catch Pokémon (from HG/SS).
+   * Lyra shows you how to catch Pokémon on Route 29 (from HG/SS).
    * Battle Lyra on Route 34.
-   * Get Lyra's phone number (from HG/SS).
+   * Get Lyra's phone number in the Day-Care (from HG/SS).
+   * Get Amulet Coin from Lyra in Olivine City.
+   * Battle Lyra in New Bark Town before Victory Road.
+* Add: Shrine in Ecruteak City from Mateo's [Pokémon Christmas](http://www.pokemonhackersonline.com/showthread.php?t=14172).
+* Add: Buy dolls and plants to decorate your room in Goldenrod Harbor.
 * Add: Replace Cianwood Photo Studio with an event that makes your Pokémon happier.
 * Add: Battle Cal in Trainer House if you're a girl, Kay if you're a boy.
+* Add: Eusine shows you the legendary beasts in Celadon City in case you haven't found them roaming.
 * Add: Respawn uncaught legendaries (except for Celebi) after beating the Elite Four (Suicune roams).
+* Add: Bill calls to switch boxes when one is full (copied from [TPP Anniversary Crystal](https://github.com/TwitchPlaysPokemon/tppcrystal251pub/))
 * Add: Meganium can learn Calm Mind.
 * Add: Pokémon sprites for Joey and Mike's battle and for Amphy.
 * Add: Rocket Executive in Slowpoke Well.
@@ -304,12 +310,32 @@ These changes have been made since the previous 1.1.2 release. If you build the 
 * Add: Electivire is Electric/Fighting.
 * Add: Magmortar is Fire/Steel.
 * Add: Improve Buena's prizes.
+* Add: Yanma and Venomoth are available in the Bug-Catching Contest.
+* Add: Murkrow is rare in some Headbutt trees.
+* Add: Add river to Route 45 from HGSS.
+* Add: Missing ice puzzle in Seafoam Islands.
+* Add: Get Amulet Coin from Lyra in Olivine City, and Metal Coat in the Goldenrod Dept. Store basement.
+* Add: Use beta pagodas for Sprout Tower, Bell Tower, and Dragon's Den.
+* Add: Pan up on entering Bell Tower, Battle Tower, and Radio Tower.
+* Add: Rematch Elite Four only after getting all 16 badges (Prof. Elm and Blue both explain this).
+* Add: Accessible waterfall in Yellow Forest.
 * Fix: No more daily limit on Wonder Trades.
 * Fix: Tangela, Yanma, and Pilowsine evolve by knowing AncientPower.
 * Fix: Replace Pryce's Seel and Shellder with Piloswine and Sneasel.
+* Fix: Jasmine uses Forretress.
+* Fix: Bruno uses Pinsir.
+* Fix: Silver has six Pokémon only by Victory Road.
+* Fix: Prof. Oak's third aide requires 50 Pokémon, not 75.
 * Fix: Replace broken Trainer House tiles with a Poké Ball pattern.
-* Fix: Ellipses print too high during battle (thanks, comet).
-* Fix: Typo "your" for "you" (thanks, jpmac26).
 * Fix: Consistent gatehouse between Route 36 and the Ruins of Alph.
 * Fix: Consistent gatehouse between Route 48 and Yellow Forest.
 * Fix: Rocket outside Radio Tower isn't visible from Goldenrod Harbor.
+* Fix: Bill's sister says his grandpa is still in Cerulean Cape house.
+* Fix: Edit some trainers' levels and rosters.
+* Fix: Various text overflow errors.
+* Fix: Ellipses print too high during battle (thanks, comet).
+* Fix: Typo "your" for "you" (thanks, jpmac26).
+* Fix: Pink Bow powers up Fairy-type moves (thanks, Pokemaster).
+* Fix: X Special → X Spcl.Atk (thanks, Mmmmmm).
+* Fix: 50 TMs → 65 TMs.
+* Fix: Roaming legendary beast music.

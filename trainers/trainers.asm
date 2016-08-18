@@ -604,11 +604,11 @@ JasmineGroup:
 		db THUNDER_WAVE
 		db THUNDERBOLT
 
-	db 29, MAGNEMITE, NO_ITEM
-		db SUPERSONIC
-		db THUNDER_WAVE
-		db METAL_SOUND
-		db THUNDERBOLT
+	db 31, FORRETRESS, NO_ITEM
+		db SPIKES
+		db FLASH_CANNON
+		db DEFENSE_CURL
+		db ROLLOUT
 
 	db 30, MAGNETON, NO_ITEM
 		db SUPERSONIC
@@ -650,11 +650,11 @@ JasmineGroup:
 		db FLASH_CANNON
 		db EXPLOSION
 
-	db 70, AMPHAROS, MAGNET
-		db THUNDERBOLT
-		db FOCUS_BLAST
-		db SAFEGUARD
-		db LIGHT_SCREEN
+	db 70, FORRETRESS, SOFT_SAND
+		db EARTHQUAKE
+		db RAPID_SPIN
+		db EXPLOSION
+		db SPIKES
 
 	db 73, MAGNEZONE, CHARCOAL
 		db THUNDERBOLT
@@ -1088,11 +1088,11 @@ BrunoGroup:
 		db DIG
 		db PROTECT
 
-	db 52, ONIX, NO_ITEM
-		db SCREECH
+	db 52, PINSIR, NO_ITEM
+		db SWORDS_DANCE
+		db VITAL_THROW
 		db EARTHQUAKE
-		db SANDSTORM
-		db ROCK_SLIDE
+		db X_SCISSOR
 
 	db 50, HITMONLEE, NO_ITEM
 		db SWAGGER
@@ -1134,11 +1134,11 @@ BrunoGroup:
 		db COUNTER
 		db HI_JUMP_KICK
 
-	db 71, ONIX, EVIOLITE
-		db SCREECH
+	db 71, PINSIR, SILVERPOWDER
+		db SWORDS_DANCE
+		db VITAL_THROW
 		db EARTHQUAKE
-		db SANDSTORM
-		db ROCK_SLIDE
+		db MEGAHORN
 
 	db 70, HITMONLEE, FOCUS_BAND
 		db MEDITATE
@@ -1890,11 +1890,11 @@ SabrinaGroup:
 		db NIGHTMARE
 		db PSYCHIC_M
 
-	db 58, NOCTOWL, NO_ITEM
-		db PSYCHIC_M
-		db NIGHTMARE
-		db HYPNOSIS
-		db AIR_SLASH
+	db 58, WOBBUFFET, NO_ITEM
+		db COUNTER
+		db MIRROR_COAT
+		db SAFEGUARD
+		db DESTINY_BOND
 
 	db 62, ALAKAZAM, GOLD_BERRY
 		db RECOVER
@@ -2259,8 +2259,8 @@ Rival1Group:
 	db 2 ; item
 
 	; party
-	db 5, SENTRET, NO_ITEM
-	db 6, CHIKORITA, BERRY
+	db 4, SENTRET, NO_ITEM
+	db 5, CHIKORITA, BERRY
 
 	db $ff ; end
 
@@ -2271,8 +2271,8 @@ Rival1Group:
 	db 2 ; item
 
 	; party
-	db 5, SENTRET, NO_ITEM
-	db 6, CYNDAQUIL, BERRY
+	db 4, SENTRET, NO_ITEM
+	db 5, CYNDAQUIL, BERRY
 
 	db $ff ; end
 
@@ -2283,8 +2283,8 @@ Rival1Group:
 	db 2 ; item
 
 	; party
-	db 5, SENTRET, NO_ITEM
-	db 6, TOTODILE, BERRY
+	db 4, SENTRET, NO_ITEM
+	db 5, TOTODILE, BERRY
 
 	db $ff ; end
 
@@ -2470,12 +2470,6 @@ Rival1Group:
 		db FLASH_CANNON
 		db THUNDER_WAVE
 
-	db 38, TAUROS, NO_ITEM
-		db HORN_ATTACK
-		db ZEN_HEADBUTT
-		db QUICK_ATTACK
-		db BULK_UP
-
 	db 37, HAUNTER, NO_ITEM
 		db PAIN_SPLIT
 		db MEAN_LOOK
@@ -2516,12 +2510,6 @@ Rival1Group:
 		db FLASH_CANNON
 		db THUNDER_WAVE
 
-	db 38, TAUROS, NO_ITEM
-		db HORN_ATTACK
-		db ZEN_HEADBUTT
-		db QUICK_ATTACK
-		db BULK_UP
-
 	db 37, HAUNTER, NO_ITEM
 		db PAIN_SPLIT
 		db MEAN_LOOK
@@ -2561,12 +2549,6 @@ Rival1Group:
 		db THUNDERBOLT
 		db FLASH_CANNON
 		db THUNDER_WAVE
-
-	db 38, TAUROS, NO_ITEM
-		db HORN_ATTACK
-		db ZEN_HEADBUTT
-		db QUICK_ATTACK
-		db BULK_UP
 
 	db 37, HAUNTER, NO_ITEM
 		db PAIN_SPLIT
@@ -4289,17 +4271,17 @@ TwinsGroup:
 
 	; party
 
-	db 16, JIGGLYPUFF
-		db SING
+	db 16, MARILL
 		db DEFENSE_CURL
-		db POUND
-		db DISABLE
+		db ROLLOUT
+		db BUBBLE_BEAM
+		db DIZZY_PUNCH
 
-	db 16, CLEFAIRY
+	db 16, MAREEP
 		db GROWL
-		db ENCORE
-		db DOUBLE_SLAP
-		db METRONOME
+		db THUNDER_WAVE
+		db THUNDERSHOCK
+		db SAND_ATTACK
 
 	db $ff ; end
 
@@ -5432,9 +5414,9 @@ HikerGroup:
 	db 0 ; normal
 
 	; party
-	db 19, DUNSPARCE
-	db 19, DUNSPARCE
-	db 19, DUNSPARCE
+	db 22, DUNSPARCE
+	db 22, DUNSPARCE
+	db 22, DUNSPARCE
 
 	db $ff ; end
 
@@ -5532,8 +5514,8 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 36, GOLBAT
-	db 36, VENOMOTH
+	db 34, GOLBAT
+	db 34, VENOMOTH
 
 	db $ff ; end
 
@@ -5569,7 +5551,7 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 34, RATICATE
+	db 35, RATICATE
 	db 36, WEEZING
 
 	db $ff ; end
@@ -5607,8 +5589,8 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 20, RATICATE
-	db 21, PERSIAN
+	db 23, RATICATE
+	db 24, PERSIAN
 
 	db $ff ; end
 
@@ -5730,9 +5712,9 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 20, GOLBAT
-	db 20, HAUNTER
-	db 20, GOLBAT
+	db 23, GOLBAT
+	db 23, HAUNTER
+	db 23, GOLBAT
 
 	db $ff ; end
 
@@ -5743,9 +5725,9 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 19, KOFFING
-	db 20, HOUNDOUR
-	db 19, KOFFING
+	db 23, KOFFING
+	db 25, HOUNDOUR
+	db 23, TENTACOOL
 
 	db $ff ; end
 
@@ -5756,8 +5738,8 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 36, KOFFING
-	db 35, WEEZING
+	db 37, HAUNTER
+	db 36, WEEZING
 
 	db $ff ; end
 
@@ -5768,7 +5750,7 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 34, TENTACOOL
+	db 36, TENTACRUEL
 	db 35, MUK
 
 	db $ff ; end
@@ -5780,9 +5762,9 @@ GruntMGroup:
 	db 0 ; normal
 
 	; party
-	db 19, ZUBAT
-	db 21, RATICATE
-	db 22, MURKROW
+	db 23, ZUBAT
+	db 24, RATICATE
+	db 25, MURKROW
 
 	db $ff ; end
 
@@ -5883,7 +5865,7 @@ GruntFGroup:
 	db 0 ; normal
 
 	; party
-	db 34, UMBREON
+	db 36, UMBREON
 	db 35, GLOOM
 
 	db $ff ; end
@@ -5895,10 +5877,10 @@ GruntFGroup:
 	db 0 ; normal
 
 	; party
-	db 31, EKANS
-	db 33, ODDISH
-	db 32, ARBOK
-	db 34, GLOOM
+	db 33, EKANS
+	db 34, ODDISH
+	db 35, ARBOK
+	db 36, GLOOM
 
 	db $ff ; end
 
@@ -5906,27 +5888,27 @@ GruntFGroup:
 
 	; GRUNTF (5)
 	db "Grunt@"
-	db 1 ; moves
+	db 0 ; normal
 
 	; party
 
-	db 18, EKANS
-		db WRAP
-		db LEER
-		db POISON_STING
-		db BITE
+	db 29, ARBOK
+		db GLARE
+		db SCREECH
+		db ACID
+		db CRUNCH
 
-	db 18, QWILFISH
+	db 28, QWILFISH
 		db DEFENSE_CURL
 		db MINIMIZE
 		db BUBBLE
 		db ROLLOUT
 
-	db 18, GLOOM
-		db ABSORB
+	db 28, GLOOM
 		db GROWTH
 		db STUN_SPORE
 		db SLEEP_POWDER
+		db MEGA_DRAIN
 
 	db $ff ; end
 
@@ -5937,9 +5919,9 @@ GruntFGroup:
 	db 0 ; normal
 
 	; party
-	db 17, EKANS
-	db 19, ARBOK
-	db 18, GLOOM
+	db 22, EKANS
+	db 23, ARBOK
+	db 23, GLOOM
 
 	db $ff ; end
 
@@ -5956,10 +5938,11 @@ JessieJamesGroup:
 	db 0 ; normal
 
 	; party
-	db 23, WEEZING
-	db 23, ARBOK
-	db 21, VICTREEBEL
-	db 25, MEOWTH
+	db 25, WEEZING
+	db 25, ARBOK
+	db 23, VICTREEBEL
+	db 23, WOBBUFFET
+	db 27, MEOWTH
 
 	db $ff ; end
 
@@ -7498,11 +7481,12 @@ SchoolboyGroup:
 
 	; SCHOOLBOY (4)
 	db "Johnny@"
-	db 0 ; normal
+	db 2 ; item
 
 	; party
-	db 18, GROWLITHE
-	db 17, RATTATA
+	db 18, BELLSPROUT, GOLD_LEAF
+	db 16, SPINARAK, NO_ITEM
+	db 17, RATTATA, BERRY
 
 	db $ff ; end
 
@@ -7835,11 +7819,12 @@ SchoolgirlGroup:
 
 	; SCHOOLGIRL (2)
 	db "Eliza@"
-	db 0 ; normal
+	db 2 ; item
 
 	; party
-	db 18, VULPIX
-	db 17, SENTRET
+	db 18, ODDISH, SILVER_LEAF
+	db 16, LEDYBA, NO_ITEM
+	db 17, SENTRET, BERRY
 
 	db $ff ; end
 
@@ -8244,6 +8229,7 @@ SageGroup:
 
 	; party
 	db 22, HAUNTER
+	db 20, VULPIX
 
 	db $ff ; end
 
@@ -8254,11 +8240,11 @@ SageGroup:
 	db 0 ; normal
 
 	; party
-	db 16, GASTLY
-	db 16, GASTLY
-	db 16, GASTLY
-	db 16, GASTLY
-	db 16, GASTLY
+	db 17, GASTLY
+	db 17, HOOTHOOT
+	db 18, VULPIX
+	db 17, GASTLY
+	db 18, NOCTOWL
 
 	db $ff ; end
 
@@ -8301,7 +8287,7 @@ MediumGroup:
 	; party
 	db 18, GASTLY
 	db 20, HAUNTER
-	db 20, GASTLY
+	db 20, MISDREAVUS
 
 	db $ff ; end
 
@@ -8313,7 +8299,7 @@ MediumGroup:
 
 	; party
 	db 20, HAUNTER
-	db 20, HAUNTER
+	db 20, MISDREAVUS
 
 	db $ff ; end
 
@@ -9488,8 +9474,8 @@ ScientistGroup:
 	db 0 ; normal
 
 	; party
-	db 22, KOFFING
-	db 22, KOFFING
+	db 30, KOFFING
+	db 30, KOFFING
 
 	db $ff ; end
 
@@ -9512,9 +9498,9 @@ ScientistGroup:
 	db 0 ; normal
 
 	; party
-	db 30, MAGNEMITE
-	db 30, MAGNEMITE
-	db 30, MAGNEMITE
+	db 29, MAGNEMITE
+	db 30, MAGNETON
+	db 29, MAGNEMITE
 
 	db $ff ; end
 
@@ -9525,9 +9511,9 @@ ScientistGroup:
 	db 0 ; normal
 
 	; party
+	db 35, MAGNETON
 	db 36, MAGNEMITE
-	db 36, MAGNEMITE
-	db 36, MAGNEMITE
+	db 35, MAGNETON
 
 	db $ff ; end
 
@@ -9539,7 +9525,7 @@ ScientistGroup:
 
 	; party
 
-	db 34, PORYGON_Z
+	db 35, PORYGON_Z
 		db CONVERSION
 		db CONVERSION2
 		db RECOVER
@@ -11308,6 +11294,13 @@ CooltrainerFGroup:
 ; ================================
 
 
+AceDuoGroup:
+; ================================
+; ================
+; ================
+; ================================
+
+
 ExecutiveMGroup:
 ; ================================
 ; ================
@@ -11319,25 +11312,25 @@ ExecutiveMGroup:
 
 	; party
 
-	db 38, HOUNDOUR, EVIOLITE
+	db 39, HOUNDOUR, EVIOLITE
 		db SUPER_FANG
 		db FIRE_SPIN
 		db FEINT_ATTACK
 		db WILL_O_WISP
 
-	db 40, RATICATE, BLACKGLASSES
+	db 41, RATICATE, BLACKGLASSES
 		db CRUNCH
 		db SUPER_FANG
 		db HYPER_FANG
 		db DOUBLE_EDGE
 
-	db 38, GENGAR, SPELL_TAG
+	db 39, GENGAR, SPELL_TAG
 		db HYPNOSIS
 		db CONFUSE_RAY
 		db PAIN_SPLIT
 		db SHADOW_BALL
 
-	db 39, WEEZING, BRIGHTPOWDER
+	db 40, WEEZING, BRIGHTPOWDER
 		db SMOKESCREEN
 		db WILL_O_WISP
 		db PAIN_SPLIT
@@ -11479,29 +11472,29 @@ ExecutiveMGroup:
 
 	; party
 
-	db 25, HOUNDOUR, KINGS_ROCK
-		db EMBER
-		db SMOKESCREEN
-		db BITE
-		db SUPER_FANG
-
-	db 26, HAUNTER, SPELL_TAG
+	db 27, HAUNTER, SPELL_TAG
 		db DISABLE
 		db NIGHT_SHADE
 		db CONFUSE_RAY
 		db SHADOW_BALL
 
-	db 27, RATICATE, BLACKGLASSES
+	db 29, RATICATE, BLACKGLASSES
 		db PURSUIT
 		db HYPER_FANG
 		db SCARY_FACE
 		db CRUNCH
 
-	db 26, WEEZING, SILK_SCARF
+	db 27, WEEZING, SILK_SCARF
 		db WILL_O_WISP
 		db SELFDESTRUCT
 		db SLUDGE
 		db SMOKESCREEN
+
+	db 31, HOUNDOUR, KINGS_ROCK
+		db EMBER
+		db SMOKESCREEN
+		db BITE
+		db SUPER_FANG
 
 	db $ff ; end
 
@@ -11777,11 +11770,11 @@ LyraGroup:
 	db 2 ; item
 
 	; party
-	db 22, PIDGEOTTO, NO_ITEM
-	db 24, GROWLITHE, NO_ITEM
-	db 24, AZUMARILL, NO_ITEM
-	db 23, FURRET, NO_ITEM
-	db 26, BAYLEEF, BERRY
+	db 23, PIDGEOTTO, NO_ITEM
+	db 25, GROWLITHE, NO_ITEM
+	db 25, AZUMARILL, NO_ITEM
+	db 24, FURRET, NO_ITEM
+	db 27, BAYLEEF, BERRY
 
 	db $ff ; end
 
@@ -11792,11 +11785,11 @@ LyraGroup:
 	db 2 ; item
 
 	; party
-	db 22, PIDGEOTTO, NO_ITEM
-	db 24, SUNFLORA, NO_ITEM
-	db 24, AZUMARILL, NO_ITEM
-	db 23, FURRET, NO_ITEM
-	db 26, QUILAVA, BERRY
+	db 23, PIDGEOTTO, NO_ITEM
+	db 25, SUNFLORA, NO_ITEM
+	db 25, AZUMARILL, NO_ITEM
+	db 24, FURRET, NO_ITEM
+	db 27, QUILAVA, BERRY
 
 	db $ff ; end
 
@@ -11807,11 +11800,11 @@ LyraGroup:
 	db 2 ; item
 
 	; party
-	db 22, PIDGEOTTO, NO_ITEM
-	db 24, SUNFLORA, NO_ITEM
-	db 24, GROWLITHE, NO_ITEM
-	db 23, FURRET, NO_ITEM
-	db 26, CROCONAW, BERRY
+	db 23, PIDGEOTTO, NO_ITEM
+	db 25, SUNFLORA, NO_ITEM
+	db 25, GROWLITHE, NO_ITEM
+	db 24, FURRET, NO_ITEM
+	db 27, CROCONAW, BERRY
 
 	db $ff ; end
 
@@ -11822,12 +11815,12 @@ LyraGroup:
 	db 2 ; item
 
 	; party
-	db 32, PIDGEOTTO, NO_ITEM
-	db 34, ARCANINE, NO_ITEM
-	db 34, AZUMARILL, NO_ITEM
-	db 33, FURRET, NO_ITEM
-	db 35, GIRAFARIG, NO_ITEM
-	db 36, MEGANIUM, BERRY
+	db 42, PIDGEOT, NO_ITEM
+	db 44, ARCANINE, NO_ITEM
+	db 44, AZUMARILL, NO_ITEM
+	db 43, FURRET, NO_ITEM
+	db 45, GIRAFARIG, NO_ITEM
+	db 46, MEGANIUM, GOLD_BERRY
 
 	db $ff ; end
 
@@ -11838,12 +11831,12 @@ LyraGroup:
 	db 2 ; item
 
 	; party
-	db 32, PIDGEOTTO, NO_ITEM
-	db 34, SUNFLORA, NO_ITEM
-	db 34, AZUMARILL, NO_ITEM
-	db 33, FURRET, NO_ITEM
-	db 35, GIRAFARIG, NO_ITEM
-	db 36, TYPHLOSION, BERRY
+	db 42, PIDGEOT, NO_ITEM
+	db 44, SUNFLORA, NO_ITEM
+	db 44, AZUMARILL, NO_ITEM
+	db 43, FURRET, NO_ITEM
+	db 45, GIRAFARIG, NO_ITEM
+	db 46, TYPHLOSION, GOLD_BERRY
 
 	db $ff ; end
 
@@ -11854,12 +11847,12 @@ LyraGroup:
 	db 2 ; item
 
 	; party
-	db 32, PIDGEOTTO, NO_ITEM
-	db 34, SUNFLORA, NO_ITEM
-	db 34, ARCANINE, NO_ITEM
-	db 33, FURRET, NO_ITEM
-	db 35, GIRAFARIG, NO_ITEM
-	db 36, FERALIGATR, BERRY
+	db 42, PIDGEOT, NO_ITEM
+	db 44, SUNFLORA, NO_ITEM
+	db 44, ARCANINE, NO_ITEM
+	db 43, FURRET, NO_ITEM
+	db 45, GIRAFARIG, NO_ITEM
+	db 46, FERALIGATR, GOLD_BERRY
 
 	db $ff ; end
 
@@ -12342,6 +12335,27 @@ ValerieGroup:
 		db CALM_MIND
 		db DRAIN_KISS
 		db SWIFT
+
+	db $ff ; end
+
+; ================
+; ================================
+
+
+ReiGroup:
+; ================================
+; ================
+
+	; REI (1)
+	db "Maiden Rei@"
+	db 0 ; normal
+
+	; party
+	db 20, FLAREON
+	db 19, MURKROW
+	db 18, NOCTOWL
+	db 18, KADABRA
+	db 21, NINETALES
 
 	db $ff ; end
 

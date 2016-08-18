@@ -2466,6 +2466,12 @@ WinTrainerBattle: ; 3cfa4
 	ld a, [OtherTrainerClass]
 	cp TWINS
 	jr z, .PlaceBattleEndText
+	cp SR_AND_JR
+	jr z, .PlaceBattleEndText
+	cp COUPLE
+	jr z, .PlaceBattleEndText
+	cp ACE_DUO
+	jr z, .PlaceBattleEndText
 	cp JESSIE_JAMES
 	jr z, .PlaceBattleEndText
 
@@ -2747,8 +2753,8 @@ JohtoGymLeaders:
 	db CHAMPION
 	db STEVEN
 	db CYNTHIA
-	db VALERIE
 	db TOWERTYCOON
+	db VALERIE
 ; fallthrough
 KantoGymLeaders:
 	db BROCK
@@ -2759,11 +2765,11 @@ KantoGymLeaders:
 	db SABRINA
 	db BLAINE
 	db BLUE
-	db RED
-	db LEAF
 	db LORELEI
 	db AGATHA
 	db GIOVANNI
+	db RED
+	db LEAF
 	db -1
 
 
@@ -9554,6 +9560,12 @@ BattleStartMessage: ; 3fc8b
 	ld hl, PluralWantToBattleText
 	ld a, [OtherTrainerClass]
 	cp TWINS
+	jr z, .PlaceBattleStartText
+	cp SR_AND_JR
+	jr z, .PlaceBattleStartText
+	cp COUPLE
+	jr z, .PlaceBattleStartText
+	cp ACE_DUO
 	jr z, .PlaceBattleStartText
 	cp JESSIE_JAMES
 	jr z, .PlaceBattleStartText

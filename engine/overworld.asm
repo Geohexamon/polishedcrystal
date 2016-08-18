@@ -793,6 +793,7 @@ SpriteMons: ; 14495
 	db MEWTWO
 	db MEW
 	db BAYLEEF
+	db FURRET
 	db HOOTHOOT
 	db AMPHAROS
 	db MURKROW
@@ -892,7 +893,7 @@ Group2Sprites:
 	db SPRITE_YOUNGSTER
 	db SPRITE_OFFICER ; doesn't walk
 	db SPRITE_OFFICER_F ; doesn't walk
-	; 10 walking sprites (8 that walk)
+	; 12 walking sprites (8 that walk)
 	db SPRITE_FRUIT_TREE
 	db SPRITE_POKE_BALL
 	db SPRITE_SUICUNE
@@ -958,8 +959,8 @@ Group4Sprites:
 	; 9 walking sprites
 	db SPRITE_FRUIT_TREE
 	db SPRITE_POKE_BALL
-	db SPRITE_WEIRD_TREE
 	db SPRITE_SUICUNE
+	db SPRITE_WEIRD_TREE
 	; 13 total sprites
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
@@ -1011,7 +1012,6 @@ Group6Sprites:
 ; CinnabarIsland
 ; Route9
 ; Route10North
-	db SPRITE_BIRD
 	db SPRITE_BLUE
 	db SPRITE_FISHER
 	db SPRITE_LASS
@@ -1019,8 +1019,9 @@ Group6Sprites:
 	db SPRITE_SWIMMER_GIRL
 	db SPRITE_SWIMMER_GUY
 	db SPRITE_YOUNGSTER
-	; 8 walking sprites
+	; 7 walking sprites
 	db SPRITE_POKE_BALL
+	db SPRITE_ZAPDOS
 	; 9 total sprites
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
@@ -1150,16 +1151,16 @@ Group26Sprites:
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_FISHER
 	db SPRITE_GRAMPS
-	db SPRITE_LASS
 	db SPRITE_NEW_BARK_LYRA
 	db SPRITE_TEACHER
 	db SPRITE_YOUNGSTER
-	; 9 walking sprites
+	; 8 walking sprites
 	db SPRITE_FRUIT_TREE
 	db SPRITE_PIDGEY
 	db SPRITE_POKE_BALL
 	db SPRITE_RATTATA
-	; 13 total sprites
+	; 12 total sprites
+	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
@@ -1460,15 +1461,16 @@ Group19Sprites:
 
 Group20Sprites:
 ; YellowForest
+; EcruteakShrineOutside
 	db SPRITE_COOLTRAINER_M
+	db SPRITE_SAGE
 	db SPRITE_TEACHER
 	db SPRITE_TWIN
 	db SPRITE_YELLOW
-	; 4 walking sprites
+	; 5 walking sprites
+	db SPRITE_HOOTHOOT
 	db SPRITE_POKE_BALL
-	; 5 total sprites
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
+	; 7 total sprites
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
 	db SPRITE_SILVER_TROPHY

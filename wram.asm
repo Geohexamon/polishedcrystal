@@ -2641,8 +2641,10 @@ wRoute48Trigger::                            ds 1
 wDayCareTrigger::                            ds 1
 wDarkCaveVioletEntranceTrigger::             ds 1
 wVioletGymTrigger::                          ds 1
+wBellchimeTrailTrigger::                     ds 1
+wGoldenrodCityTrigger::                      ds 1
 
-	ds 41
+	ds 39
 
 
 ;SECTION "Events", WRAMX, BANK [1]
@@ -3186,3 +3188,6 @@ INCLUDE "sram.asm"
 SECTION "WRAM 7", WRAMX, BANK [7]
 wWindowStack:: ds $1000 - 1
 wWindowStackBottom:: ds 1
+
+SECTION "Spinners", WRAMX
+wSpinning:: ds 1

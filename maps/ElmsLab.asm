@@ -326,7 +326,6 @@ ElmDirectionsScript:
 	setevent EVENT_GOT_A_POKEMON_FROM_ELM
 	setevent EVENT_RIVAL_CHERRYGROVE_CITY
 	dotrigger $6
-	domaptrigger NEW_BARK_TOWN, $1
 	end
 
 ElmDescribesMrPokemonScript:
@@ -394,7 +393,6 @@ ElmAfterTheftScript:
 	setflag ENGINE_BUG_CONTEST_ON
 	clearevent EVENT_LYRA_ROUTE_29
 	domaptrigger ROUTE_29, $1
-	domaptrigger DARK_CAVE_VIOLET_ENTRANCE, $1
 	clearevent EVENT_ROUTE_30_YOUNGSTER_JOEY
 	setevent EVENT_ROUTE_30_BATTLE
 	writetext ElmAfterTheftText6
@@ -1394,6 +1392,18 @@ ElmGiveTicketText1:
 
 	para "Now you can catch"
 	line "#mon in Kanto."
+
+	para "You can also take"
+	line "on new Gyms."
+
+	para "If you earn eight"
+	line "more badges,"
+
+	para "the Elite Four"
+	line "will battle you"
+
+	para "with all their"
+	line "strength."
 	done
 
 ElmGiveTicketText2:

@@ -80,6 +80,7 @@ TrainerGroups: ; 0x39999
 	dw RoughneckGroup
 	dw CooltrainerMGroup
 	dw CooltrainerFGroup
+	dw AceDuoGroup
 	dw ExecutiveMGroup
 	dw ExecutiveFGroup
 	dw PokemonProfGroup
@@ -96,6 +97,7 @@ TrainerGroups: ; 0x39999
 	dw CynthiaGroup
 	dw TowerTycoonGroup
 	dw ValerieGroup
+	dw ReiGroup
 	dw OmastarFossilGroup
 	dw KabutopsFossilGroup
 	dw AerodactylFossilGroup

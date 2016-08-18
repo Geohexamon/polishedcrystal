@@ -9,6 +9,7 @@
 * Move Reminder doesn't list all possible moves
 * Thief permanently steals held items
 * TMs refresh PP
+* Lance uses X Spcl. Atk (a more general AI bug?)
 * Thick Club + Swords Dance Marowak Attack overflow (only in link battles?)
 * Fix delay before last text box when Wonder Trading (is this still there?)
 * Headbutt animation looks weird (wrong tile ID?)
@@ -45,7 +46,6 @@
 * Gold Berry heals 25% HP even in battle (edit ConsumeHeldItem)
 * Select reorders Pokémon in party menu
 * Send gift Pokémon to the PC if the party is full
-* Bill calls to switch boxes when one is full
 * More frequently successful Headbutting (edit Script_respawn_one_offs)
 * More likely to find roaming Pokémon when on the correct route
 * Give female trainers better DVs, and use the new unique DVs feature to make certain Pokémon female
@@ -62,10 +62,8 @@
 * Yellow Pikachu Surfing music
 * Big roofs like Pewter Museum on Silph Co. and Pokémon Tower
 * Goldenrod Dept.Store and Celadon Mansion roofs should have dark sky at night
-* Add river to Route 46 from HGSS
 * Add umbrellas to Olivine City benches
 * Add Celadon Dept. Store electronics floor from RBY
-* Use pagodas from [beta tilesets](https://tcrf.net/Pok%C3%A9mon_Gold_and_Silver#Tilesets)
 * Merge gray and roof colors on Faraway Island to make room for another green
 
 
@@ -77,22 +75,18 @@
 * Use Mateo's X/Y Hex Maniac sprite devamp (or make an X/Y one)?
 * Add wild Pokémon to Navel Rock?
 * Lt. Surge's traps from RBY
-* Unown ? and ! from Gen III
-* More held items (some of: Life Orb, Expert Belt, Muscle Band, Wise Glasses, Wide Lens, Zoom Lens, Light Clay, Damp Rock, Heat Rock, Smooth Rock)
-* Aurora Orb boosts Suicune's Defense and Special Defense
 * Battle with Tower Tycoon Palmer as the last battle of every 5th and 10th 7-battle set in the Battle Tower
 * Battle with Giovanni either in Radio Tower or with Celebi time traveling
-* Battle with Cynthia in the Sinjoh Ruins after catching all 26 Unown (reward: Aura Orb)
-* Battle with Steven in the Embedded Tower (reward: ?)
-* Battle Caitlin and Darach somewhere, possibly around the Battle Tower
+* Battle with Cynthia in the Sinjoh Ruins after catching all 26 Unown (reward: Expert Belt)
+* Battle with Steven in the Embedded Tower (reward: Muscle Band)
+* Battle Caitlin and Darach somewhere, possibly around the Battle Tower (reward: ?)
 * Cameo battle with Valerie on the Bellchime Trail after the Suicune event (Clefable, Mr. Mime, Wigglytuff, Azumarill, Togekiss, Sylveon) (reward: TM for DazzlinGleam)
 * Battle with [Shigeki Morimoto](http://bulbapedia.bulbagarden.net/wiki/Shigeki_Morimoto) (game designer and programmer), [Kōji Nishino](http://bulbapedia.bulbagarden.net/wiki/K%C5%8Dji_Nishino) (planner), [Tsunekazu Ishihara](https://tcrf.net/Pok%C3%A9mon_Red_and_Blue#Deleted_Maps) (president and CEO), and/or Satoshi Tajiri (creator) in Celadon Mansion once a day
-* Battle [En and Madoka](http://bulbapedia.bulbagarden.net/wiki/The_Legendary_Rotation_Battle!) somewhere
+* Battle [En and Madoka](http://bulbapedia.bulbagarden.net/wiki/The_Legendary_Rotation_Battle!) somewhere (Mt. Quena, after completing the Pokédex?)
 
 
 ## New features
 
-* Somebody post–Elite Four shows you Raikou and Entei in case you've never encountered them roaming
 * Add an event based on the Spell of the Unown movie after you catch all 26
 * Fourth stat screen showing Poké Seer's data
 * Restore [unused memory game](http://iimarck.us/i/memory/)
@@ -103,12 +97,9 @@
 * Restore the Safari Game (some functionality, like HandleSafariAngerEatingStatus, already exists)
 * Add a store to buy room decorations that Mom doesn't (the Goldenrod Dept. Store rooftop bargain sale and the harbor are good)
 * Sometimes wild Pokémon know an egg move
-* Breedable legendary trios with a certain held item
 * Longer player and rival names
 * More Bag pockets (split Items into Items, Medicine, and Berries)
 * Press Start to auto-sort items
 * Add a third Trainer Card page for Kanto badges
 * Adjust Kanto trainers' levels closer to Gym Leaders
-* Add Mart12, plant deco sale, doll sale, and chinchou for lemonade fisherman in the harbor
-* Get Metal Coat from Lyra in Cianwood City, and Life Orb from the Captain
-* Lyra phones you post-Chuck to indicate that Yellow Forest is being attacked by Team Rocket
+* Battle Lyra for the third time in Olivine, Cianwood, or Mahogany
