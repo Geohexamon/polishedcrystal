@@ -31,6 +31,11 @@ SECTION "Map Blockdata 4", ROMX
 INCLUDE "maps/blockdata_4.asm"
 
 
+SECTION "Map Blockdata 5", ROMX
+
+INCLUDE "maps/blockdata_5.asm"
+
+
 
 SECTION "Map Scripts 1", ROMX, BANK[MAP_SCRIPTS_1]
 
@@ -148,7 +153,6 @@ INCLUDE "maps/CeladonPokeCenter1F.asm"
 INCLUDE "maps/CeladonGameCorner.asm"
 INCLUDE "maps/CeladonGameCornerPrizeRoom.asm"
 INCLUDE "maps/CeladonGym.asm"
-INCLUDE "maps/CeladonCafe.asm"
 INCLUDE "maps/Route16FuchsiaSpeechHouse.asm"
 INCLUDE "maps/Route16Gate.asm"
 INCLUDE "maps/Route7SaffronGate.asm"
@@ -190,6 +194,7 @@ INCLUDE "maps/Route26HealSpeechHouse.asm"
 INCLUDE "maps/Route26DayofWeekSiblingsHouse.asm"
 INCLUDE "maps/Route27SandstormHouse.asm"
 INCLUDE "maps/Route2946Gate.asm"
+INCLUDE "maps/CeladonCafe.asm"
 
 
 SECTION "Map Scripts 10", ROMX, BANK[MAP_SCRIPTS_10]
@@ -462,7 +467,6 @@ INCLUDE "maps/NewBarkTown.asm"
 INCLUDE "maps/VioletCity.asm"
 INCLUDE "maps/OlivineCity.asm"
 INCLUDE "maps/Route37.asm"
-INCLUDE "maps/Route42.asm"
 INCLUDE "maps/Route46.asm"
 INCLUDE "maps/ViridianCity.asm"
 INCLUDE "maps/CeladonCity.asm"
@@ -470,6 +474,8 @@ INCLUDE "maps/Route15.asm"
 INCLUDE "maps/VermilionCity.asm"
 INCLUDE "maps/Route9.asm"
 INCLUDE "maps/CinnabarPokeCenter1F.asm"
+INCLUDE "maps/Route11Gate.asm"
+INCLUDE "maps/Route36VioletGate.asm"
 
 
 SECTION "Map Scripts 24", ROMX, BANK[MAP_SCRIPTS_24]
@@ -520,9 +526,6 @@ INCLUDE "maps/SafariZoneFuchsiaGate.asm"
 INCLUDE "maps/SafariZoneHub.asm"
 INCLUDE "maps/SafariZoneEast.asm"
 INCLUDE "maps/SafariZoneNorth.asm"
-INCLUDE "maps/SafariZoneHubRestHouse.asm"
-INCLUDE "maps/SafariZoneEastRestHouse.asm"
-INCLUDE "maps/SafariZoneNorthRestHouse.asm"
 
 
 SECTION "Map Scripts 26", ROMX
@@ -535,7 +538,6 @@ INCLUDE "maps/PewterMuseumOfScience1F.asm"
 INCLUDE "maps/PewterMuseumOfScience2F.asm"
 INCLUDE "maps/Route10North.asm"
 INCLUDE "maps/SilverCaveOutside.asm"
-INCLUDE "maps/BellchimeTrail.asm"
 INCLUDE "maps/SeafoamGym.asm"
 INCLUDE "maps/QuietCave1F.asm"
 INCLUDE "maps/QuietCaveB1F.asm"
@@ -558,13 +560,21 @@ INCLUDE "maps/CinnabarVolcanoB1F.asm"
 INCLUDE "maps/CinnabarVolcanoB2F.asm"
 INCLUDE "maps/PokemonMansion1F.asm"
 INCLUDE "maps/PokemonMansionB1F.asm"
+INCLUDE "maps/ValeriesHouse.asm"
+INCLUDE "maps/SafariZoneHubRestHouse.asm"
+INCLUDE "maps/SafariZoneEastRestHouse.asm"
+INCLUDE "maps/SafariZoneNorthRestHouse.asm"
 
 
 SECTION "Map Scripts 27", ROMX
 
-INCLUDE "maps/Route11Gate.asm"
-INCLUDE "maps/Route36VioletGate.asm"
+INCLUDE "maps/BellchimeTrail.asm"
+INCLUDE "maps/Route42.asm"
 INCLUDE "maps/LyrasHouse1F.asm"
 INCLUDE "maps/LyrasHouse2F.asm"
 INCLUDE "maps/EcruteakShrineOutside.asm"
 INCLUDE "maps/EcruteakShrineInside.asm"
+INCLUDE "maps/CeladonHomeDecorStore1F.asm"
+INCLUDE "maps/CeladonHomeDecorStore2F.asm"
+INCLUDE "maps/CeladonHomeDecorStore3F.asm"
+INCLUDE "maps/CeladonHomeDecorStore4F.asm"

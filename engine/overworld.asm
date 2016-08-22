@@ -887,7 +887,7 @@ Group2Sprites:
 	db SPRITE_COOLTRAINER_M
 	db SPRITE_FISHER
 	db SPRITE_GRAMPS
-	db SPRITE_LASS
+	db SPRITE_NEW_BARK_LYRA
 	db SPRITE_POKEFAN_M
 	db SPRITE_SUPER_NERD
 	db SPRITE_YOUNGSTER
@@ -946,7 +946,6 @@ Group4Sprites:
 ; Route35
 ; Route36
 ; Route37
-; BellchimeTrail
 	db SPRITE_BUENA
 	db SPRITE_BUG_CATCHER
 	db SPRITE_FISHER
@@ -1005,6 +1004,7 @@ Group5Sprites:
 	db SPRITE_POKE_BALL
 
 
+; Route9 connects to CeruleanCity
 Group6Sprites:
 ; Route19
 ; Route20
@@ -1012,55 +1012,28 @@ Group6Sprites:
 ; CinnabarIsland
 ; Route9
 ; Route10North
-	db SPRITE_BLUE
-	db SPRITE_FISHER
-	db SPRITE_LASS
-	db SPRITE_POKEFAN_M
-	db SPRITE_SWIMMER_GIRL
-	db SPRITE_SWIMMER_GUY
-	db SPRITE_YOUNGSTER
-	; 7 walking sprites
-	db SPRITE_POKE_BALL
-	db SPRITE_ZAPDOS
-	; 9 total sprites
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_POKE_BALL
-
-
 Group7Sprites:
 ; Route4
 ; Route24
 ; Route25
 ; CeruleanCity
 	db SPRITE_COOLTRAINER_F
-	db SPRITE_COOLTRAINER_M
 	db SPRITE_FISHER
 	db SPRITE_LASS
 	db SPRITE_MISTY
-	db SPRITE_ROCKET
+	db SPRITE_POKEFAN_M
 	db SPRITE_SUPER_NERD
+	db SPRITE_SWIMMER_GIRL
+	db SPRITE_SWIMMER_GUY
 	db SPRITE_YOUNGSTER
-	; 8 walking sprites
+	db SPRITE_COOLTRAINER_M ; doesn't walk
+	db SPRITE_BLUE ; doesn't walk
+	db SPRITE_ROCKET ; doesn't walk
+	; 12 walking sprites (9 that walk)
 	db SPRITE_POKE_BALL
 	db SPRITE_SLOWPOKE
-	; 10 total sprites
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_GOLD_TROPHY
+	db SPRITE_ZAPDOS
+	; 15 total sprites
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
 	db SPRITE_SILVER_TROPHY
@@ -1271,14 +1244,14 @@ Group14Sprites:
 ; Route3
 ; PewterCity
 	db SPRITE_BUG_CATCHER
+	db SPRITE_COOLTRAINER_M
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_FISHER
 	db SPRITE_GRAMPS
 	db SPRITE_YOUNGSTER
-	; 5 walking sprites
+	; 6 walking sprites
 	db SPRITE_FRUIT_TREE
-	; 6 total sprites
-	db SPRITE_GOLD_TROPHY
+	; 7 total sprites
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
 	db SPRITE_SILVER_TROPHY
@@ -1331,9 +1304,10 @@ Group15Sprites:
 
 Group16Sprites:
 ; Route23
-	; 0 walking sprites
-	; 0 total sprites
-	db SPRITE_GOLD_TROPHY
+; BellchimeTrail
+	db SPRITE_VALERIE
+	; 1 walking sprite
+	; 1 total sprite
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_GOLD_TROPHY
 	db SPRITE_SILVER_TROPHY

@@ -8,6 +8,7 @@ const_value set 2
 	const CELADONCITY_YOUNGSTER2
 	const CELADONCITY_TEACHER2
 	const CELADONCITY_LASS
+	const CELADONCITY_BIG_SNORLAX
 
 CeladonCity_MapScriptHeader:
 .MapTriggers:
@@ -63,6 +64,9 @@ CeladonGymSign:
 
 CeladonCityDeptStoreSign:
 	jumptext CeladonCityDeptStoreSignText
+
+CeladonCityHomeDecorStoreSign:
+	jumptext CeladonCityHomeDecorStoreSignText
 
 CeladonCityMansionSign:
 	jumptext CeladonCityMansionSignText
@@ -211,6 +215,11 @@ CeladonCityDeptStoreSignText:
 	cont "Dept.Store!"
 	done
 
+CeladonCityHomeDecorStoreSignText:
+	text "Celadon Dept.Store"
+	line "Home Decor Wing"
+	done
+
 CeladonCityMansionSignText:
 	text "Celadon Mansion"
 	done
@@ -240,7 +249,7 @@ CeladonCity_MapEventHeader:
 	db 0, 0
 
 .Warps:
-	db 11
+	db 12
 	warp_def $9, $4, 1, CELADON_DEPT_STORE_1F
 	warp_def $9, $10, 1, CELADON_MANSION_1F
 	warp_def $3, $10, 3, CELADON_MANSION_1F
@@ -252,15 +261,17 @@ CeladonCity_MapEventHeader:
 	warp_def $1d, $15, 1, CELADON_CAFE
 	warp_def $1d, $1d, 1, CELADON_CHIEF_HOUSE
 	warp_def $1d, $21, 1, CELADON_HOTEL
+	warp_def $9, $9, 1, CELADON_HOME_DECOR_STORE_1F
 
 .XYTriggers:
 	db 0
 
 .Signposts:
-	db 8
+	db 9
 	signpost 18, 9, SIGNPOST_READ, CeladonCitySign
 	signpost 31, 11, SIGNPOST_READ, CeladonGymSign
 	signpost 9, 6, SIGNPOST_READ, CeladonCityDeptStoreSign
+	signpost 9, 10, SIGNPOST_READ, CeladonCityHomeDecorStoreSign
 	signpost 9, 13, SIGNPOST_READ, CeladonCityMansionSign
 	signpost 21, 19, SIGNPOST_READ, CeladonCityGameCornerSign
 	signpost 21, 29, SIGNPOST_READ, CeladonCityTrainerTips
@@ -268,7 +279,7 @@ CeladonCity_MapEventHeader:
 	signpost 21, 37, SIGNPOST_ITEM, CeladonCityHiddenPpUp
 
 .PersonEvents:
-	db 9
+	db 10
 	person_event SPRITE_FISHER, 11, 26, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, FisherScript_0x1a9f43, -1
 	person_event SPRITE_POLIWRATH, 11, 27, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, (1 << 3) | PAL_OW_BLUE, PERSONTYPE_SCRIPT, 0, CeladonCityPoliwrath, -1
 	person_event SPRITE_TEACHER, 24, 20, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 0, 2, -1, -1, (1 << 3) | PAL_OW_RED, PERSONTYPE_SCRIPT, 0, TeacherScript_0x1a9f50, -1
@@ -278,3 +289,4 @@ CeladonCity_MapEventHeader:
 	person_event SPRITE_YOUNGSTER, 33, 24, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, YoungsterScript_0x1a9f5c, -1
 	person_event SPRITE_TEACHER, 14, 6, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, (1 << 3) | PAL_OW_GREEN, PERSONTYPE_SCRIPT, 0, TeacherScript_0x1a9f5f, -1
 	person_event SPRITE_LASS, 22, 7, SPRITEMOVEDATA_WALK_UP_DOWN, 2, 0, -1, -1, (1 << 3) | PAL_OW_RED, PERSONTYPE_SCRIPT, 0, LassScript_0x1a9f62, -1
+	person_event SPRITE_BIG_SNORLAX, 10, 41, SPRITEMOVEDATA_SNORLAX, 0, 0, -1, -1, 0, PERSONTYPE_SCRIPT, 0, ObjectEvent, EVENT_ROUTE_8_SNORLAX

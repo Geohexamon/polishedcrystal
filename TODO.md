@@ -63,7 +63,6 @@
 * Big roofs like Pewter Museum on Silph Co. and Pokémon Tower
 * Goldenrod Dept.Store and Celadon Mansion roofs should have dark sky at night
 * Add umbrellas to Olivine City benches
-* Add Celadon Dept. Store electronics floor from RBY
 * Merge gray and roof colors on Faraway Island to make room for another green
 
 
@@ -74,13 +73,11 @@
 * Use some of Soloo93's HG/SS Gym Leader [sprite devamps](https://hax.iimarck.us/post/36679/#p36679)?
 * Use Mateo's X/Y Hex Maniac sprite devamp (or make an X/Y one)?
 * Add wild Pokémon to Navel Rock?
-* Lt. Surge's traps from RBY
 * Battle with Tower Tycoon Palmer as the last battle of every 5th and 10th 7-battle set in the Battle Tower
 * Battle with Giovanni either in Radio Tower or with Celebi time traveling
 * Battle with Cynthia in the Sinjoh Ruins after catching all 26 Unown (reward: Expert Belt)
 * Battle with Steven in the Embedded Tower (reward: Muscle Band)
 * Battle Caitlin and Darach somewhere, possibly around the Battle Tower (reward: ?)
-* Cameo battle with Valerie on the Bellchime Trail after the Suicune event (Clefable, Mr. Mime, Wigglytuff, Azumarill, Togekiss, Sylveon) (reward: TM for DazzlinGleam)
 * Battle with [Shigeki Morimoto](http://bulbapedia.bulbagarden.net/wiki/Shigeki_Morimoto) (game designer and programmer), [Kōji Nishino](http://bulbapedia.bulbagarden.net/wiki/K%C5%8Dji_Nishino) (planner), [Tsunekazu Ishihara](https://tcrf.net/Pok%C3%A9mon_Red_and_Blue#Deleted_Maps) (president and CEO), and/or Satoshi Tajiri (creator) in Celadon Mansion once a day
 * Battle [En and Madoka](http://bulbapedia.bulbagarden.net/wiki/The_Legendary_Rotation_Battle!) somewhere (Mt. Quena, after completing the Pokédex?)
 
@@ -102,4 +99,3 @@
 * Press Start to auto-sort items
 * Add a third Trainer Card page for Kanto badges
 * Adjust Kanto trainers' levels closer to Gym Leaders
-* Battle Lyra for the third time in Olivine, Cianwood, or Mahogany

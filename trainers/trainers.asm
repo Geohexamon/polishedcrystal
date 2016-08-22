@@ -17,7 +17,7 @@ KayGroup:
 ; ================================
 ; ================
 
-	; KAY (1)
+	; KAY
 	db "Kay@"
 	db 3 ; item + moves
 
@@ -69,7 +69,7 @@ CalGroup:
 ; ================================
 ; ================
 
-	; CAL (1)
+	; CAL
 	db "Cal@"
 	db 3 ; item + moves
 
@@ -115,7 +115,7 @@ CalGroup:
 
 ; ================
 
-	; CAL (2)
+	; CAL
 	db "Cal@"
 	db 0 ; normal
 
@@ -132,7 +132,7 @@ FalknerGroup:
 ; ================================
 ; ================
 
-	; FALKNER (1)
+	; FALKNER
 	db "Falkner@"
 	db 3 ; item + moves
 
@@ -160,7 +160,7 @@ FalknerGroup:
 
 ; ================
 
-	; FALKNER (2)
+	; FALKNER
 	db "Falkner@"
 	db 3 ; item + moves
 
@@ -212,7 +212,7 @@ BugsyGroup:
 ; ================================
 ; ================
 
-	; BUGSY (1)
+	; BUGSY
 	db "Bugsy@"
 	db 3 ; item + moves
 
@@ -246,7 +246,7 @@ BugsyGroup:
 
 ; ================
 
-	; BUGSY (2)
+	; BUGSY
 	db "Bugsy@"
 	db 3 ; item + moves
 
@@ -298,7 +298,7 @@ WhitneyGroup:
 ; ================================
 ; ================
 
-	; WHITNEY (1)
+	; WHITNEY
 	db "Whitney@"
 	db 3 ; item + moves
 
@@ -338,7 +338,7 @@ WhitneyGroup:
 
 ; ================
 
-	; WHITNEY (2)
+	; WHITNEY
 	db "Whitney@"
 	db 3 ; item + moves
 
@@ -390,7 +390,7 @@ MortyGroup:
 ; ================================
 ; ================
 
-	; MORTY (1)
+	; MORTY
 	db "Morty@"
 	db 3 ; item + moves
 
@@ -436,7 +436,7 @@ MortyGroup:
 
 ; ================
 
-	; MORTY (2)
+	; MORTY
 	db "Morty@"
 	db 3 ; item + moves
 
@@ -488,7 +488,7 @@ ChuckGroup:
 ; ================================
 ; ================
 
-	; CHUCK (1)
+	; CHUCK
 	db "Chuck@"
 	db 3 ; item + moves
 
@@ -534,7 +534,7 @@ ChuckGroup:
 
 ; ================
 
-	; CHUCK (2)
+	; CHUCK
 	db "Chuck@"
 	db 3 ; item + moves
 
@@ -586,7 +586,7 @@ JasmineGroup:
 ; ================================
 ; ================
 
-	; JASMINE (1)
+	; JASMINE
 	db "Jasmine@"
 	db 3 ; item + moves
 
@@ -632,7 +632,7 @@ JasmineGroup:
 
 ; ================
 
-	; JASMINE (2)
+	; JASMINE
 	db "Jasmine@"
 	db 3 ; item + moves
 
@@ -684,7 +684,7 @@ PryceGroup:
 ; ================================
 ; ================
 
-	; PRYCE (1)
+	; PRYCE
 	db "Pryce@"
 	db 3 ; item + moves
 
@@ -730,7 +730,7 @@ PryceGroup:
 
 ; ================
 
-	; PRYCE (2)
+	; PRYCE
 	db "Pryce@"
 	db 3 ; item + moves
 
@@ -782,7 +782,7 @@ ClairGroup:
 ; ================================
 ; ================
 
-	; CLAIR (1)
+	; CLAIR
 	db "Clair@"
 	db 3 ; item + moves
 
@@ -828,7 +828,7 @@ ClairGroup:
 
 ; ================
 
-	; CLAIR (2)
+	; CLAIR
 	db "Clair@"
 	db 3 ; item + moves
 
@@ -880,7 +880,7 @@ WillGroup:
 ; ================================
 ; ================
 
-	; WILL (1)
+	; WILL
 	db "Will@"
 	db 3 ; item + moves
 
@@ -926,7 +926,7 @@ WillGroup:
 
 ; ================
 
-	; WILL (2)
+	; WILL
 	db "Will@"
 	db 3 ; item + moves
 
@@ -978,7 +978,7 @@ KogaGroup:
 ; ================================
 ; ================
 
-	; KOGA (1)
+	; KOGA
 	db "Koga@"
 	db 3 ; item + moves
 
@@ -1024,7 +1024,7 @@ KogaGroup:
 
 ; ================
 
-	; KOGA (2)
+	; KOGA
 	db "Koga@"
 	db 3 ; item + moves
 
@@ -1076,7 +1076,7 @@ BrunoGroup:
 ; ================================
 ; ================
 
-	; BRUNO (1)
+	; BRUNO
 	db "Bruno@"
 	db 3 ; item + moves
 
@@ -1122,7 +1122,7 @@ BrunoGroup:
 
 ; ================
 
-	; BRUNO (2)
+	; BRUNO
 	db "Bruno@"
 	db 3 ; item + moves
 
@@ -1174,7 +1174,7 @@ KarenGroup:
 ; ================================
 ; ================
 
-	; KAREN (1)
+	; KAREN
 	db "Karen@"
 	db 3 ; item + moves
 
@@ -1220,7 +1220,7 @@ KarenGroup:
 
 ; ================
 
-	; KAREN (2)
+	; KAREN
 	db "Karen@"
 	db 3 ; item + moves
 
@@ -1272,7 +1272,7 @@ ChampionGroup:
 ; ================================
 ; ================
 
-	; CHAMPION (1)
+	; CHAMPION
 	db "Lance@"
 	db 3 ; item + moves
 
@@ -1318,7 +1318,7 @@ ChampionGroup:
 
 ; ================
 
-	; CHAMPION (2)
+	; CHAMPION
 	db "Lance@"
 	db 3 ; item + moves
 
@@ -1370,7 +1370,7 @@ BrockGroup:
 ; ================================
 ; ================
 
-	; BROCK (1)
+	; BROCK
 	db "Brock@"
 	db 3 ; item + moves
 
@@ -1416,7 +1416,7 @@ BrockGroup:
 
 ; ================
 
-	; BROCK (2)
+	; BROCK
 	db "Brock@"
 	db 3 ; item + moves
 
@@ -1468,7 +1468,7 @@ MistyGroup:
 ; ================================
 ; ================
 
-	; MISTY (1)
+	; MISTY
 	db "Misty@"
 	db 3 ; item + moves
 
@@ -1514,7 +1514,7 @@ MistyGroup:
 
 ; ================
 
-	; MISTY (2)
+	; MISTY
 	db "Misty@"
 	db 3 ; item + moves
 
@@ -1566,7 +1566,7 @@ LtSurgeGroup:
 ; ================================
 ; ================
 
-	; LT_SURGE (1)
+	; LT_SURGE
 	db "Lt.Surge@"
 	db 3 ; item + moves
 
@@ -1612,7 +1612,7 @@ LtSurgeGroup:
 
 ; ================
 
-	; LT_SURGE (2)
+	; LT_SURGE
 	db "Lt.Surge@"
 	db 3 ; item + moves
 
@@ -1664,7 +1664,7 @@ ErikaGroup:
 ; ================================
 ; ================
 
-	; ERIKA (1)
+	; ERIKA
 	db "Erika@"
 	db 3 ; item + moves
 
@@ -1710,7 +1710,7 @@ ErikaGroup:
 
 ; ================
 
-	; ERIKA (2)
+	; ERIKA
 	db "Erika@"
 	db 3 ; item + moves
 
@@ -1762,7 +1762,7 @@ JanineGroup:
 ; ================================
 ; ================
 
-	; JANINE (1)
+	; JANINE
 	db "Janine@"
 	db 3 ; item + moves
 
@@ -1808,7 +1808,7 @@ JanineGroup:
 
 ; ================
 
-	; JANINE (2)
+	; JANINE
 	db "Janine@"
 	db 3 ; item + moves
 
@@ -1860,7 +1860,7 @@ SabrinaGroup:
 ; ================================
 ; ================
 
-	; SABRINA (1)
+	; SABRINA
 	db "Sabrina@"
 	db 3 ; item + moves
 
@@ -1906,7 +1906,7 @@ SabrinaGroup:
 
 ; ================
 
-	; SABRINA (2)
+	; SABRINA
 	db "Sabrina@"
 	db 3 ; item + moves
 
@@ -1958,7 +1958,7 @@ BlaineGroup:
 ; ================================
 ; ================
 
-	; BLAINE (1)
+	; BLAINE
 	db "Blaine@"
 	db 3 ; item + moves
 
@@ -2002,7 +2002,7 @@ BlaineGroup:
 
 	db $ff ; end
 
-	; BLAINE (2)
+	; BLAINE
 	db "Blaine@"
 	db 3 ; item + moves
 
@@ -2054,7 +2054,7 @@ BlueGroup:
 ; ================================
 ; ================
 
-	; BLUE (1)
+	; BLUE
 	db "Blue@"
 	db 3 ; item + moves
 
@@ -2098,7 +2098,7 @@ BlueGroup:
 
 	db $ff ; end
 
-	; BLUE (2)
+	; BLUE
 	db "Blue@"
 	db 3 ; item + moves
 
@@ -2150,7 +2150,7 @@ RedGroup:
 ; ================================
 ; ================
 
-	; RED (1)
+	; RED
 	db "Red@"
 	db 3 ; item + moves
 
@@ -2202,7 +2202,7 @@ LeafGroup:
 ; ================================
 ; ================
 
-	; LEAF (1)
+	; LEAF
 	db "Green@"
 	db 3 ; item + moves
 
@@ -2254,7 +2254,7 @@ Rival1Group:
 ; ================================
 ; ================
 
-	; RIVAL1 (1)
+	; RIVAL1
 	db "?@"
 	db 2 ; item
 
@@ -2266,7 +2266,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (2)
+	; RIVAL1
 	db "?@"
 	db 2 ; item
 
@@ -2278,7 +2278,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (3)
+	; RIVAL1
 	db "?@"
 	db 2 ; item
 
@@ -2290,7 +2290,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (4)
+	; RIVAL1
 	db "?@"
 	db 2 ; item
 
@@ -2304,7 +2304,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (5)
+	; RIVAL1
 	db "?@"
 	db 2 ; item
 
@@ -2318,7 +2318,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (6)
+	; RIVAL1
 	db "?@"
 	db 2 ; item
 
@@ -2332,7 +2332,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (7)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2372,7 +2372,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (8)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2412,7 +2412,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (9)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2452,7 +2452,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (10)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2492,7 +2492,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (11)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2532,7 +2532,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (12)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2572,7 +2572,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (13)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2618,7 +2618,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (14)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2664,7 +2664,7 @@ Rival1Group:
 
 ; ================
 
-	; RIVAL1 (15)
+	; RIVAL1
 	db "?@"
 	db 3 ; item + moves
 
@@ -2716,7 +2716,7 @@ Rival2Group:
 ; ================================
 ; ================
 
-	; RIVAL2 (1)
+	; RIVAL2
 	db "?@"
 	db 3 ; item + moves
 
@@ -2762,7 +2762,7 @@ Rival2Group:
 
 ; ================
 
-	; RIVAL2 (2)
+	; RIVAL2
 	db "?@"
 	db 3 ; item + moves
 
@@ -2808,7 +2808,7 @@ Rival2Group:
 
 ; ================
 
-	; RIVAL2 (3)
+	; RIVAL2
 	db "?@"
 	db 3 ; item + moves
 
@@ -2854,7 +2854,7 @@ Rival2Group:
 
 ; ================
 
-	; RIVAL2 (4)
+	; RIVAL2
 	db "?@"
 	db 3 ; item + moves
 
@@ -2900,7 +2900,7 @@ Rival2Group:
 
 ; ================
 
-	; RIVAL2 (5)
+	; RIVAL2
 	db "?@"
 	db 3 ; item + moves
 
@@ -2946,7 +2946,7 @@ Rival2Group:
 
 ; ================
 
-	; RIVAL2 (6)
+	; RIVAL2
 	db "?@"
 	db 3 ; item + moves
 
@@ -2998,7 +2998,7 @@ YoungsterGroup:
 ; ================================
 ; ================
 
-	; YOUNGSTER (1)
+	; YOUNGSTER
 	db "Joey@"
 	db 0 ; normal
 
@@ -3009,7 +3009,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (2)
+	; YOUNGSTER
 	db "Mikey@"
 	db 0 ; normal
 
@@ -3021,7 +3021,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (3)
+	; YOUNGSTER
 	db "Albert@"
 	db 0 ; normal
 
@@ -3033,7 +3033,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (4)
+	; YOUNGSTER
 	db "Gordon@"
 	db 0 ; normal
 
@@ -3044,7 +3044,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (5)
+	; YOUNGSTER
 	db "Samuel@"
 	db 0 ; normal
 
@@ -3058,7 +3058,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (6)
+	; YOUNGSTER
 	db "Joey@"
 	db 0 ; normal
 
@@ -3069,7 +3069,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (7)
+	; YOUNGSTER
 	db "Joey@"
 	db 1 ; moves
 
@@ -3085,7 +3085,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (8)
+	; YOUNGSTER
 	db "Warren@"
 	db 0 ; normal
 
@@ -3097,7 +3097,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (9)
+	; YOUNGSTER
 	db "Jimmy@"
 	db 0 ; normal
 
@@ -3110,7 +3110,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (10)
+	; YOUNGSTER
 	db "Owen@"
 	db 0 ; normal
 
@@ -3121,7 +3121,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (11)
+	; YOUNGSTER
 	db "Jason@"
 	db 0 ; normal
 
@@ -3133,7 +3133,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (12)
+	; YOUNGSTER
 	db "Joey@"
 	db 1 ; moves
 
@@ -3149,7 +3149,7 @@ YoungsterGroup:
 
 ; ================
 
-	; YOUNGSTER (13)
+	; YOUNGSTER
 	db "Joey@"
 	db 1 ; moves
 
@@ -3171,7 +3171,7 @@ BugCatcherGroup:
 ; ================================
 ; ================
 
-	; BUG_CATCHER (1)
+	; BUG_CATCHER
 	db "Don@"
 	db 0 ; normal
 
@@ -3183,7 +3183,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (2)
+	; BUG_CATCHER
 	db "Rob@"
 	db 0 ; normal
 
@@ -3195,7 +3195,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (3)
+	; BUG_CATCHER
 	db "Ed@"
 	db 0 ; normal
 
@@ -3208,7 +3208,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (4)
+	; BUG_CATCHER
 	db "Wade@"
 	db 0 ; normal
 
@@ -3222,7 +3222,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (5)
+	; BUG_CATCHER
 	db "Benny@"
 	db 0 ; normal
 
@@ -3235,7 +3235,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (6)
+	; BUG_CATCHER
 	db "Al@"
 	db 0 ; normal
 
@@ -3247,7 +3247,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (7)
+	; BUG_CATCHER
 	db "Josh@"
 	db 0 ; normal
 
@@ -3258,7 +3258,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (8)
+	; BUG_CATCHER
 	db "Arnie@"
 	db 0 ; normal
 
@@ -3269,7 +3269,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (9)
+	; BUG_CATCHER
 	db "Ken@"
 	db 0 ; normal
 
@@ -3281,7 +3281,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (10)
+	; BUG_CATCHER
 	db "Wade@"
 	db 0 ; normal
 
@@ -3295,7 +3295,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (11)
+	; BUG_CATCHER
 	db "Wade@"
 	db 0 ; normal
 
@@ -3309,7 +3309,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (12)
+	; BUG_CATCHER
 	db "Doug@"
 	db 0 ; normal
 
@@ -3321,7 +3321,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (13)
+	; BUG_CATCHER
 	db "Arnie@"
 	db 0 ; normal
 
@@ -3332,7 +3332,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (14)
+	; BUG_CATCHER
 	db "Arnie@"
 	db 1 ; moves
 
@@ -3348,7 +3348,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (15)
+	; BUG_CATCHER
 	db "Wade@"
 	db 1 ; moves
 
@@ -3382,7 +3382,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (16)
+	; BUG_CATCHER
 	db "Wade@"
 	db 1 ; moves
 
@@ -3416,7 +3416,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (17)
+	; BUG_CATCHER
 	db "Arnie@"
 	db 1 ; moves
 
@@ -3432,7 +3432,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (18)
+	; BUG_CATCHER
 	db "Arnie@"
 	db 1 ; moves
 
@@ -3448,19 +3448,19 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (19)
+	; BUG_CATCHER
 	db "Wayne@"
 	db 0 ; normal
 
 	; party
-	db 8, LEDYBA
-	db 10, PARAS
+	db 9, PARAS
+	db 10, PINECO
 
 	db $ff ; end
 
 ; ================
 
-	; BUG_CATCHER (20)
+	; BUG_CATCHER
 	db "Dane@"
 	db 0 ; normal
 
@@ -3472,7 +3472,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (21)
+	; BUG_CATCHER
 	db "Dion@"
 	db 0 ; normal
 
@@ -3483,7 +3483,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (22)
+	; BUG_CATCHER
 	db "Stacey@"
 	db 0 ; normal
 
@@ -3496,7 +3496,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (23)
+	; BUG_CATCHER
 	db "Ellis@"
 	db 0 ; normal
 
@@ -3509,7 +3509,7 @@ BugCatcherGroup:
 
 ; ================
 
-	; BUG_CATCHER (34)
+	; BUG_CATCHER
 	db "Abner@"
 	db 0 ; normal
 
@@ -3528,7 +3528,7 @@ CamperGroup:
 ; ================================
 ; ================
 
-	; CAMPER (1)
+	; CAMPER
 	db "Roland@"
 	db 0 ; normal
 
@@ -3539,7 +3539,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (2)
+	; CAMPER
 	db "Todd@"
 	db 0 ; normal
 
@@ -3550,7 +3550,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (3)
+	; CAMPER
 	db "Ivan@"
 	db 0 ; normal
 
@@ -3563,19 +3563,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (4)
-	db "Elliot@"
-	db 0 ; normal
-
-	; party
-	db 13, SANDSHREW
-	db 15, MARILL
-
-	db $ff ; end
-
-; ================
-
-	; CAMPER (5)
+	; CAMPER
 	db "Barry@"
 	db 0 ; normal
 
@@ -3586,7 +3574,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (6)
+	; CAMPER
 	db "Lloyd@"
 	db 0 ; normal
 
@@ -3597,7 +3585,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (7)
+	; CAMPER
 	db "Dean@"
 	db 0 ; normal
 
@@ -3609,7 +3597,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (8)
+	; CAMPER
 	db "Sid@"
 	db 0 ; normal
 
@@ -3622,31 +3610,7 @@ CamperGroup:
 
 ; ================
 
-	; unused
-	; CAMPER (9)
-	db "Harvey@"
-	db 0 ; normal
-
-	; party
-	db 15, NIDORINO
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; CAMPER (10)
-	db "Dale@"
-	db 0 ; normal
-
-	; party
-	db 15, NIDORINO
-
-	db $ff ; end
-
-; ================
-
-	; CAMPER (11)
+	; CAMPER
 	db "Ted@"
 	db 0 ; normal
 
@@ -3657,7 +3621,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (12)
+	; CAMPER
 	db "Todd@"
 	db 0 ; normal
 
@@ -3670,7 +3634,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (13)
+	; CAMPER
 	db "Todd@"
 	db 0 ; normal
 
@@ -3683,52 +3647,7 @@ CamperGroup:
 
 ; ================
 
-	; unused
-	; CAMPER (14)
-	db "Thomas@"
-	db 0 ; normal
-
-	; party
-	db 33, GRAVELER
-	db 36, GRAVELER
-	db 40, GOLBAT
-	db 42, GOLDUCK
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; CAMPER (15)
-	db "Leroy@"
-	db 0 ; normal
-
-	; party
-	db 33, GRAVELER
-	db 36, GRAVELER
-	db 40, GOLBAT
-	db 42, GOLDUCK
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; CAMPER (16)
-	db "David@"
-	db 0 ; normal
-
-	; party
-	db 33, GRAVELER
-	db 36, GRAVELER
-	db 40, GOLBAT
-	db 42, GOLDUCK
-
-	db $ff ; end
-
-; ================
-
-	; CAMPER (17)
+	; CAMPER
 	db "John@"
 	db 0 ; normal
 
@@ -3742,7 +3661,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (18)
+	; CAMPER
 	db "Jerry@"
 	db 0 ; normal
 
@@ -3753,7 +3672,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (19)
+	; CAMPER
 	db "Spencer@"
 	db 0 ; normal
 
@@ -3766,7 +3685,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (20)
+	; CAMPER
 	db "Todd@"
 	db 0 ; normal
 
@@ -3780,7 +3699,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (21)
+	; CAMPER
 	db "Todd@"
 	db 1 ; moves
 
@@ -3814,7 +3733,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (22)
+	; CAMPER
 	db "Quentin@"
 	db 0 ; normal
 
@@ -3827,7 +3746,7 @@ CamperGroup:
 
 ; ================
 
-	; CAMPER (23)
+	; CAMPER
 	db "Grant@"
 	db 0 ; normal
 
@@ -3845,7 +3764,7 @@ PicnickerGroup:
 ; ================================
 ; ================
 
-	; PICNICKER (1)
+	; PICNICKER
 	db "Liz@"
 	db 0 ; normal
 
@@ -3856,7 +3775,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (2)
+	; PICNICKER
 	db "Gina@"
 	db 0 ; normal
 
@@ -3869,23 +3788,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (3)
-	db "Brooke@"
-	db 1 ; moves
-
-	; party
-
-	db 16, PIKACHU
-		db THUNDERSHOCK
-		db GROWL
-		db QUICK_ATTACK
-		db DOUBLE_TEAM
-
-	db $ff ; end
-
-; ================
-
-	; PICNICKER (4)
+	; PICNICKER
 	db "Kim@"
 	db 0 ; normal
 
@@ -3896,7 +3799,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (5)
+	; PICNICKER
 	db "Cindy@"
 	db 0 ; normal
 
@@ -3907,7 +3810,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (6)
+	; PICNICKER
 	db "Hope@"
 	db 0 ; normal
 
@@ -3918,7 +3821,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (7)
+	; PICNICKER
 	db "Sharon@"
 	db 0 ; normal
 
@@ -3930,7 +3833,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (8)
+	; PICNICKER
 	db "Debra@"
 	db 0 ; normal
 
@@ -3941,7 +3844,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (9)
+	; PICNICKER
 	db "Gina@"
 	db 0 ; normal
 
@@ -3954,7 +3857,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (10)
+	; PICNICKER
 	db "Erin@"
 	db 0 ; normal
 
@@ -3966,7 +3869,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (11)
+	; PICNICKER
 	db "Liz@"
 	db 0 ; normal
 
@@ -3978,7 +3881,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (12)
+	; PICNICKER
 	db "Liz@"
 	db 0 ; normal
 
@@ -3991,7 +3894,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (13)
+	; PICNICKER
 	db "Heidi@"
 	db 0 ; normal
 
@@ -4003,7 +3906,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (14)
+	; PICNICKER
 	db "Edna@"
 	db 0 ; normal
 
@@ -4015,7 +3918,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (15)
+	; PICNICKER
 	db "Gina@"
 	db 0 ; normal
 
@@ -4028,7 +3931,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (16)
+	; PICNICKER
 	db "Tiffany@"
 	db 1 ; moves
 
@@ -4044,7 +3947,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (17)
+	; PICNICKER
 	db "Tiffany@"
 	db 1 ; moves
 
@@ -4060,7 +3963,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (18)
+	; PICNICKER
 	db "Erin@"
 	db 0 ; normal
 
@@ -4072,7 +3975,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (19)
+	; PICNICKER
 	db "Tanya@"
 	db 0 ; normal
 
@@ -4083,7 +3986,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (20)
+	; PICNICKER
 	db "Tiffany@"
 	db 1 ; moves
 
@@ -4099,7 +4002,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (21)
+	; PICNICKER
 	db "Erin@"
 	db 1 ; moves
 
@@ -4127,7 +4030,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (22)
+	; PICNICKER
 	db "Liz@"
 	db 0 ; normal
 
@@ -4140,7 +4043,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (23)
+	; PICNICKER
 	db "Liz@"
 	db 1 ; moves
 
@@ -4168,7 +4071,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (24)
+	; PICNICKER
 	db "Gina@"
 	db 0 ; normal
 
@@ -4181,7 +4084,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (25)
+	; PICNICKER
 	db "Gina@"
 	db 1 ; moves
 
@@ -4209,7 +4112,7 @@ PicnickerGroup:
 
 ; ================
 
-	; PICNICKER (26)
+	; PICNICKER
 	db "Tiffany@"
 	db 1 ; moves
 
@@ -4231,7 +4134,7 @@ TwinsGroup:
 ; ================================
 ; ================
 
-	; TWINS (1)
+	; TWINS
 	db "Amy & Mimi@"
 	db 0 ; normal
 
@@ -4243,30 +4146,20 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (2)
-	db "Tori & Til@"
-	db 1 ; moves
+	; TWINS
+	db "Amy & Mimi@"
+	db 0 ; normal
 
 	; party
-
-	db 16, CLEFAIRY
-		db GROWL
-		db ENCORE
-		db DOUBLE_SLAP
-		db METRONOME
-
-	db 16, JIGGLYPUFF
-		db SING
-		db DEFENSE_CURL
-		db POUND
-		db DISABLE
+	db 10, LEDYBA
+	db 10, SPINARAK
 
 	db $ff ; end
 
 ; ================
 
-	; TWINS (3)
-	db "Ann & Anne@"
+	; TWINS
+	db "Tori & Til@"
 	db 1 ; moves
 
 	; party
@@ -4287,19 +4180,29 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (4)
-	db "Amy & May@"
-	db 0 ; normal
+	; TWINS
+	db "Tori & Til@"
+	db 1 ; moves
 
 	; party
-	db 10, LEDYBA
-	db 10, SPINARAK
+
+	db 16, MAREEP
+		db GROWL
+		db THUNDER_WAVE
+		db THUNDERSHOCK
+		db SAND_ATTACK
+
+	db 16, MARILL
+		db DEFENSE_CURL
+		db ROLLOUT
+		db BUBBLE_BEAM
+		db DIZZY_PUNCH
 
 	db $ff ; end
 
 ; ================
 
-	; TWINS (5)
+	; TWINS
 	db "Jo & Zoe@"
 	db 0 ; normal
 
@@ -4311,7 +4214,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (6)
+	; TWINS
 	db "Jo & Zoe@"
 	db 0 ; normal
 
@@ -4323,7 +4226,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (7)
+	; TWINS
 	db "Meg & Peg@"
 	db 0 ; normal
 
@@ -4335,7 +4238,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (8)
+	; TWINS
 	db "Meg & Peg@"
 	db 0 ; normal
 
@@ -4347,7 +4250,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (9)
+	; TWINS
 	db "Lea & Pia@"
 	db 1 ; moves
 
@@ -4369,7 +4272,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (10)
+	; TWINS
 	db "Lea & Pia@"
 	db 1 ; moves
 
@@ -4391,7 +4294,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (11)
+	; TWINS
 	db "Day & Dani@"
 	db 0 ; normal
 
@@ -4403,7 +4306,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (12)
+	; TWINS
 	db "Day & Dani@"
 	db 0 ; normal
 
@@ -4415,7 +4318,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (13)
+	; TWINS
 	db "Kay & Tia@"
 	db 0 ; normal
 
@@ -4427,7 +4330,7 @@ TwinsGroup:
 
 ; ================
 
-	; TWINS (14)
+	; TWINS
 	db "Kay & Tia@"
 	db 0 ; normal
 
@@ -4445,7 +4348,7 @@ FisherGroup:
 ; ================================
 ; ================
 
-	; FISHER (1)
+	; FISHER
 	db "Justin@"
 	db 0 ; normal
 
@@ -4459,7 +4362,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (2)
+	; FISHER
 	db "Ralph@"
 	db 0 ; normal
 
@@ -4470,7 +4373,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (3)
+	; FISHER
 	db "Arnold@"
 	db 0 ; normal
 
@@ -4481,7 +4384,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (4)
+	; FISHER
 	db "Kyle@"
 	db 0 ; normal
 
@@ -4494,7 +4397,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (5)
+	; FISHER
 	db "Henry@"
 	db 0 ; normal
 
@@ -4506,7 +4409,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (6)
+	; FISHER
 	db "Marvin@"
 	db 0 ; normal
 
@@ -4519,7 +4422,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (7)
+	; FISHER
 	db "Tully@"
 	db 0 ; normal
 
@@ -4530,7 +4433,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (8)
+	; FISHER
 	db "Andre@"
 	db 0 ; normal
 
@@ -4541,7 +4444,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (9)
+	; FISHER
 	db "Raymond@"
 	db 1 ; moves
 
@@ -4575,7 +4478,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (10)
+	; FISHER
 	db "Wilton@"
 	db 0 ; normal
 
@@ -4588,7 +4491,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (11)
+	; FISHER
 	db "Edgar@"
 	db 1 ; moves
 
@@ -4610,7 +4513,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (12)
+	; FISHER
 	db "Jonah@"
 	db 0 ; normal
 
@@ -4624,7 +4527,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (13)
+	; FISHER
 	db "Martin@"
 	db 0 ; normal
 
@@ -4636,7 +4539,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (14)
+	; FISHER
 	db "Stephen@"
 	db 0 ; normal
 
@@ -4650,7 +4553,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (15)
+	; FISHER
 	db "Barney@"
 	db 0 ; normal
 
@@ -4663,7 +4566,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (16)
+	; FISHER
 	db "Ralph@"
 	db 0 ; normal
 
@@ -4674,7 +4577,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (17)
+	; FISHER
 	db "Ralph@"
 	db 0 ; normal
 
@@ -4686,7 +4589,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (18)
+	; FISHER
 	db "Tully@"
 	db 0 ; normal
 
@@ -4697,7 +4600,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (19)
+	; FISHER
 	db "Tully@"
 	db 0 ; normal
 
@@ -4710,7 +4613,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (20)
+	; FISHER
 	db "Wilton@"
 	db 0 ; normal
 
@@ -4723,7 +4626,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (21)
+	; FISHER
 	db "Scott@"
 	db 0 ; normal
 
@@ -4736,7 +4639,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (22)
+	; FISHER
 	db "Wilton@"
 	db 1 ; moves
 
@@ -4764,7 +4667,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (23)
+	; FISHER
 	db "Ralph@"
 	db 0 ; normal
 
@@ -4776,7 +4679,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (24)
+	; FISHER
 	db "Ralph@"
 	db 1 ; moves
 
@@ -4798,7 +4701,7 @@ FisherGroup:
 
 ; ================
 
-	; FISHER (25)
+	; FISHER
 	db "Tully@"
 	db 1 ; moves
 
@@ -4832,7 +4735,7 @@ BirdKeeperGroup:
 ; ================================
 ; ================
 
-	; BIRD_KEEPER (1)
+	; BIRD_KEEPER
 	db "Rod@"
 	db 0 ; normal
 
@@ -4844,7 +4747,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (2)
+	; BIRD_KEEPER
 	db "Abe@"
 	db 0 ; normal
 
@@ -4855,7 +4758,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (3)
+	; BIRD_KEEPER
 	db "Bryan@"
 	db 0 ; normal
 
@@ -4867,7 +4770,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (4)
+	; BIRD_KEEPER
 	db "Theo@"
 	db 0 ; normal
 
@@ -4882,7 +4785,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (5)
+	; BIRD_KEEPER
 	db "Toby@"
 	db 0 ; normal
 
@@ -4895,7 +4798,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (6)
+	; BIRD_KEEPER
 	db "Denis@"
 	db 0 ; normal
 
@@ -4908,7 +4811,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (7)
+	; BIRD_KEEPER
 	db "Vance@"
 	db 0 ; normal
 
@@ -4920,7 +4823,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (8)
+	; BIRD_KEEPER
 	db "Hank@"
 	db 0 ; normal
 
@@ -4932,7 +4835,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (9)
+	; BIRD_KEEPER
 	db "Roy@"
 	db 0 ; normal
 
@@ -4944,7 +4847,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (10)
+	; BIRD_KEEPER
 	db "Boris@"
 	db 0 ; normal
 
@@ -4957,7 +4860,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (11)
+	; BIRD_KEEPER
 	db "Bob@"
 	db 0 ; normal
 
@@ -4968,7 +4871,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (12)
+	; BIRD_KEEPER
 	db "Jose@"
 	db 0 ; normal
 
@@ -4979,7 +4882,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (13)
+	; BIRD_KEEPER
 	db "Peter@"
 	db 0 ; normal
 
@@ -4992,7 +4895,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (14)
+	; BIRD_KEEPER
 	db "Jose@"
 	db 0 ; normal
 
@@ -5003,7 +4906,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (15)
+	; BIRD_KEEPER
 	db "Perry@"
 	db 0 ; normal
 
@@ -5014,7 +4917,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (16)
+	; BIRD_KEEPER
 	db "Bret@"
 	db 0 ; normal
 
@@ -5026,7 +4929,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (17)
+	; BIRD_KEEPER
 	db "Jose@"
 	db 1 ; moves
 
@@ -5042,7 +4945,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (18)
+	; BIRD_KEEPER
 	db "Vance@"
 	db 0 ; normal
 
@@ -5054,7 +4957,7 @@ BirdKeeperGroup:
 
 ; ================
 
-	; BIRD_KEEPER (19)
+	; BIRD_KEEPER
 	db "Vance@"
 	db 1 ; moves
 
@@ -5082,7 +4985,7 @@ HikerGroup:
 ; ================================
 ; ================
 
-	; HIKER (1)
+	; HIKER
 	db "Anthony@"
 	db 0 ; normal
 
@@ -5094,7 +4997,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (2)
+	; HIKER
 	db "Russell@"
 	db 0 ; normal
 
@@ -5107,7 +5010,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (3)
+	; HIKER
 	db "Phillip@"
 	db 0 ; normal
 
@@ -5120,7 +5023,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (4)
+	; HIKER
 	db "Leonard@"
 	db 0 ; normal
 
@@ -5132,7 +5035,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (5)
+	; HIKER
 	db "Anthony@"
 	db 0 ; normal
 
@@ -5144,7 +5047,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (6)
+	; HIKER
 	db "Benjamin@"
 	db 0 ; normal
 
@@ -5157,20 +5060,20 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (7)
+	; HIKER
 	db "Erik@"
 	db 0 ; normal
 
 	; party
-	db 35, MACHOKE
-	db 37, GRAVELER
+	db 35, GRAVELER
+	db 37, DONPHAN
 	db 37, GLIGAR
 
 	db $ff ; end
 
 ; ================
 
-	; HIKER (8)
+	; HIKER
 	db "Michael@"
 	db 0 ; normal
 
@@ -5183,19 +5086,19 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (9)
+	; HIKER
 	db "Parry@"
 	db 0 ; normal
 
 	; party
 	db 36, ONIX
-	db 35, SWINUB
+	db 35, PILOSWINE
 
 	db $ff ; end
 
 ; ================
 
-	; HIKER (10)
+	; HIKER
 	db "Timothy@"
 	db 1 ; moves
 
@@ -5217,7 +5120,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (11)
+	; HIKER
 	db "Bailey@"
 	db 0 ; normal
 
@@ -5232,7 +5135,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (12)
+	; HIKER
 	db "Anthony@"
 	db 0 ; normal
 
@@ -5245,7 +5148,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (13)
+	; HIKER
 	db "Eoin@"
 	db 0 ; normal
 
@@ -5258,7 +5161,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (14)
+	; HIKER
 	db "Noland@"
 	db 0 ; normal
 
@@ -5270,7 +5173,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (15)
+	; HIKER
 	db "Clarke@"
 	db 0 ; normal
 
@@ -5282,7 +5185,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (16)
+	; HIKER
 	db "Kenny@"
 	db 0 ; normal
 
@@ -5296,7 +5199,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (17)
+	; HIKER
 	db "Jim@"
 	db 0 ; normal
 
@@ -5307,7 +5210,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (18)
+	; HIKER
 	db "Daniel@"
 	db 0 ; normal
 
@@ -5318,7 +5221,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (19)
+	; HIKER
 	db "Parry@"
 	db 1 ; moves
 
@@ -5346,7 +5249,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (20)
+	; HIKER
 	db "Parry@"
 	db 0 ; normal
 
@@ -5357,7 +5260,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (21)
+	; HIKER
 	db "Anthony@"
 	db 0 ; normal
 
@@ -5370,7 +5273,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (22)
+	; HIKER
 	db "Anthony@"
 	db 1 ; moves
 
@@ -5398,7 +5301,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (23)
+	; HIKER
 	db "Edwin@"
 	db 0 ; normal
 
@@ -5409,7 +5312,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (24)
+	; HIKER
 	db "Devin@"
 	db 0 ; normal
 
@@ -5422,7 +5325,7 @@ HikerGroup:
 
 ; ================
 
-	; HIKER (25)
+	; HIKER
 	db "Seamus@"
 	db 0 ; normal
 
@@ -5443,7 +5346,7 @@ GruntMGroup:
 ; ================
 
 	; unused
-	; GRUNTM (1)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5456,7 +5359,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (2)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5469,7 +5372,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (3)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5481,7 +5384,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (4)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5494,7 +5397,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (5)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5509,7 +5412,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (6)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5521,7 +5424,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (7)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5535,7 +5438,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (8)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5546,7 +5449,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (9)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5558,7 +5461,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (10)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5571,7 +5474,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (11)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5584,7 +5487,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (12)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5596,7 +5499,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (13)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5607,7 +5510,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (14)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5619,7 +5522,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (15)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5631,7 +5534,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (16)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5645,7 +5548,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (17)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5656,7 +5559,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (18)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5669,7 +5572,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (19)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5681,7 +5584,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (20)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5694,7 +5597,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (21)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5707,7 +5610,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (22)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5720,7 +5623,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (23)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5733,7 +5636,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (24)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5745,7 +5648,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (25)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5757,7 +5660,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (26)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5771,7 +5674,7 @@ GruntMGroup:
 ; ================
 
 	; unused
-	; GRUNTM (27)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5782,7 +5685,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (28)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5793,7 +5696,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (29)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5805,7 +5708,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (30)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5818,7 +5721,7 @@ GruntMGroup:
 
 ; ================
 
-	; GRUNTM (31)
+	; GRUNTM
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5837,7 +5740,7 @@ GruntFGroup:
 ; ================================
 ; ================
 
-	; GRUNTF (1)
+	; GRUNTF
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5849,7 +5752,7 @@ GruntFGroup:
 
 ; ================
 
-	; GRUNTF (2)
+	; GRUNTF
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5860,7 +5763,7 @@ GruntFGroup:
 
 ; ================
 
-	; GRUNTF (3)
+	; GRUNTF
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5872,7 +5775,7 @@ GruntFGroup:
 
 ; ================
 
-	; GRUNTF (4)
+	; GRUNTF
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5886,7 +5789,7 @@ GruntFGroup:
 
 ; ================
 
-	; GRUNTF (5)
+	; GRUNTF
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5914,7 +5817,7 @@ GruntFGroup:
 
 ; ================
 
-	; GRUNTF (6)
+	; GRUNTF
 	db "Grunt@"
 	db 0 ; normal
 
@@ -5933,7 +5836,7 @@ JessieJamesGroup:
 ; ================================
 ; ================
 
-	; JESSIE_JAMES (1)
+	; JESSIE_JAMES
 	db "& James@"
 	db 0 ; normal
 
@@ -5954,7 +5857,7 @@ PokefanMGroup:
 ; ================================
 ; ================
 
-	; POKEFANM (1)
+	; POKEFANM
 	db "William@"
 	db 2 ; item
 
@@ -5965,7 +5868,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (2)
+	; POKEFANM
 	db "Derek@"
 	db 2 ; item
 
@@ -5976,7 +5879,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (3)
+	; POKEFANM
 	db "Robert@"
 	db 2 ; item
 
@@ -5987,7 +5890,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (4)
+	; POKEFANM
 	db "Joshua@"
 	db 2 ; item
 
@@ -6003,7 +5906,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (5)
+	; POKEFANM
 	db "Carter@"
 	db 2 ; item
 
@@ -6016,7 +5919,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (6)
+	; POKEFANM
 	db "Trevor@"
 	db 2 ; item
 
@@ -6027,7 +5930,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (7)
+	; POKEFANM
 	db "Brandon@"
 	db 2 ; item
 
@@ -6039,7 +5942,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (8)
+	; POKEFANM
 	db "Jeremy@"
 	db 2 ; item
 
@@ -6052,7 +5955,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (9)
+	; POKEFANM
 	db "Colin@"
 	db 2 ; item
 
@@ -6063,7 +5966,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (10)
+	; POKEFANM
 	db "Derek@"
 	db 2 ; item
 
@@ -6074,7 +5977,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (11)
+	; POKEFANM
 	db "Derek@"
 	db 2 ; item
 
@@ -6085,7 +5988,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (12)
+	; POKEFANM
 	db "Alex@"
 	db 2 ; item
 
@@ -6098,7 +6001,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (13)
+	; POKEFANM
 	db "Rex@"
 	db 2 ; item
 
@@ -6109,7 +6012,7 @@ PokefanMGroup:
 
 ; ================
 
-	; POKEFANM (14)
+	; POKEFANM
 	db "Allan@"
 	db 2 ; item
 
@@ -6126,7 +6029,7 @@ PokefanFGroup:
 ; ================================
 ; ================
 
-	; POKEFANF (1)
+	; POKEFANF
 	db "Beverly@"
 	db 2 ; item
 
@@ -6137,7 +6040,7 @@ PokefanFGroup:
 
 ; ================
 
-	; POKEFANF (2)
+	; POKEFANF
 	db "Ruth@"
 	db 2 ; item
 
@@ -6148,7 +6051,7 @@ PokefanFGroup:
 
 ; ================
 
-	; POKEFANF (3)
+	; POKEFANF
 	db "Beverly@"
 	db 2 ; item
 
@@ -6159,7 +6062,7 @@ PokefanFGroup:
 
 ; ================
 
-	; POKEFANF (4)
+	; POKEFANF
 	db "Beverly@"
 	db 2 ; item
 
@@ -6170,7 +6073,7 @@ PokefanFGroup:
 
 ; ================
 
-	; POKEFANF (5)
+	; POKEFANF
 	db "Georgia@"
 	db 2 ; item
 
@@ -6185,7 +6088,7 @@ PokefanFGroup:
 
 ; ================
 
-	; POKEFANF (6)
+	; POKEFANF
 	db "Jaime@"
 	db 2 ; item
 
@@ -6196,7 +6099,7 @@ PokefanFGroup:
 
 ; ================
 
-	; POKEFANF (7)
+	; POKEFANF
 	db "Boone@"
 	db 2 ; item
 
@@ -6208,7 +6111,7 @@ PokefanFGroup:
 
 ; ================
 
-	; POKEFANF (8)
+	; POKEFANF
 	db "Eleanor@"
 	db 2 ; item
 
@@ -6226,7 +6129,7 @@ OfficerMGroup:
 ; ================================
 ; ================
 
-	; OFFICERM (1)
+	; OFFICERM
 	db "Keith@"
 	db 0 ; normal
 
@@ -6237,7 +6140,7 @@ OfficerMGroup:
 
 ; ================
 
-	; OFFICERM (2)
+	; OFFICERM
 	db "Dirk@"
 	db 0 ; normal
 
@@ -6262,7 +6165,7 @@ PokemaniacGroup:
 ; ================================
 ; ================
 
-	; POKEMANIAC (1)
+	; POKEMANIAC
 	db "Larry@"
 	db 0 ; normal
 
@@ -6273,7 +6176,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (2)
+	; POKEMANIAC
 	db "Andrew@"
 	db 0 ; normal
 
@@ -6285,7 +6188,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (3)
+	; POKEMANIAC
 	db "Calvin@"
 	db 0 ; normal
 
@@ -6296,7 +6199,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (4)
+	; POKEMANIAC
 	db "Shane@"
 	db 0 ; normal
 
@@ -6308,7 +6211,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (5)
+	; POKEMANIAC
 	db "Beckett@"
 	db 0 ; normal
 
@@ -6319,7 +6222,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (6)
+	; POKEMANIAC
 	db "Brent@"
 	db 0 ; normal
 
@@ -6330,7 +6233,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (7)
+	; POKEMANIAC
 	db "Ron@"
 	db 0 ; normal
 
@@ -6341,7 +6244,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (8)
+	; POKEMANIAC
 	db "Ethan@"
 	db 0 ; normal
 
@@ -6353,7 +6256,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (9)
+	; POKEMANIAC
 	db "Brent@"
 	db 0 ; normal
 
@@ -6364,7 +6267,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (10)
+	; POKEMANIAC
 	db "Brent@"
 	db 1 ; moves
 
@@ -6380,7 +6283,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (11)
+	; POKEMANIAC
 	db "Issac@"
 	db 0 ; normal
 
@@ -6392,7 +6295,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (12)
+	; POKEMANIAC
 	db "Donald@"
 	db 0 ; normal
 
@@ -6404,7 +6307,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (13)
+	; POKEMANIAC
 	db "Zach@"
 	db 0 ; normal
 
@@ -6415,7 +6318,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (14)
+	; POKEMANIAC
 	db "Brent@"
 	db 1 ; moves
 
@@ -6431,7 +6334,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (15)
+	; POKEMANIAC
 	db "Miller@"
 	db 0 ; normal
 
@@ -6443,7 +6346,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (16)
+	; POKEMANIAC
 	db "Moe@"
 	db 0 ; normal
 
@@ -6455,7 +6358,7 @@ PokemaniacGroup:
 
 ; ================
 
-	; POKEMANIAC (17)
+	; POKEMANIAC
 	db "Aidan@"
 	db 1 ; moves
 
@@ -6483,7 +6386,7 @@ SuperNerdGroup:
 ; ================================
 ; ================
 
-	; SUPER_NERD (1)
+	; SUPER_NERD
 	db "Stan@"
 	db 0 ; normal
 
@@ -6494,7 +6397,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (2)
+	; SUPER_NERD
 	db "Eric@"
 	db 0 ; normal
 
@@ -6506,46 +6409,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; unused
-	; SUPER_NERD (3)
-	db "Gregg@"
-	db 0 ; normal
-
-	; party
-	db 20, MAGNEMITE
-	db 20, MAGNEMITE
-	db 20, MAGNEMITE
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SUPER_NERD (4)
-	db "Jay@"
-	db 0 ; normal
-
-	; party
-	db 22, KOFFING
-	db 22, KOFFING
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SUPER_NERD (5)
-	db "Dave@"
-	db 0 ; normal
-
-	; party
-	db 24, DITTO
-
-	db $ff ; end
-
-; ================
-
-	; SUPER_NERD (6)
+	; SUPER_NERD
 	db "Sam@"
 	db 0 ; normal
 
@@ -6557,7 +6421,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (7)
+	; SUPER_NERD
 	db "Tyrone@"
 	db 0 ; normal
 
@@ -6570,7 +6434,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (8)
+	; SUPER_NERD
 	db "Pat@"
 	db 0 ; normal
 
@@ -6581,7 +6445,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (9)
+	; SUPER_NERD
 	db "Shawn@"
 	db 0 ; normal
 
@@ -6594,7 +6458,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (10)
+	; SUPER_NERD
 	db "Teru@"
 	db 0 ; normal
 
@@ -6608,37 +6472,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (11)
-	db "Russ@"
-	db 0 ; normal
-
-	; party
-	db 27, MAGNEMITE
-	db 27, MAGNEMITE
-	db 27, MAGNEMITE
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SUPER_NERD (12)
-	db "Norton@"
-	db 1 ; moves
-
-	; party
-
-	db 30, PORYGON
-		db CONVERSION
-		db CONVERSION2
-		db RECOVER
-		db TRI_ATTACK
-
-	db $ff ; end
-
-; ================
-
-	; SUPER_NERD (13)
+	; SUPER_NERD
 	db "Hugh@"
 	db 1 ; moves
 
@@ -6654,7 +6488,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (14)
+	; SUPER_NERD
 	db "Markus@"
 	db 1 ; moves
 
@@ -6670,7 +6504,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (15)
+	; SUPER_NERD
 	db "Cary@"
 	db 0 ; normal
 
@@ -6681,7 +6515,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (15)
+	; SUPER_NERD
 	db "Waldo@"
 	db 0 ; normal
 
@@ -6692,7 +6526,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (15)
+	; SUPER_NERD
 	db "Merle@"
 	db 0 ; normal
 
@@ -6703,7 +6537,7 @@ SuperNerdGroup:
 
 ; ================
 
-	; SUPER_NERD (16)
+	; SUPER_NERD
 	db "Luis@"
 	db 0 ; normal
 
@@ -6722,7 +6556,7 @@ LassGroup:
 ; ================================
 ; ================
 
-	; LASS (1)
+	; LASS
 	db "Carrie@"
 	db 1 ; moves
 
@@ -6738,7 +6572,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (2)
+	; LASS
 	db "Cathy@"
 	db 0 ; normal
 
@@ -6751,7 +6585,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (3)
+	; LASS
 	db "Alice@"
 	db 0 ; normal
 
@@ -6764,7 +6598,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (4)
+	; LASS
 	db "Krise@"
 	db 0 ; normal
 
@@ -6776,7 +6610,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (5)
+	; LASS
 	db "Connie@"
 	db 0 ; normal
 
@@ -6787,7 +6621,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (6)
+	; LASS
 	db "Linda@"
 	db 0 ; normal
 
@@ -6800,7 +6634,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (7)
+	; LASS
 	db "Laura@"
 	db 2 ; item
 
@@ -6813,7 +6647,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (8)
+	; LASS
 	db "Shannon@"
 	db 0 ; normal
 
@@ -6826,7 +6660,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (9)
+	; LASS
 	db "Michelle@"
 	db 0 ; normal
 
@@ -6839,7 +6673,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (10)
+	; LASS
 	db "Dana@"
 	db 1 ; moves
 
@@ -6861,7 +6695,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (11)
+	; LASS
 	db "Ellen@"
 	db 0 ; normal
 
@@ -6873,7 +6707,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (12)
+	; LASS
 	db "Connie@"
 	db 0 ; normal
 
@@ -6884,7 +6718,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (13)
+	; LASS
 	db "Connie@"
 	db 0 ; normal
 
@@ -6895,7 +6729,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (14)
+	; LASS
 	db "Dana@"
 	db 1 ; moves
 
@@ -6917,7 +6751,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (15)
+	; LASS
 	db "Dana@"
 	db 1 ; moves
 
@@ -6939,7 +6773,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (16)
+	; LASS
 	db "Dana@"
 	db 1 ; moves
 
@@ -6961,7 +6795,7 @@ LassGroup:
 
 ; ================
 
-	; LASS (17)
+	; LASS
 	db "Dana@"
 	db 1 ; moves
 
@@ -6989,7 +6823,7 @@ BeautyGroup:
 ; ================================
 ; ================
 
-	; BEAUTY (1)
+	; BEAUTY
 	db "Victoria@"
 	db 0 ; normal
 
@@ -7002,7 +6836,7 @@ BeautyGroup:
 
 ; ================
 
-	; BEAUTY (2)
+	; BEAUTY
 	db "Samantha@"
 	db 1 ; moves
 
@@ -7024,43 +6858,7 @@ BeautyGroup:
 
 ; ================
 
-	; unused
-	; BEAUTY (3)
-	db "Julie@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (4)
-	db "Jaclyn@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (5)
-	db "Brenda@"
-	db 0 ; normal
-
-	; party
-	db 16, FURRET
-
-	db $ff ; end
-
-; ================
-
-	; BEAUTY (6)
+	; BEAUTY
 	db "Cassie@"
 	db 0 ; normal
 
@@ -7072,93 +6870,7 @@ BeautyGroup:
 
 ; ================
 
-	; unused
-	; BEAUTY (7)
-	db "Caroline@"
-	db 0 ; normal
-
-	; party
-	db 30, MARILL
-	db 32, SEEL
-	db 30, MARILL
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (8)
-	db "Carlene@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (9)
-	db "Jessica@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (10)
-	db "Rachael@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (11)
-	db "Angelica@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (12)
-	db "Kendra@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BEAUTY (13)
-	db "Veronica@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; BEAUTY (14)
+	; BEAUTY
 	db "Julia@"
 	db 0 ; normal
 
@@ -7171,19 +6883,7 @@ BeautyGroup:
 
 ; ================
 
-	; unused
-	; BEAUTY (15)
-	db "Theresa@"
-	db 0 ; normal
-
-	; party
-	db 15, SENTRET
-
-	db $ff ; end
-
-; ================
-
-	; BEAUTY (16)
+	; BEAUTY
 	db "Valencia@"
 	db 0 ; normal
 
@@ -7197,7 +6897,7 @@ BeautyGroup:
 
 ; ================
 
-	; BEAUTY (17)
+	; BEAUTY
 	db "Olivia@"
 	db 0 ; normal
 
@@ -7208,7 +6908,7 @@ BeautyGroup:
 
 ; ================
 
-	; BEAUTY (18)
+	; BEAUTY
 	db "Callie@"
 	db 0 ; normal
 
@@ -7220,7 +6920,7 @@ BeautyGroup:
 
 ; ================
 
-	; BEAUTY (19)
+	; BEAUTY
 	db "Cassandra@"
 	db 0 ; normal
 
@@ -7232,7 +6932,7 @@ BeautyGroup:
 
 ; ================
 
-	; BEAUTY (20)
+	; BEAUTY
 	db "Charlotte@"
 	db 0 ; normal
 
@@ -7249,7 +6949,7 @@ FirebreatherGroup:
 ; ================================
 ; ================
 
-	; FIREBREATHER (1)
+	; FIREBREATHER
 	db "Otis@"
 	db 0 ; normal
 
@@ -7262,7 +6962,7 @@ FirebreatherGroup:
 
 ; ================
 
-	; FIREBREATHER (2)
+	; FIREBREATHER
 	db "Dick@"
 	db 0 ; normal
 
@@ -7275,7 +6975,7 @@ FirebreatherGroup:
 
 ; ================
 
-	; FIREBREATHER (3)
+	; FIREBREATHER
 	db "Ned@"
 	db 0 ; normal
 
@@ -7288,7 +6988,7 @@ FirebreatherGroup:
 
 ; ================
 
-	; FIREBREATHER (4)
+	; FIREBREATHER
 	db "Burt@"
 	db 0 ; normal
 
@@ -7300,7 +7000,7 @@ FirebreatherGroup:
 
 ; ================
 
-	; FIREBREATHER (5)
+	; FIREBREATHER
 	db "Bill@"
 	db 0 ; normal
 
@@ -7312,7 +7012,7 @@ FirebreatherGroup:
 
 ; ================
 
-	; FIREBREATHER (6)
+	; FIREBREATHER
 	db "Walt@"
 	db 0 ; normal
 
@@ -7324,7 +7024,7 @@ FirebreatherGroup:
 
 ; ================
 
-	; FIREBREATHER (7)
+	; FIREBREATHER
 	db "Ray@"
 	db 0 ; normal
 
@@ -7335,7 +7035,7 @@ FirebreatherGroup:
 
 ; ================
 
-	; FIREBREATHER (8)
+	; FIREBREATHER
 	db "Lyle@"
 	db 0 ; normal
 
@@ -7354,7 +7054,7 @@ JugglerGroup:
 ; ================================
 ; ================
 
-	; JUGGLER (1)
+	; JUGGLER
 	db "Irwin@"
 	db 0 ; normal
 
@@ -7368,7 +7068,7 @@ JugglerGroup:
 
 ; ================
 
-	; JUGGLER (2)
+	; JUGGLER
 	db "Fritz@"
 	db 0 ; normal
 
@@ -7381,7 +7081,7 @@ JugglerGroup:
 
 ; ================
 
-	; JUGGLER (3)
+	; JUGGLER
 	db "Horton@"
 	db 0 ; normal
 
@@ -7394,7 +7094,7 @@ JugglerGroup:
 
 ; ================
 
-	; JUGGLER (4)
+	; JUGGLER
 	db "Irwin@"
 	db 0 ; normal
 
@@ -7408,7 +7108,7 @@ JugglerGroup:
 
 ; ================
 
-	; JUGGLER (5)
+	; JUGGLER
 	db "Irwin@"
 	db 0 ; normal
 
@@ -7422,7 +7122,7 @@ JugglerGroup:
 
 ; ================
 
-	; JUGGLER (6)
+	; JUGGLER
 	db "Irwin@"
 	db 0 ; normal
 
@@ -7442,7 +7142,7 @@ SchoolboyGroup:
 ; ================================
 ; ================
 
-	; SCHOOLBOY (1)
+	; SCHOOLBOY
 	db "Jack@"
 	db 0 ; normal
 
@@ -7454,7 +7154,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (2)
+	; SCHOOLBOY
 	db "Kipp@"
 	db 0 ; normal
 
@@ -7468,7 +7168,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (3)
+	; SCHOOLBOY
 	db "Alan@"
 	db 0 ; normal
 
@@ -7479,7 +7179,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (4)
+	; SCHOOLBOY
 	db "Johnny@"
 	db 2 ; item
 
@@ -7492,7 +7192,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (5)
+	; SCHOOLBOY
 	db "Danny@"
 	db 0 ; normal
 
@@ -7505,7 +7205,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (6)
+	; SCHOOLBOY
 	db "Tommy@"
 	db 0 ; normal
 
@@ -7517,7 +7217,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (7)
+	; SCHOOLBOY
 	db "Dudley@"
 	db 2 ; item
 
@@ -7528,7 +7228,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (8)
+	; SCHOOLBOY
 	db "Joe@"
 	db 2 ; item
 
@@ -7540,7 +7240,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (9)
+	; SCHOOLBOY
 	db "Billy@"
 	db 0 ; normal
 
@@ -7554,7 +7254,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (10)
+	; SCHOOLBOY
 	db "Chad@"
 	db 0 ; normal
 
@@ -7565,7 +7265,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (11)
+	; SCHOOLBOY
 	db "Nate@"
 	db 0 ; normal
 
@@ -7577,7 +7277,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (12)
+	; SCHOOLBOY
 	db "Ricky@"
 	db 0 ; normal
 
@@ -7589,7 +7289,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (13)
+	; SCHOOLBOY
 	db "Jack@"
 	db 0 ; normal
 
@@ -7601,7 +7301,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (14)
+	; SCHOOLBOY
 	db "Jack@"
 	db 0 ; normal
 
@@ -7613,7 +7313,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (15)
+	; SCHOOLBOY
 	db "Alan@"
 	db 0 ; normal
 
@@ -7625,7 +7325,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (16)
+	; SCHOOLBOY
 	db "Alan@"
 	db 0 ; normal
 
@@ -7639,7 +7339,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (17)
+	; SCHOOLBOY
 	db "Chad@"
 	db 0 ; normal
 
@@ -7651,7 +7351,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (18)
+	; SCHOOLBOY
 	db "Chad@"
 	db 0 ; normal
 
@@ -7663,7 +7363,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (19)
+	; SCHOOLBOY
 	db "Jack@"
 	db 0 ; normal
 
@@ -7676,7 +7376,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (20)
+	; SCHOOLBOY
 	db "Jack@"
 	db 1 ; moves
 
@@ -7704,7 +7404,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (21)
+	; SCHOOLBOY
 	db "Alan@"
 	db 0 ; normal
 
@@ -7718,7 +7418,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (22)
+	; SCHOOLBOY
 	db "Alan@"
 	db 1 ; moves
 
@@ -7752,7 +7452,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (23)
+	; SCHOOLBOY
 	db "Chad@"
 	db 0 ; normal
 
@@ -7764,7 +7464,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (24)
+	; SCHOOLBOY
 	db "Chad@"
 	db 1 ; moves
 
@@ -7786,7 +7486,7 @@ SchoolboyGroup:
 
 ; ================
 
-	; SCHOOLBOY (25)
+	; SCHOOLBOY
 	db "Sherman@"
 	db 0 ; normal
 
@@ -7804,7 +7504,7 @@ SchoolgirlGroup:
 ; ================================
 ; ================
 
-	; SCHOOLGIRL (1)
+	; SCHOOLGIRL
 	db "Audrey@"
 	db 0 ; normal
 
@@ -7817,7 +7517,7 @@ SchoolgirlGroup:
 
 ; ================
 
-	; SCHOOLGIRL (2)
+	; SCHOOLGIRL
 	db "Eliza@"
 	db 2 ; item
 
@@ -7830,7 +7530,7 @@ SchoolgirlGroup:
 
 ; ================
 
-	; SCHOOLGIRL (3)
+	; SCHOOLGIRL
 	db "Faith@"
 	db 0 ; normal
 
@@ -7843,7 +7543,7 @@ SchoolgirlGroup:
 
 ; ================
 
-	; SCHOOLGIRL (4)
+	; SCHOOLGIRL
 	db "Sarah@"
 	db 0 ; normal
 
@@ -7856,7 +7556,7 @@ SchoolgirlGroup:
 
 ; ================
 
-	; SCHOOLGIRL (5)
+	; SCHOOLGIRL
 	db "Isabel@"
 	db 0 ; normal
 
@@ -7869,7 +7569,7 @@ SchoolgirlGroup:
 
 ; ================
 
-	; SCHOOLGIRL (6)
+	; SCHOOLGIRL
 	db "Imogen@"
 	db 0 ; normal
 
@@ -7888,7 +7588,7 @@ PsychicGroup:
 ; ================================
 ; ================
 
-	; PSYCHIC_T (1)
+	; PSYCHIC_T
 	db "Nathan@"
 	db 0 ; normal
 
@@ -7899,7 +7599,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (2)
+	; PSYCHIC_T
 	db "Franklin@"
 	db 0 ; normal
 
@@ -7911,7 +7611,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (3)
+	; PSYCHIC_T
 	db "Herman@"
 	db 0 ; normal
 
@@ -7924,7 +7624,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (4)
+	; PSYCHIC_T
 	db "Fidel@"
 	db 0 ; normal
 
@@ -7935,7 +7635,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (5)
+	; PSYCHIC_T
 	db "Greg@"
 	db 1 ; moves
 
@@ -7951,7 +7651,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (6)
+	; PSYCHIC_T
 	db "Norman@"
 	db 1 ; moves
 
@@ -7973,7 +7673,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (7)
+	; PSYCHIC_T
 	db "Mark@"
 	db 1 ; moves
 
@@ -8001,7 +7701,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (8)
+	; PSYCHIC_T
 	db "Phil@"
 	db 0 ; normal
 
@@ -8013,7 +7713,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (9)
+	; PSYCHIC_T
 	db "Vernon@"
 	db 0 ; normal
 
@@ -8024,7 +7724,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (10)
+	; PSYCHIC_T
 	db "Gilbert@"
 	db 0 ; normal
 
@@ -8037,7 +7737,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (11)
+	; PSYCHIC_T
 	db "Jared@"
 	db 0 ; normal
 
@@ -8050,7 +7750,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (12)
+	; PSYCHIC_T
 	db "Rodney@"
 	db 0 ; normal
 
@@ -8062,7 +7762,7 @@ PsychicGroup:
 
 ; ================
 
-	; PSYCHIC_T (13)
+	; PSYCHIC_T
 	db "Leon@"
 	db 0 ; normal
 
@@ -8081,7 +7781,7 @@ HexManiacGroup:
 ; ================================
 ; ================
 
-	; HEX_MANIAC (1)
+	; HEX_MANIAC
 	db "Tamara@"
 	db 0 ; normal
 
@@ -8093,7 +7793,7 @@ HexManiacGroup:
 
 ; ================
 
-	; HEX_MANIAC (2)
+	; HEX_MANIAC
 	db "Ashley@"
 	db 0 ; normal
 
@@ -8105,7 +7805,7 @@ HexManiacGroup:
 
 ; ================
 
-	; HEX_MANIAC (3)
+	; HEX_MANIAC
 	db "Amy@"
 	db 0 ; normal
 
@@ -8119,7 +7819,7 @@ HexManiacGroup:
 
 ; ================
 
-	; HEX_MANIAC (4)
+	; HEX_MANIAC
 	db "Luna@"
 	db 1 ; moves
 
@@ -8141,7 +7841,7 @@ HexManiacGroup:
 
 ; ================
 
-	; HEX_MANIAC (5)
+	; HEX_MANIAC
 	db "Natalie@"
 	db 0 ; normal
 
@@ -8154,7 +7854,7 @@ HexManiacGroup:
 
 ; ================
 
-	; HEX_MANIAC (6)
+	; HEX_MANIAC
 	db "Vivian@"
 	db 0 ; normal
 
@@ -8174,7 +7874,7 @@ SageGroup:
 ; ================================
 ; ================
 
-	; SAGE (1)
+	; SAGE
 	db "Chow@"
 	db 0 ; normal
 
@@ -8187,7 +7887,7 @@ SageGroup:
 
 ; ================
 
-	; SAGE (2)
+	; SAGE
 	db "Nico@"
 	db 0 ; normal
 
@@ -8200,7 +7900,7 @@ SageGroup:
 
 ; ================
 
-	; SAGE (3)
+	; SAGE
 	db "Jin@"
 	db 0 ; normal
 
@@ -8211,7 +7911,7 @@ SageGroup:
 
 ; ================
 
-	; SAGE (4)
+	; SAGE
 	db "Troy@"
 	db 0 ; normal
 
@@ -8223,7 +7923,7 @@ SageGroup:
 
 ; ================
 
-	; SAGE (5)
+	; SAGE
 	db "Jeffrey@"
 	db 0 ; normal
 
@@ -8235,7 +7935,7 @@ SageGroup:
 
 ; ================
 
-	; SAGE (6)
+	; SAGE
 	db "Ping@"
 	db 0 ; normal
 
@@ -8250,7 +7950,7 @@ SageGroup:
 
 ; ================
 
-	; SAGE (7)
+	; SAGE
 	db "Edmond@"
 	db 0 ; normal
 
@@ -8263,7 +7963,7 @@ SageGroup:
 
 ; ================
 
-	; SAGE (8)
+	; SAGE
 	db "Neal@"
 	db 0 ; normal
 
@@ -8280,7 +7980,7 @@ MediumGroup:
 ; ================================
 ; ================
 
-	; MEDIUM (1)
+	; MEDIUM
 	db "Martha@"
 	db 0 ; normal
 
@@ -8293,7 +7993,7 @@ MediumGroup:
 
 ; ================
 
-	; MEDIUM (2)
+	; MEDIUM
 	db "Grace@"
 	db 0 ; normal
 
@@ -8305,43 +8005,7 @@ MediumGroup:
 
 ; ================
 
-	; unused
-	; MEDIUM (3)
-	db "Bethany@"
-	db 0 ; normal
-
-	; party
-	db 25, HAUNTER
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; MEDIUM (4)
-	db "Margret@"
-	db 0 ; normal
-
-	; party
-	db 25, HAUNTER
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; MEDIUM (5)
-	db "Ethel@"
-	db 0 ; normal
-
-	; party
-	db 25, HAUNTER
-
-	db $ff ; end
-
-; ================
-
-	; MEDIUM (6)
+	; MEDIUM
 	db "Rebecca@"
 	db 0 ; normal
 
@@ -8353,7 +8017,7 @@ MediumGroup:
 
 ; ================
 
-	; MEDIUM (7)
+	; MEDIUM
 	db "Doris@"
 	db 0 ; normal
 
@@ -8371,7 +8035,7 @@ KimonoGirlGroup:
 ; ================================
 ; ================
 
-	; KIMONO_GIRL (1)
+	; KIMONO_GIRL
 	db "Naoko@"
 	db 0 ; normal
 
@@ -8382,7 +8046,7 @@ KimonoGirlGroup:
 
 ; ================
 
-	; KIMONO_GIRL (2)
+	; KIMONO_GIRL
 	db "Sayo@"
 	db 0 ; normal
 
@@ -8393,7 +8057,7 @@ KimonoGirlGroup:
 
 ; ================
 
-	; KIMONO_GIRL (3)
+	; KIMONO_GIRL
 	db "Zuki@"
 	db 0 ; normal
 
@@ -8404,7 +8068,7 @@ KimonoGirlGroup:
 
 ; ================
 
-	; KIMONO_GIRL (4)
+	; KIMONO_GIRL
 	db "Kuni@"
 	db 0 ; normal
 
@@ -8415,7 +8079,7 @@ KimonoGirlGroup:
 
 ; ================
 
-	; KIMONO_GIRL (5)
+	; KIMONO_GIRL
 	db "Miki@"
 	db 0 ; normal
 
@@ -8432,7 +8096,7 @@ ElderGroup:
 ; ================================
 ; ================
 
-	; ELDER (1)
+	; ELDER
 	db "Li@"
 	db 0 ; normal
 
@@ -8445,7 +8109,7 @@ ElderGroup:
 
 ; ================
 
-	; ELDER (2)
+	; ELDER
 	db "Gaku@"
 	db 0 ; normal
 
@@ -8458,7 +8122,7 @@ ElderGroup:
 
 ; ================
 
-	; ELDER (3)
+	; ELDER
 	db "Masa@"
 	db 0 ; normal
 
@@ -8471,7 +8135,7 @@ ElderGroup:
 
 ; ================
 
-	; ELDER (4)
+	; ELDER
 	db "Koji@"
 	db 0 ; normal
 
@@ -8496,6 +8160,61 @@ SrAndJrGroup:
 CoupleGroup:
 ; ================================
 ; ================
+
+	; COUPLE
+	db "Gail & Eli@"
+	db 0 ; normal
+
+	; party
+
+	db 13, SANDSHREW
+	db 15, MARILL
+	db 15, PIKACHU
+	db 13, POLIWAG
+
+	db $ff ; end
+
+; ================
+
+	; COUPLE
+	db "Gail & Eli@"
+	db 0 ; normal
+
+	; party
+
+	db 15, PIKACHU
+	db 13, POLIWAG
+	db 13, SANDSHREW
+	db 15, MARILL
+
+	db $ff ; end
+
+; ================
+
+	; COUPLE
+	db "Duff & Eda@"
+	db 0 ; normal
+
+	; party
+
+	db 25, CLOYSTER
+	db 25, ONIX
+
+	db $ff ; end
+
+; ================
+
+	; COUPLE
+	db "Duff & Eda@"
+	db 0 ; normal
+
+	; party
+
+	db 25, ONIX
+	db 25, CLOYSTER
+
+	db $ff ; end
+
 ; ================
 ; ================================
 
@@ -8504,7 +8223,7 @@ GentlemanGroup:
 ; ================================
 ; ================
 
-	; GENTLEMAN (1)
+	; GENTLEMAN
 	db "Preston@"
 	db 0 ; normal
 
@@ -8516,7 +8235,7 @@ GentlemanGroup:
 
 ; ================
 
-	; GENTLEMAN (2)
+	; GENTLEMAN
 	db "Edward@"
 	db 0 ; normal
 
@@ -8527,7 +8246,7 @@ GentlemanGroup:
 
 ; ================
 
-	; GENTLEMAN (3)
+	; GENTLEMAN
 	db "Gregory@"
 	db 0 ; normal
 
@@ -8540,19 +8259,7 @@ GentlemanGroup:
 
 ; ================
 
-	; unused
-	; GENTLEMAN (4)
-	db "Virgil@"
-	db 0 ; normal
-
-	; party
-	db 20, PONYTA
-
-	db $ff ; end
-
-; ================
-
-	; GENTLEMAN (5)
+	; GENTLEMAN
 	db "Alfred@"
 	db 0 ; normal
 
@@ -8563,7 +8270,7 @@ GentlemanGroup:
 
 ; ================
 
-	; GENTLEMAN (6)
+	; GENTLEMAN
 	db "Milton@"
 	db 0 ; normal
 
@@ -8580,7 +8287,7 @@ RichBoyGroup:
 ; ================================
 ; ================
 
-	; RICH_BOY (1)
+	; RICH_BOY
 	db "Winston@"
 	db 0 ; normal
 
@@ -8593,7 +8300,7 @@ RichBoyGroup:
 
 ; ================
 
-	; RICH_BOY (2)
+	; RICH_BOY
 	db "Gerald@"
 	db 2 ; item
 
@@ -8605,7 +8312,7 @@ RichBoyGroup:
 
 ; ================
 
-	; RICH_BOY (3)
+	; RICH_BOY
 	db "Irving@"
 	db 2 ; item
 
@@ -8619,11 +8326,18 @@ RichBoyGroup:
 ; ================================
 
 
+BreederGroup:
+; ================================
+; ================
+; ================
+; ================================
+
+
 CowgirlGroup:
 ; ================================
 ; ================
 
-	; COWGIRL (1)
+	; COWGIRL
 	db "Annie@"
 	db 0 ; normal
 
@@ -8635,7 +8349,7 @@ CowgirlGroup:
 
 ; ================
 
-	; COWGIRL (2)
+	; COWGIRL
 	db "April@"
 	db 0 ; normal
 
@@ -8648,7 +8362,7 @@ CowgirlGroup:
 
 ; ================
 
-	; COWGIRL (3)
+	; COWGIRL
 	db "Daniela@"
 	db 0 ; normal
 
@@ -8666,7 +8380,7 @@ SailorGroup:
 ; ================================
 ; ================
 
-	; SAILOR (1)
+	; SAILOR
 	db "Eugene@"
 	db 0 ; normal
 
@@ -8679,7 +8393,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (2)
+	; SAILOR
 	db "Huey@"
 	db 0 ; normal
 
@@ -8691,7 +8405,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (3)
+	; SAILOR
 	db "Terrell@"
 	db 0 ; normal
 
@@ -8702,7 +8416,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (4)
+	; SAILOR
 	db "Kent@"
 	db 1 ; moves
 
@@ -8724,7 +8438,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (5)
+	; SAILOR
 	db "Roberto@"
 	db 0 ; normal
 
@@ -8737,7 +8451,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (6)
+	; SAILOR
 	db "Jeff@"
 	db 0 ; normal
 
@@ -8749,7 +8463,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (7)
+	; SAILOR
 	db "Garrett@"
 	db 0 ; normal
 
@@ -8760,7 +8474,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (8)
+	; SAILOR
 	db "Kenneth@"
 	db 0 ; normal
 
@@ -8774,7 +8488,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (9)
+	; SAILOR
 	db "Stanly@"
 	db 0 ; normal
 
@@ -8787,7 +8501,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (10)
+	; SAILOR
 	db "Harry@"
 	db 0 ; normal
 
@@ -8798,7 +8512,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (11)
+	; SAILOR
 	db "Huey@"
 	db 0 ; normal
 
@@ -8810,7 +8524,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (12)
+	; SAILOR
 	db "Huey@"
 	db 0 ; normal
 
@@ -8822,7 +8536,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (13)
+	; SAILOR
 	db "Huey@"
 	db 1 ; moves
 
@@ -8844,7 +8558,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (14)
+	; SAILOR
 	db "Parker@"
 	db 0 ; normal
 
@@ -8856,7 +8570,7 @@ SailorGroup:
 
 ; ================
 
-	; SAILOR (15)
+	; SAILOR
 	db "Eddie@"
 	db 0 ; normal
 
@@ -8873,7 +8587,7 @@ SwimmerMGroup:
 ; ================================
 ; ================
 
-	; SWIMMERM (1)
+	; SWIMMERM
 	db "Harold@"
 	db 0 ; normal
 
@@ -8885,7 +8599,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (2)
+	; SWIMMERM
 	db "Simon@"
 	db 0 ; normal
 
@@ -8897,7 +8611,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (3)
+	; SWIMMERM
 	db "Randall@"
 	db 0 ; normal
 
@@ -8910,7 +8624,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (4)
+	; SWIMMERM
 	db "Charlie@"
 	db 0 ; normal
 
@@ -8923,7 +8637,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (5)
+	; SWIMMERM
 	db "George@"
 	db 0 ; normal
 
@@ -8939,7 +8653,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (6)
+	; SWIMMERM
 	db "Berke@"
 	db 0 ; normal
 
@@ -8950,7 +8664,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (7)
+	; SWIMMERM
 	db "Kirk@"
 	db 0 ; normal
 
@@ -8962,7 +8676,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (8)
+	; SWIMMERM
 	db "Matthew@"
 	db 0 ; normal
 
@@ -8973,7 +8687,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (9)
+	; SWIMMERM
 	db "Hal@"
 	db 0 ; normal
 
@@ -8986,62 +8700,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; unused
-	; SWIMMERM (10)
-	db "Paton@"
-	db 0 ; normal
-
-	; party
-	db 26, PILOSWINE
-	db 26, PILOSWINE
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SWIMMERM (11)
-	db "Daryl@"
-	db 0 ; normal
-
-	; party
-	db 24, SHELLDER
-	db 25, CLOYSTER
-	db 24, SHELLDER
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SWIMMERM (12)
-	db "Walter@"
-	db 0 ; normal
-
-	; party
-	db 15, HORSEA
-	db 15, HORSEA
-	db 20, SEADRA
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SWIMMERM (13)
-	db "Tony@"
-	db 0 ; normal
-
-	; party
-	db 13, STARYU
-	db 18, STARMIE
-	db 16, HORSEA
-
-	db $ff ; end
-
-; ================
-
-	; SWIMMERM (14)
+	; SWIMMERM
 	db "Jerome@"
 	db 0 ; normal
 
@@ -9055,7 +8714,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (15)
+	; SWIMMERM
 	db "Tucker@"
 	db 0 ; normal
 
@@ -9067,7 +8726,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (16)
+	; SWIMMERM
 	db "Rick@"
 	db 0 ; normal
 
@@ -9080,7 +8739,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (17)
+	; SWIMMERM
 	db "Frankie@"
 	db 0 ; normal
 
@@ -9091,7 +8750,7 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (18)
+	; SWIMMERM
 	db "Tyson@"
 	db 0 ; normal
 
@@ -9104,22 +8763,8 @@ SwimmerMGroup:
 
 ; ================
 
-	; SWIMMERM (19)
+	; SWIMMERM
 	db "James@"
-	db 0 ; normal
-
-	; party
-	db 13, STARYU
-	db 18, STARMIE
-	db 16, HORSEA
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SWIMMERM (20)
-	db "Lewis@"
 	db 0 ; normal
 
 	; party
@@ -9137,7 +8782,7 @@ SwimmerFGroup:
 ; ================================
 ; ================
 
-	; SWIMMERF (1)
+	; SWIMMERF
 	db "Elaine@"
 	db 0 ; normal
 
@@ -9148,7 +8793,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (2)
+	; SWIMMERF
 	db "Paula@"
 	db 0 ; normal
 
@@ -9160,7 +8805,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (3)
+	; SWIMMERF
 	db "Kaylee@"
 	db 0 ; normal
 
@@ -9173,7 +8818,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (4)
+	; SWIMMERF
 	db "Susie@"
 	db 0 ; normal
 
@@ -9186,7 +8831,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (5)
+	; SWIMMERF
 	db "Denise@"
 	db 0 ; normal
 
@@ -9197,7 +8842,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (6)
+	; SWIMMERF
 	db "Kara@"
 	db 0 ; normal
 
@@ -9209,7 +8854,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (7)
+	; SWIMMERF
 	db "Wendy@"
 	db 1 ; moves
 
@@ -9231,31 +8876,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; unused
-	; SWIMMERF (8)
-	db "Lisa@"
-	db 0 ; normal
-
-	; party
-	db 28, JYNX
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; SWIMMERF (9)
-	db "Jill@"
-	db 0 ; normal
-
-	; party
-	db 28, DEWGONG
-
-	db $ff ; end
-
-; ================
-
-	; SWIMMERF (10)
+	; SWIMMERF
 	db "Mary@"
 	db 0 ; normal
 
@@ -9266,19 +8887,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; unused
-	; SWIMMERF (11)
-	db "Katie@"
-	db 0 ; normal
-
-	; party
-	db 33, DEWGONG
-
-	db $ff ; end
-
-; ================
-
-	; SWIMMERF (12)
+	; SWIMMERF
 	db "Debbie@"
 	db 0 ; normal
 
@@ -9289,19 +8898,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; unused
-	; SWIMMERF (13)
-	db "Tara@"
-	db 0 ; normal
-
-	; party
-	db 20, POLIWHIRL
-
-	db $ff ; end
-
-; ================
-
-	; SWIMMERF (14)
+	; SWIMMERF
 	db "Nicole@"
 	db 0 ; normal
 
@@ -9314,7 +8911,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (15)
+	; SWIMMERF
 	db "Lori@"
 	db 0 ; normal
 
@@ -9327,19 +8924,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; unused
-	; SWIMMERF (16)
-	db "Jody@"
-	db 0 ; normal
-
-	; party
-	db 20, GOLDUCK
-
-	db $ff ; end
-
-; ================
-
-	; SWIMMERF (17)
+	; SWIMMERF
 	db "Nikki@"
 	db 0 ; normal
 
@@ -9353,7 +8938,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (18)
+	; SWIMMERF
 	db "Diana@"
 	db 0 ; normal
 
@@ -9364,7 +8949,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (19)
+	; SWIMMERF
 	db "Briana@"
 	db 0 ; normal
 
@@ -9376,7 +8961,7 @@ SwimmerFGroup:
 
 ; ================
 
-	; SWIMMERF (20)
+	; SWIMMERF
 	db "Joy@"
 	db 0 ; normal
 
@@ -9393,7 +8978,7 @@ BurglarGroup:
 ; ================================
 ; ================
 
-	; BURGLAR (1)
+	; BURGLAR
 	db "Duncan@"
 	db 0 ; normal
 
@@ -9406,7 +8991,7 @@ BurglarGroup:
 
 ; ================
 
-	; BURGLAR (2)
+	; BURGLAR
 	db "Eddie@"
 	db 0 ; normal
 
@@ -9418,7 +9003,7 @@ BurglarGroup:
 
 ; ================
 
-	; BURGLAR (3)
+	; BURGLAR
 	db "Corey@"
 	db 0 ; normal
 
@@ -9432,7 +9017,7 @@ BurglarGroup:
 
 ; ================
 
-	; BURGLAR (4)
+	; BURGLAR
 	db "Pete@"
 	db 0 ; normal
 
@@ -9444,7 +9029,7 @@ BurglarGroup:
 
 ; ================
 
-	; BURGLAR (5)
+	; BURGLAR
 	db "Louis@"
 	db 0 ; normal
 
@@ -9469,7 +9054,7 @@ ScientistGroup:
 ; ================================
 ; ================
 
-	; SCIENTIST (1)
+	; SCIENTIST
 	db "Ross@"
 	db 0 ; normal
 
@@ -9481,7 +9066,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (2)
+	; SCIENTIST
 	db "Mitch@"
 	db 0 ; normal
 
@@ -9493,7 +9078,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (3)
+	; SCIENTIST
 	db "Jed@"
 	db 0 ; normal
 
@@ -9506,7 +9091,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (4)
+	; SCIENTIST
 	db "Garrett@"
 	db 0 ; normal
 
@@ -9519,7 +9104,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (5)
+	; SCIENTIST
 	db "Trenton@"
 	db 1 ; moves
 
@@ -9535,7 +9120,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (6)
+	; SCIENTIST
 	db "Lowell@"
 	db 0 ; normal
 
@@ -9546,7 +9131,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (7)
+	; SCIENTIST
 	db "Dennett@"
 	db 0 ; normal
 
@@ -9557,7 +9142,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (8)
+	; SCIENTIST
 	db "Linden@"
 	db 0 ; normal
 
@@ -9568,7 +9153,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (9)
+	; SCIENTIST
 	db "Oskar@"
 	db 0 ; normal
 
@@ -9581,7 +9166,7 @@ ScientistGroup:
 
 ; ================
 
-	; SCIENTIST (10)
+	; SCIENTIST
 	db "Braydon@"
 	db 0 ; normal
 
@@ -9600,7 +9185,7 @@ BoarderGroup:
 ; ================================
 ; ================
 
-	; BOARDER (1)
+	; BOARDER
 	db "Ronald@"
 	db 0 ; normal
 
@@ -9613,7 +9198,7 @@ BoarderGroup:
 
 ; ================
 
-	; BOARDER (2)
+	; BOARDER
 	db "Brad@"
 	db 0 ; normal
 
@@ -9625,7 +9210,7 @@ BoarderGroup:
 
 ; ================
 
-	; BOARDER (3)
+	; BOARDER
 	db "Douglas@"
 	db 0 ; normal
 
@@ -9638,7 +9223,7 @@ BoarderGroup:
 
 ; ================
 
-	; BOARDER (4)
+	; BOARDER
 	db "Shaun@"
 	db 0 ; normal
 
@@ -9650,7 +9235,7 @@ BoarderGroup:
 
 ; ================
 
-	; BOARDER (5)
+	; BOARDER
 	db "Bryce@"
 	db 0 ; normal
 
@@ -9662,7 +9247,7 @@ BoarderGroup:
 
 ; ================
 
-	; BOARDER (6)
+	; BOARDER
 	db "Stefan@"
 	db 0 ; normal
 
@@ -9675,7 +9260,7 @@ BoarderGroup:
 
 ; ================
 
-	; BOARDER (6)
+	; BOARDER
 	db "Max@"
 	db 0 ; normal
 
@@ -9693,7 +9278,7 @@ SkierGroup:
 ; ================================
 ; ================
 
-	; SKIER (1)
+	; SKIER
 	db "Roxanne@"
 	db 0 ; normal
 
@@ -9704,7 +9289,7 @@ SkierGroup:
 
 ; ================
 
-	; SKIER (2)
+	; SKIER
 	db "Clarissa@"
 	db 0 ; normal
 
@@ -9715,7 +9300,7 @@ SkierGroup:
 
 ; ================
 
-	; SKIER (3)
+	; SKIER
 	db "Cady@"
 	db 0 ; normal
 
@@ -9726,7 +9311,7 @@ SkierGroup:
 
 ; ================
 
-	; SKIER (4)
+	; SKIER
 	db "Maria@"
 	db 0 ; normal
 
@@ -9737,7 +9322,7 @@ SkierGroup:
 
 ; ================
 
-	; SKIER (5)
+	; SKIER
 	db "Becky@"
 	db 0 ; normal
 
@@ -9756,7 +9341,7 @@ BlackbeltGroup:
 ; ================================
 ; ================
 
-	; BLACKBELT_T (1)
+	; BLACKBELT_T
 	db "Kenji@"
 	db 0 ; normal
 
@@ -9770,7 +9355,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (2)
+	; BLACKBELT_T
 	db "Yoshi@"
 	db 1 ; moves
 
@@ -9786,7 +9371,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (3)
+	; BLACKBELT_T
 	db "Kenji@"
 	db 1 ; moves
 
@@ -9820,7 +9405,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (4)
+	; BLACKBELT_T
 	db "Lao@"
 	db 1 ; moves
 
@@ -9836,7 +9421,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (5)
+	; BLACKBELT_T
 	db "Nob@"
 	db 1 ; moves
 
@@ -9858,7 +9443,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (6)
+	; BLACKBELT_T
 	db "Kiyo@"
 	db 3 ; item + moves
 
@@ -9886,7 +9471,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (7)
+	; BLACKBELT_T
 	db "Lung@"
 	db 0 ; normal
 
@@ -9899,7 +9484,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (8)
+	; BLACKBELT_T
 	db "Kenji@"
 	db 0 ; normal
 
@@ -9910,7 +9495,7 @@ BlackbeltGroup:
 
 ; ================
 
-	; BLACKBELT_T (9)
+	; BLACKBELT_T
 	db "Wai@"
 	db 0 ; normal
 
@@ -9929,7 +9514,7 @@ BattleGirlGroup:
 ; ================================
 ; ================
 
-	; BATTLE_GIRL (1)
+	; BATTLE_GIRL
 	db "Subaru@"
 	db 0 ; normal
 
@@ -9942,7 +9527,7 @@ BattleGirlGroup:
 
 ; ================
 
-	; BATTLE_GIRL (2)
+	; BATTLE_GIRL
 	db "Diane@"
 	db 0 ; normal
 
@@ -9954,7 +9539,7 @@ BattleGirlGroup:
 
 ; ================
 
-	; BATTLE_GIRL (3)
+	; BATTLE_GIRL
 	db "Kagami@"
 	db 0 ; normal
 
@@ -9967,7 +9552,7 @@ BattleGirlGroup:
 
 ; ================
 
-	; BATTLE_GIRL (4)
+	; BATTLE_GIRL
 	db "Nozomi@"
 	db 0 ; normal
 
@@ -9980,7 +9565,7 @@ BattleGirlGroup:
 
 ; ================
 
-	; BATTLE_GIRL (5)
+	; BATTLE_GIRL
 	db "Ronda@"
 	db 0 ; normal
 
@@ -9993,7 +9578,7 @@ BattleGirlGroup:
 
 ; ================
 
-	; BATTLE_GIRL (6)
+	; BATTLE_GIRL
 	db "Padma@"
 	db 0 ; normal
 
@@ -10019,7 +9604,7 @@ TeacherGroup:
 ; ================================
 ; ================
 
-	; TEACHER (1)
+	; TEACHER
 	db "Colette@"
 	db 0 ; normal
 
@@ -10030,7 +9615,7 @@ TeacherGroup:
 
 ; ================
 
-	; TEACHER (2)
+	; TEACHER
 	db "Hillary@"
 	db 0 ; normal
 
@@ -10043,7 +9628,7 @@ TeacherGroup:
 
 ; ================
 
-	; TEACHER (3)
+	; TEACHER
 	db "Shirley@"
 	db 0 ; normal
 
@@ -10054,7 +9639,7 @@ TeacherGroup:
 
 ; ================
 
-	; TEACHER (4)
+	; TEACHER
 	db "Kathryn@"
 	db 0 ; normal
 
@@ -10074,7 +9659,7 @@ GuitaristMGroup:
 ; ================================
 ; ================
 
-	; GUITARISTM (1)
+	; GUITARISTM
 	db "Clyde@"
 	db 0 ; normal
 
@@ -10085,7 +9670,7 @@ GuitaristMGroup:
 
 ; ================
 
-	; GUITARISTM (2)
+	; GUITARISTM
 	db "Vincent@"
 	db 0 ; normal
 
@@ -10104,7 +9689,7 @@ GuitaristFGroup:
 ; ================================
 ; ================
 
-	; GUITARISTF (1)
+	; GUITARISTF
 	db "Janet@"
 	db 1 ; moves
 
@@ -10138,35 +9723,7 @@ BikerGroup:
 ; ================================
 ; ================
 
-	; unused
-	; BIKER (1)
-	db "Benny@"
-	db 0 ; normal
-
-	; party
-	db 20, KOFFING
-	db 20, KOFFING
-	db 20, KOFFING
-
-	db $ff ; end
-
-; ================
-
-	; unused
-	; BIKER (2)
-	db "Kazu@"
-	db 0 ; normal
-
-	; party
-	db 20, KOFFING
-	db 20, KOFFING
-	db 20, KOFFING
-
-	db $ff ; end
-
-; ================
-
-	; BIKER (3)
+	; BIKER
 	db "Dwayne@"
 	db 0 ; normal
 
@@ -10180,7 +9737,7 @@ BikerGroup:
 
 ; ================
 
-	; BIKER (4)
+	; BIKER
 	db "Harris@"
 	db 0 ; normal
 
@@ -10191,7 +9748,7 @@ BikerGroup:
 
 ; ================
 
-	; BIKER (5)
+	; BIKER
 	db "Zeke@"
 	db 0 ; normal
 
@@ -10203,7 +9760,7 @@ BikerGroup:
 
 ; ================
 
-	; BIKER (6)
+	; BIKER
 	db "Charles@"
 	db 0 ; normal
 
@@ -10216,7 +9773,7 @@ BikerGroup:
 
 ; ================
 
-	; BIKER (7)
+	; BIKER
 	db "Riley@"
 	db 0 ; normal
 
@@ -10227,7 +9784,7 @@ BikerGroup:
 
 ; ================
 
-	; BIKER (8)
+	; BIKER
 	db "Joel@"
 	db 0 ; normal
 
@@ -10239,7 +9796,7 @@ BikerGroup:
 
 ; ================
 
-	; BIKER (9)
+	; BIKER
 	db "Glenn@"
 	db 0 ; normal
 
@@ -10265,7 +9822,7 @@ CooltrainerMGroup:
 ; ================================
 ; ================
 
-	; COOLTRAINERM (1)
+	; COOLTRAINERM
 	db "Nick@"
 	db 1 ; moves
 
@@ -10293,7 +9850,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (2)
+	; COOLTRAINERM
 	db "Aaron@"
 	db 0 ; normal
 
@@ -10306,7 +9863,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (3)
+	; COOLTRAINERM
 	db "Paulo@"
 	db 0 ; normal
 
@@ -10319,7 +9876,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (4)
+	; COOLTRAINERM
 	db "Cody@"
 	db 0 ; normal
 
@@ -10331,7 +9888,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (5)
+	; COOLTRAINERM
 	db "Mike@"
 	db 0 ; normal
 
@@ -10342,7 +9899,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (6)
+	; COOLTRAINERM
 	db "Gaven@"
 	db 1 ; moves
 
@@ -10370,7 +9927,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (7)
+	; COOLTRAINERM
 	db "Gaven@"
 	db 3 ; item + moves
 
@@ -10398,7 +9955,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (8)
+	; COOLTRAINERM
 	db "Ryan@"
 	db 1 ; moves
 
@@ -10420,7 +9977,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (9)
+	; COOLTRAINERM
 	db "Jake@"
 	db 1 ; moves
 
@@ -10448,7 +10005,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (10)
+	; COOLTRAINERM
 	db "Gaven@"
 	db 1 ; moves
 
@@ -10476,7 +10033,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (11)
+	; COOLTRAINERM
 	db "Blake@"
 	db 1 ; moves
 
@@ -10504,7 +10061,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (12)
+	; COOLTRAINERM
 	db "Brian@"
 	db 1 ; moves
 
@@ -10520,21 +10077,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; unused
-	; COOLTRAINERM (13)
-	db "Erick@"
-	db 0 ; normal
-
-	; party
-	db 10, BULBASAUR
-	db 10, CHARMANDER
-	db 10, SQUIRTLE
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERM (14)
+	; COOLTRAINERM
 	db "Andy@"
 	db 0 ; normal
 
@@ -10547,21 +10090,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; unused
-	; COOLTRAINERM (15)
-	db "Tyler@"
-	db 0 ; normal
-
-	; party
-	db 10, BULBASAUR
-	db 10, CHARMANDER
-	db 10, SQUIRTLE
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERM (16)
+	; COOLTRAINERM
 	db "Sean@"
 	db 0 ; normal
 
@@ -10574,7 +10103,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (17)
+	; COOLTRAINERM
 	db "Kevin@"
 	db 0 ; normal
 
@@ -10587,21 +10116,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; unused
-	; COOLTRAINERM (18)
-	db "Steve@"
-	db 0 ; normal
-
-	; party
-	db 14, BULBASAUR
-	db 14, CHARMANDER
-	db 14, SQUIRTLE
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERM (19)
+	; COOLTRAINERM
 	db "Allen@"
 	db 1 ; moves
 
@@ -10623,7 +10138,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (20)
+	; COOLTRAINERM
 	db "Darin@"
 	db 1 ; moves
 
@@ -10639,32 +10154,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (21)
-	db "Abdul@"
-	db 0 ; normal
-
-	; party
-
-	db 53, GIRAFARIG
-	db 52, TAUROS
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERM (22)
-	db "Elan@"
-	db 0 ; normal
-
-	; party
-
-	db 55, PORYGON2
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERM (23)
+	; COOLTRAINERM
 	db "French@"
 	db 0 ; normal
 
@@ -10677,20 +10167,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (24)
-	db "Thom@"
-	db 0 ; normal
-
-	; party
-
-	db 25, MAGMAR
-	db 25, ELECTABUZZ
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERM (25)
+	; COOLTRAINERM
 	db "Matt@"
 	db 3 ; item + moves
 
@@ -10736,7 +10213,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (26)
+	; COOLTRAINERM
 	db "Ringo@"
 	db 3 ; item + moves
 
@@ -10782,7 +10259,7 @@ CooltrainerMGroup:
 
 ; ================
 
-	; COOLTRAINERM (27)
+	; COOLTRAINERM
 	db "Henri@"
 	db 0 ; normal
 
@@ -10801,7 +10278,7 @@ CooltrainerFGroup:
 ; ================================
 ; ================
 
-	; COOLTRAINERF (1)
+	; COOLTRAINERF
 	db "Gwen@"
 	db 0 ; normal
 
@@ -10815,7 +10292,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (2)
+	; COOLTRAINERF
 	db "Lois@"
 	db 0 ; normal
 
@@ -10827,7 +10304,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (3)
+	; COOLTRAINERF
 	db "Fran@"
 	db 0 ; normal
 
@@ -10838,7 +10315,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (4)
+	; COOLTRAINERF
 	db "Lola@"
 	db 0 ; normal
 
@@ -10850,7 +10327,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (5)
+	; COOLTRAINERF
 	db "Kate@"
 	db 0 ; normal
 
@@ -10862,7 +10339,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (6)
+	; COOLTRAINERF
 	db "Irene@"
 	db 0 ; normal
 
@@ -10874,7 +10351,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (7)
+	; COOLTRAINERF
 	db "Kelly@"
 	db 0 ; normal
 
@@ -10887,7 +10364,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (8)
+	; COOLTRAINERF
 	db "Joyce@"
 	db 1 ; moves
 
@@ -10909,7 +10386,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (9)
+	; COOLTRAINERF
 	db "Beth@"
 	db 1 ; moves
 
@@ -10931,7 +10408,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (10)
+	; COOLTRAINERF
 	db "Reena@"
 	db 0 ; normal
 
@@ -10944,7 +10421,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (11)
+	; COOLTRAINERF
 	db "Megan@"
 	db 1 ; moves
 
@@ -10972,7 +10449,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (12)
+	; COOLTRAINERF
 	db "Beth@"
 	db 1 ; moves
 
@@ -10994,7 +10471,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (13)
+	; COOLTRAINERF
 	db "Carol@"
 	db 0 ; normal
 
@@ -11007,7 +10484,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (14)
+	; COOLTRAINERF
 	db "Quinn@"
 	db 0 ; normal
 
@@ -11019,7 +10496,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (15)
+	; COOLTRAINERF
 	db "Emma@"
 	db 0 ; normal
 
@@ -11030,7 +10507,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (16)
+	; COOLTRAINERF
 	db "Cybil@"
 	db 1 ; moves
 
@@ -11052,7 +10529,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (17)
+	; COOLTRAINERF
 	db "Jenn@"
 	db 0 ; normal
 
@@ -11064,7 +10541,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (18)
+	; COOLTRAINERF
 	db "Beth@"
 	db 3 ; item + moves
 
@@ -11080,7 +10557,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (19)
+	; COOLTRAINERF
 	db "Reena@"
 	db 0 ; normal
 
@@ -11093,7 +10570,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (20)
+	; COOLTRAINERF
 	db "Reena@"
 	db 3 ; item + moves
 
@@ -11121,7 +10598,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (21)
+	; COOLTRAINERF
 	db "Piper@"
 	db 1 ; moves
 
@@ -11149,7 +10626,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (22)
+	; COOLTRAINERF
 	db "Salma@"
 	db 0 ; normal
 
@@ -11162,7 +10639,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (23)
+	; COOLTRAINERF
 	db "Bonita@"
 	db 0 ; normal
 
@@ -11175,32 +10652,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (24)
-	db "Ida@"
-	db 0 ; normal
-
-	; party
-
-	db 55, AZUMARILL
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERF (25)
-	db "Kae@"
-	db 0 ; normal
-
-	; party
-
-	db 25, CLOYSTER
-	db 25, ONIX
-
-	db $ff ; end
-
-; ================
-
-	; COOLTRAINERF (26)
+	; COOLTRAINERF
 	db "Joanne@"
 	db 3 ; item + moves
 
@@ -11246,7 +10698,7 @@ CooltrainerFGroup:
 
 ; ================
 
-	; COOLTRAINERF (27)
+	; COOLTRAINERF
 	db "Kotori@"
 	db 3 ; item + moves
 
@@ -11297,6 +10749,109 @@ CooltrainerFGroup:
 AceDuoGroup:
 ; ================================
 ; ================
+
+	; ACE_DUO
+	db "Elan & Ida@"
+	db 0 ; normal
+
+	; party
+
+	db 55, PORYGON2
+	db 55, AZUMARILL
+
+	db $ff ; end
+
+; ================
+
+	; ACE_DUO
+	db "Elan & Ida@"
+	db 0 ; normal
+
+	; party
+
+	db 55, AZUMARILL
+	db 55, PORYGON2
+
+	db $ff ; end
+
+; ================
+
+	; ACE_DUO
+	db "Ara & Bela@"
+	db 0 ; normal
+
+	; party
+
+	db 53, GIRAFARIG
+	db 52, TAUROS
+
+	db $ff ; end
+
+; ================
+
+	; ACE_DUO
+	db "Ara & Bela@"
+	db 0 ; normal
+
+	; party
+
+	db 52, TAUROS
+	db 53, GIRAFARIG
+
+	db $ff ; end
+
+; ================
+
+	; ACE_DUO
+	db "Thom & Kae@"
+	db 0 ; normal
+
+	; party
+
+	db 25, MAGMAR
+	db 25, ELECTABUZZ
+
+	db $ff ; end
+
+; ================
+
+	; ACE_DUO
+	db "Thom & Kae@"
+	db 0 ; normal
+
+	; party
+
+	db 25, ELECTABUZZ
+	db 25, MAGMAR
+
+	db $ff ; end
+
+; ================
+
+	; ACE_DUO
+	db "Zac & Jen@"
+	db 0 ; normal
+
+	; party
+
+	db 47, DUGTRIO
+	db 47, ELECTABUZZ
+
+	db $ff ; end
+
+; ================
+
+	; ACE_DUO
+	db "Zac & Jen@"
+	db 0 ; normal
+
+	; party
+
+	db 47, ELECTABUZZ
+	db 47, DUGTRIO
+
+	db $ff ; end
+
 ; ================
 ; ================================
 
@@ -11305,7 +10860,7 @@ ExecutiveMGroup:
 ; ================================
 ; ================
 
-	; EXECUTIVEM (1)
+	; EXECUTIVEM
 	; (HGSS Executive Archer)
 	db "Executive@"
 	db 3 ; item + moves
@@ -11346,7 +10901,7 @@ ExecutiveMGroup:
 
 ; ================
 
-	; EXECUTIVEM (2)
+	; EXECUTIVEM
 	; (HGSS Executive Proton)
 	db "Executive@"
 	db 3 ; item + moves
@@ -11375,7 +10930,7 @@ ExecutiveMGroup:
 
 ; ================
 
-	; EXECUTIVEM (3)
+	; EXECUTIVEM
 	; (HGSS Executive Petrel)
 	db "Executive@"
 	db 3 ; item + moves
@@ -11416,7 +10971,7 @@ ExecutiveMGroup:
 
 ; ================
 
-	; EXECUTIVEM (4)
+	; EXECUTIVEM
 	; (HGSS Executive Petrel)
 	db "Executive@"
 	db 3 ; item + moves
@@ -11451,7 +11006,7 @@ ExecutiveMGroup:
 
 ; ================
 
-	; EXECUTIVEM (5)
+	; EXECUTIVEM
 	; (HGSS Executive Proton)
 	db "Executive@"
 	db 0 ; normal
@@ -11465,7 +11020,7 @@ ExecutiveMGroup:
 
 ; ================
 
-	; EXECUTIVEM (6)
+	; EXECUTIVEM
 	; (Archer)
 	db "Executive@"
 	db 3 ; item + moves
@@ -11506,7 +11061,7 @@ ExecutiveFGroup:
 ; ================================
 ; ================
 
-	; EXECUTIVEF (1)
+	; EXECUTIVEF
 	; (HGSS Executive Ariana)
 	db "Executive@"
 	db 3 ; item + moves
@@ -11535,7 +11090,7 @@ ExecutiveFGroup:
 
 ; ================
 
-	; EXECUTIVEF (2)
+	; EXECUTIVEF
 	; (HGSS Executive Ariana)
 	db "Executive@"
 	db 3 ; item + moves
@@ -11571,7 +11126,7 @@ PokemonProfGroup:
 ; ================
 
 	; unused
-	; POKEMON_PROF (1)
+	; POKEMON_PROF
 	db "Oak@"
 	db 0 ; normal
 
@@ -11594,7 +11149,7 @@ GameFreakGroup:
 ; ================
 
 	; unused
-	; GAME_FREAK (1)
+	; GAME_FREAK
 	db "Morimoto@"
 	db 0 ; normal
 
@@ -11611,7 +11166,7 @@ GameFreakGroup:
 ; ================
 
 	; unused
-	; GAME_FREAK (2)
+	; GAME_FREAK
 	db "Nishino@"
 	db 0 ; normal
 
@@ -11628,7 +11183,7 @@ GameFreakGroup:
 ; ================
 
 	; unused
-	; GAME_FREAK (3)
+	; GAME_FREAK
 	db "Ishihara@"
 	db 0 ; normal
 
@@ -11650,7 +11205,7 @@ MysticalmanGroup:
 ; ================================
 ; ================
 
-	; MYSTICALMAN (1)
+	; MYSTICALMAN
 	db "Eusine@"
 	db 3 ; item + moves
 
@@ -11690,7 +11245,7 @@ LyraGroup:
 ; ================================
 ; ================
 
-	; LYRA (1)
+	; LYRA
 	db "Lyra@"
 	db 0 ; normal
 
@@ -11701,7 +11256,7 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (2)
+	; LYRA
 	db "Lyra@"
 	db 0 ; normal
 
@@ -11712,7 +11267,7 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (3)
+	; LYRA
 	db "Lyra@"
 	db 0 ; normal
 
@@ -11723,7 +11278,7 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (4)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
@@ -11737,7 +11292,7 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (5)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
@@ -11751,7 +11306,7 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (6)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
@@ -11765,52 +11320,52 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (7)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
 	; party
-	db 23, PIDGEOTTO, NO_ITEM
-	db 25, GROWLITHE, NO_ITEM
-	db 25, AZUMARILL, NO_ITEM
-	db 24, FURRET, NO_ITEM
-	db 27, BAYLEEF, BERRY
+	db 30, PIDGEOTTO, NO_ITEM
+	db 32, GROWLITHE, NO_ITEM
+	db 32, AZUMARILL, NO_ITEM
+	db 31, FURRET, NO_ITEM
+	db 35, BAYLEEF, BERRY
 
 	db $ff ; end
 
 ; ================
 
-	; LYRA (8)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
 	; party
-	db 23, PIDGEOTTO, NO_ITEM
-	db 25, SUNFLORA, NO_ITEM
-	db 25, AZUMARILL, NO_ITEM
-	db 24, FURRET, NO_ITEM
-	db 27, QUILAVA, BERRY
+	db 30, PIDGEOTTO, NO_ITEM
+	db 32, SUNFLORA, NO_ITEM
+	db 32, AZUMARILL, NO_ITEM
+	db 31, FURRET, NO_ITEM
+	db 35, QUILAVA, BERRY
 
 	db $ff ; end
 
 ; ================
 
-	; LYRA (9)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
 	; party
-	db 23, PIDGEOTTO, NO_ITEM
-	db 25, SUNFLORA, NO_ITEM
-	db 25, GROWLITHE, NO_ITEM
-	db 24, FURRET, NO_ITEM
-	db 27, CROCONAW, BERRY
+	db 30, PIDGEOTTO, NO_ITEM
+	db 32, SUNFLORA, NO_ITEM
+	db 32, GROWLITHE, NO_ITEM
+	db 31, FURRET, NO_ITEM
+	db 35, CROCONAW, BERRY
 
 	db $ff ; end
 
 ; ================
 
-	; LYRA (10)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
@@ -11826,7 +11381,7 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (11)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
@@ -11842,7 +11397,7 @@ LyraGroup:
 
 ; ================
 
-	; LYRA (12)
+	; LYRA
 	db "Lyra@"
 	db 2 ; item
 
@@ -11864,7 +11419,7 @@ LoreleiGroup:
 ; ================================
 ; ================
 
-	; LORELEI (1)
+	; LORELEI
 	db "Lorelei@"
 	db 3 ; item + moves
 
@@ -11910,7 +11465,7 @@ LoreleiGroup:
 
 ; ================
 
-	; LORELEI (2)
+	; LORELEI
 	db "Lorelei@"
 	db 3 ; item + moves
 
@@ -11962,7 +11517,7 @@ AgathaGroup:
 ; ================================
 ; ================
 
-	; AGATHA (1)
+	; AGATHA
 	db "Agatha@"
 	db 3 ; item + moves
 
@@ -12014,7 +11569,7 @@ YellowGroup:
 ; ================================
 ; ================
 
-	; YELLOW (1)
+	; YELLOW
 	db "Yellow@"
 	db 3 ; item + moves
 
@@ -12066,7 +11621,7 @@ BillGroup:
 ; ================================
 ; ================
 
-	; BILL_T (1)
+	; BILL_T
 	db "Bill@"
 	db 3 ; item + moves
 
@@ -12118,7 +11673,7 @@ LawrenceGroup:
 ; ================================
 ; ================
 
-	; LAWRENCE (1)
+	; LAWRENCE
 	db "Lawrence@"
 	db 3 ; item + moves
 
@@ -12171,7 +11726,7 @@ GiovanniGroup:
 ; ================
 
 	; unused
-	; GIOVANNI (1)
+	; GIOVANNI
 	db "Giovanni@"
 	db 3 ; item + moves
 
@@ -12224,7 +11779,7 @@ StevenGroup:
 ; ================
 
 	; unused
-	; STEVEN (1)
+	; STEVEN
 	db "Steven@"
 	db 0 ; normal
 
@@ -12251,7 +11806,7 @@ CynthiaGroup:
 ; ================
 
 	; unused
-	; CYNTHIA (1)
+	; CYNTHIA
 	db "Cynthia@"
 	db 0 ; normal
 
@@ -12274,7 +11829,7 @@ TowerTycoonGroup:
 ; ================
 
 	; unused
-	; TOWERTYCOON (1)
+	; TOWERTYCOON
 	db "Palmer@"
 	db 0 ; normal
 
@@ -12293,44 +11848,43 @@ ValerieGroup:
 ; ================================
 ; ================
 
-	; unused
-	; VALERIE (1)
+	; VALERIE
 	db "Valerie@"
 	db 3 ; item + moves
 
 	; party
 
-	db 35, CLEFABLE, BRIGHTPOWDER
+	db 35, CLEFABLE, NO_ITEM
 		db DISARM_VOICE
 		db MINIMIZE
 		db BATON_PASS
 		db METRONOME
 
-	db 35, MR__MIME, TWISTEDSPOON
+	db 35, MR__MIME, NO_ITEM
 		db PSYBEAM
 		db CONFUSE_RAY
 		db LIGHT_SCREEN
 		db REFLECT
 
-	db 34, WIGGLYTUFF, HARD_STONE
+	db 34, WIGGLYTUFF, NO_ITEM
 		db REST
 		db SLEEP_TALK
 		db DISARM_VOICE
 		db ROLLOUT
 
-	db 34, AZUMARILL, MYSTIC_WATER
+	db 34, AZUMARILL, NO_ITEM
 		db PLAY_ROUGH
 		db AQUA_TAIL
 		db DIZZY_PUNCH
 		db ROLLOUT
 
-	db 36, TOGEKISS, LEFTOVERS
+	db 36, TOGETIC, NO_ITEM
 		db ANCIENTPOWER
 		db SOFTBOILED
 		db FAIRY_WIND
-		db AIR_SLASH
+		db ENCORE
 
-	db 38, SYLVEON, PINK_BOW
+	db 38, SYLVEON, GOLD_BERRY
 		db MOONBLAST
 		db CALM_MIND
 		db DRAIN_KISS
@@ -12346,7 +11900,7 @@ ReiGroup:
 ; ================================
 ; ================
 
-	; REI (1)
+	; REI
 	db "Maiden Rei@"
 	db 0 ; normal
 

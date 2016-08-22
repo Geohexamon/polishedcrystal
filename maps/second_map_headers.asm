@@ -403,6 +403,7 @@
 	map_header_2 EcruteakMart, ECRUTEAK_MART, $0, 0
 	map_header_2 EcruteakGym, ECRUTEAK_GYM, $0, 0
 	map_header_2 EcruteakItemfinderHouse, ECRUTEAK_ITEMFINDER_HOUSE, $0, 0
+	map_header_2 ValeriesHouse, VALERIES_HOUSE, $0, 0
 	map_header_2 EcruteakShrineOutside, ECRUTEAK_SHRINE_OUTSIDE, $5, 0
 	map_header_2 EcruteakShrineInside, ECRUTEAK_SHRINE_INSIDE, $0, 0
 	map_header_2 BlackthornGym1F, BLACKTHORN_GYM_1F, $0, 0
@@ -557,6 +558,10 @@
 	map_header_2 Route16Gate, ROUTE_16_GATE, $0, 0
 	map_header_2 Route7SaffronGate, ROUTE_7_SAFFRON_GATE, $0, 0
 	map_header_2 Route1718Gate, ROUTE_17_18_GATE, $0, 0
+	map_header_2 CeladonHomeDecorStore1F, CELADON_HOME_DECOR_STORE_1F, $0, 0
+	map_header_2 CeladonHomeDecorStore2F, CELADON_HOME_DECOR_STORE_2F, $0, 0
+	map_header_2 CeladonHomeDecorStore3F, CELADON_HOME_DECOR_STORE_3F, $0, 0
+	map_header_2 CeladonHomeDecorStore4F, CELADON_HOME_DECOR_STORE_4F, $0, 0
 	map_header_2 ManiasHouse, MANIAS_HOUSE, $0, 0
 	map_header_2 CianwoodGym, CIANWOOD_GYM, $0, 0
 	map_header_2 CianwoodPokeCenter1F, CIANWOOD_POKECENTER_1F, $0, 0
