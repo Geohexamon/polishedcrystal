@@ -177,12 +177,12 @@
 	connection east, ROUTE_15, Route15, 9, 0, 9, FUCHSIA_CITY
 
 	map_header_2 Route18, ROUTE_18, $43, WEST | EAST
-	connection west, ROUTE_17, Route17, -3, 36, 10, ROUTE_18
+	connection west, ROUTE_17, Route17, -3, 39, 10, ROUTE_18
 	connection east, FUCHSIA_CITY, FuchsiaCity, -3, 4, 14, ROUTE_18
 
 	map_header_2 Route17, ROUTE_17, $43, NORTH | EAST
 	connection north, ROUTE_16, Route16, 0, 0, 10, ROUTE_17
-	connection east, ROUTE_18, Route18, 39, 0, 9, ROUTE_17
+	connection east, ROUTE_18, Route18, 42, 0, 9, ROUTE_17
 
 	map_header_2 Route16, ROUTE_16, $f, SOUTH | EAST
 	connection south, ROUTE_17, Route17, 0, 0, 10, ROUTE_16
@@ -211,11 +211,11 @@
 	map_header_2 Route12, ROUTE_12, $43, NORTH | SOUTH | WEST
 	connection north, LAVENDER_TOWN, LavenderTown, 0, 0, 10, ROUTE_12
 	connection south, ROUTE_13, Route13, -3, 17, 13, ROUTE_12
-	connection west, ROUTE_11, Route11, 9, 0, 9, ROUTE_12
+	connection west, ROUTE_11, Route11, 12, 0, 9, ROUTE_12
 
 	map_header_2 Route11, ROUTE_11, $f, WEST | EAST
 	connection west, VERMILION_CITY, VermilionCity, 0, 0, 12, ROUTE_11
-	connection east, ROUTE_12, Route12, -3, 6, 15, ROUTE_11
+	connection east, ROUTE_12, Route12, -3, 9, 15, ROUTE_11
 
 	map_header_2 LavenderTown, LAVENDER_TOWN, $2c, NORTH | SOUTH | WEST
 	connection north, ROUTE_10_SOUTH, Route10South, 0, 0, 10, LAVENDER_TOWN
@@ -327,6 +327,7 @@
 	map_header_2 RuinsofAlphKabutoWordRoom, RUINS_OF_ALPH_KABUTO_WORD_ROOM, $0, 0
 	map_header_2 RuinsofAlphOmanyteWordRoom, RUINS_OF_ALPH_OMANYTE_WORD_ROOM, $0, 0
 	map_header_2 RuinsofAlphAerodactylWordRoom, RUINS_OF_ALPH_AERODACTYL_WORD_ROOM, $0, 0
+	map_header_2 RuinsofAlphSinjohChamber, RUINS_OF_ALPH_SINJOH_CHAMBER, $0, 0
 	map_header_2 UnionCave1F, UNION_CAVE_1F, $9, 0
 	map_header_2 UnionCaveB1F, UNION_CAVE_B1F, $9, 0
 	map_header_2 UnionCaveB2F, UNION_CAVE_B2F, $9, 0
@@ -439,6 +440,10 @@
 	map_header_2 LakeofRageMagikarpHouse, LAKE_OF_RAGE_MAGIKARP_HOUSE, $0, 0
 	map_header_2 Route43MahoganyGate, ROUTE_43_MAHOGANY_GATE, $0, 0
 	map_header_2 Route43Gate, ROUTE_43_GATE, $0, 0
+	map_header_2 SinjohRuins, SINJOH_RUINS, $1, 0
+	map_header_2 SinjohRuinsHouse, SINJOH_RUINS_HOUSE, $0, 0
+	map_header_2 MystriStage, MYSTRI_STAGE, $0, 0
+	map_header_2 EmbeddedTower, EMBEDDED_TOWER, $0, 0
 	map_header_2 VioletMart, VIOLET_MART, $0, 0
 	map_header_2 VioletGym, VIOLET_GYM, $0, 0
 	map_header_2 EarlsPokemonAcademy, EARLS_POKEMON_ACADEMY, $0, 0
@@ -517,6 +522,7 @@
 	map_header_2 FuchsiaBillSpeechHouse, FUCHSIA_BILL_SPEECH_HOUSE, $0, 0
 	map_header_2 FuchsiaPokeCenter1F, FUCHSIA_POKECENTER_1F, $0, 0
 	map_header_2 SafariZoneWardensHome, SAFARI_ZONE_WARDENS_HOME, $0, 0
+	map_header_2 Route12Gate, ROUTE_12_GATE, $0, 0
 	map_header_2 Route15FuchsiaGate, ROUTE_15_FUCHSIA_GATE, $0, 0
 	map_header_2 LavenderPokeCenter1F, LAVENDER_POKECENTER_1F, $0, 0
 	map_header_2 MrFujisHouse, MR_FUJIS_HOUSE, $0, 0
