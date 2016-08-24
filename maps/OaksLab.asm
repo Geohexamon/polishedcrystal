@@ -28,9 +28,11 @@ Oak:
 	buttonsound
 	setevent EVENT_TALKED_TO_OAK_IN_KANTO
 .CheckBadges:
+	checkevent EVENT_BEAT_ELITE_FOUR_AGAIN
+	iftrue .OpenMtSilver
 	checkcode VAR_BADGES
-	if_equal 16, .OpenMtSilver
-	if_equal  8, .Complain
+	if_equal 16, .Complain1
+	if_equal  8, .Complain2
 	jump .AhGood
 
 .CheckPokedex:
@@ -48,7 +50,12 @@ Oak:
 	setevent EVENT_OPENED_MT_SILVER
 	jump .CheckPokedex
 
-.Complain:
+.Complain1:
+	writetext OakNoEliteFourRematchText
+	buttonsound
+	jump .CheckPokedex
+
+.Complain2:
 	writetext OakNoKantoBadgesText
 	buttonsound
 	jump .CheckPokedex
@@ -191,12 +198,12 @@ OakLabGoodbyeText:
 	done
 
 OakOpenMtSilverText:
-	text "Oak: Wow! That's"
-	line "excellent!"
+	text "Oak: Incredible,"
+	line "<PLAY_G>!"
 
-	para "You collected the"
-	line "Badges of Gyms in"
-	cont "Kanto. Well done!"
+	para "You won against"
+	line "the Elite Four"
+	cont "a second time!"
 
 	para "I was right in my"
 	line "assessment of you."
@@ -208,11 +215,11 @@ OakOpenMtSilverText:
 	line "that you can go to"
 	cont "Mt.Silver."
 
-	para "Mt.Silver is a big"
-	line "mountain that is"
+	para "Mt.Silver is a"
+	line "tall mountain that"
 
-	para "home to many wild"
-	line "#mon."
+	para "is home to many"
+	line "wild #mon."
 
 	para "It's too dangerous"
 	line "for your average"
@@ -229,6 +236,17 @@ OakOpenMtSilverText:
 
 	para "reach Mt.Silver"
 	line "from there."
+
+	para "…"
+
+	para "I let Red train on"
+	line "Mt.Silver after"
+
+	para "his first defeat"
+	line "as Champion."
+
+	para "But he hasn't"
+	line "come back…"
 	done
 
 OakNoKantoBadgesText:
@@ -247,6 +265,24 @@ OakNoKantoBadgesText:
 	cont "them."
 	done
 
+OakNoEliteFourRematchText:
+	text "Oak: Wow! That's"
+	line "excellent!"
+
+	para "You collected the"
+	line "Badges of Gyms in"
+	cont "Kanto. Well done!"
+
+	para "Now you can cha-"
+	line "llenge the Elite"
+
+	para "Four with their"
+	line "best #mon."
+
+	para "Keep trying hard,"
+	line "<PLAY_G>!"
+	done
+
 OakYesKantoBadgesText:
 	text "Oak: Ah, you're"
 	line "collecting Kanto"
@@ -258,11 +294,12 @@ OakYesKantoBadgesText:
 	para "experience is sure"
 	line "to help you."
 
-	para "Come see me when"
-	line "you get them all."
+	para "After you earn all"
+	line "eight, you can"
+	cont "challenge the"
 
-	para "I'll have a gift"
-	line "for you."
+	para "Elite Four at"
+	line "their best."
 
 	para "Keep trying hard,"
 	line "<PLAY_G>!"
@@ -341,8 +378,8 @@ OaksLabPCText:
 	done
 
 ProfOakBulbasaurDollTradeText:
-	text "Prof.Oak: Oh, do"
-	line "you like my"
+	text "Oak: Oh, are you"
+	line "admiring my"
 	cont "Bulbasaur doll?"
 
 	para "I'll trade it"
@@ -351,8 +388,8 @@ ProfOakBulbasaurDollTradeText:
 	done
 
 ProfOakCharmanderDollTradeText:
-	text "Prof.Oak: Oh, do"
-	line "you like my"
+	text "Oak: Oh, are you"
+	line "admiring my"
 	cont "Charmander doll?"
 
 	para "I'll trade it"
@@ -361,8 +398,8 @@ ProfOakCharmanderDollTradeText:
 	done
 
 ProfOakSquirtleDollTradeText:
-	text "Prof.Oak: Oh, do"
-	line "you like my"
+	text "Oak: Oh, are you"
+	line "admiring my"
 	cont "Squirtle doll?"
 
 	para "I'll trade it"
