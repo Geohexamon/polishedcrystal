@@ -6,7 +6,7 @@ Kurt_PrintTextWhichApricorn: ; 88000
 
 .Text: ; 0x88007
 	; Which APRICORN should I use?
-	text_jump UnknownText_0x1bc06b
+	text_jump _UseWhichApricornText
 	db "@"
 ; 0x8800c
 
@@ -18,7 +18,7 @@ Kurt_PrintTextHowMany: ; 8800c
 
 .Text: ; 0x88013
 	; How many should I make?
-	text_jump UnknownText_0x1bc089
+	text_jump _MakeHowManyBallsText
 	db "@"
 ; 0x88018
 

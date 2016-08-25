@@ -27,17 +27,17 @@ _NothingHereText::
 	line "here…"
 	done
 
-UnknownText_0x1bc06b::
+_UseWhichApricornText::
 	text "Which Apricorn"
 	line "should I use?"
 	done
 
-UnknownText_0x1bc089::
+_MakeHowManyBallsText::
 	text "How many should I"
 	line "make?"
 	done
 
-UnknownText_0x1bc0a2::
+_RecoveredHPText::
 	text_from_ram StringBuffer1
 	text ""
 	line "recovered @"
@@ -45,49 +45,49 @@ UnknownText_0x1bc0a2::
 	text "HP!"
 	done
 
-UnknownText_0x1bc0bb::
+_CuredPoisonText::
 	text_from_ram StringBuffer1
 	text "'s"
 	line "cured of poison."
 	done
 
-UnknownText_0x1bc0d2::
+_CuredParalysisText::
 	text_from_ram StringBuffer1
 	text "'s"
 	line "rid of paralysis."
 	done
 
-UnknownText_0x1bc0ea::
+_CuredBurnText::
 	text_from_ram StringBuffer1
 	text "'s"
 	line "burn was healed."
 	done
 
-UnknownText_0x1bc101::
+_CuredFreezeText::
 	text_from_ram StringBuffer1
 	text ""
 	line "was defrosted."
 	done
 
-UnknownText_0x1bc115::
+_CuredSleepText::
 	text_from_ram StringBuffer1
 	text ""
 	line "woke up."
 	done
 
-UnknownText_0x1bc123::
+_HealthReturnedText::
 	text_from_ram StringBuffer1
 	text "'s"
 	line "health returned."
 	done
 
-UnknownText_0x1bc13a::
+_MonIsRevitalizedText::
 	text_from_ram StringBuffer1
 	text ""
 	line "is revitalized."
 	done
 
-UnknownText_0x1bc14f::
+_MonGrewToLevelText::
 	text_from_ram StringBuffer1
 	text " grew to"
 	line "level @"
@@ -341,33 +341,33 @@ UnknownText_0x1bc615::
 	line "How are you?"
 	prompt
 
-UnknownText_0x1bc62a::
+_MomBoughtItem1Text::
 	text "I found a useful"
 	line "item shopping, so"
 	prompt
 
-UnknownText_0x1bc64e::
+_MomBoughtItem2Text::
 	text "I bought it with"
 	line "your money. Sorry!"
 	prompt
 
-UnknownText_0x1bc673::
+_MomBoughtItem3Text::
 	text "It's in your PC."
 	line "You'll like it!"
 	done
 
-UnknownText_0x1bc693::
+_MomBoughtItem4Text::
 	text "While shopping"
 	line "today, I saw this"
 	cont "adorable doll, so"
 	prompt
 
-UnknownText_0x1bc6c7::
+_MomBoughtItem5Text::
 	text "It's in your room."
 	line "You'll love it!"
 	done
 
-UnknownText_0x1bc6e9::
+_MonWasSentToText::
 	text_from_ram wPlayerTrademonSpeciesName
 	text " was"
 	line "sent to @"
@@ -496,7 +496,7 @@ _OPT_IntroText2::
 
 _OPT_IntroText3::
 	text ""
-	line "With me, mary!"
+	line "With me, Mary!"
 	done
 
 _OPT_OakText1::
@@ -1148,7 +1148,7 @@ Text_BreedingIsNotPossible::
 	line "possible."
 	prompt
 
-UnknownText_0x1bd0d8::
+Text_BreedingCompatibility::
 	text "The compatibility"
 	line "is @"
 	deciram wd265, 1, 3
@@ -1254,7 +1254,7 @@ UnknownText_0x1bd286::
 	text "…"
 	done
 
-UnknownText_0x1bd2a0::
+Text_ObtainedVoltorbBadge::
 	text "Obtained the"
 	line "VoltorbBadge!"
 	done

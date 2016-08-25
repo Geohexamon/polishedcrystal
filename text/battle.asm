@@ -719,8 +719,8 @@ NotVeryEffectiveText: ; 0x810c1
 
 TookDownWithItText: ; 0x810da
 	text "<TARGET>"
-	line "took down with it,"
-	cont "<USER>!"
+	line "took <USER>"
+	cont "down with it!"
 	prompt
 ; 0x810f3
 
@@ -771,7 +771,7 @@ SpiteEffectText: ; 0x8117f
 	text " was"
 	cont "reduced by @"
 	deciram wd265, 1, 1
-	text "!"
+	text "PP!"
 	prompt
 ; 0x811a0
 
@@ -990,8 +990,8 @@ CoinsScatteredText: ; 0x81435
 
 TransformedTypeText: ; 0x81452
 	text "<USER>"
-	line "transformed into"
-	cont "the @"
+	line "became the"
+	cont "@"
 	text_from_ram StringBuffer1
 	text "-type!"
 	prompt
@@ -1012,13 +1012,13 @@ TransformedText: ; 0x81499
 	prompt
 ; 0x814b4
 
-LightScreenEffectText: ; 0x814b4
+SpecialDefRaisedText: ; 0x814b4
 	text "<USER>'s"
 	line "Spcl.Def rose!"
 	prompt
 ; 0x814c7
 
-ReflectEffectText: ; 0x814c7
+DefRaisedText: ; 0x814c7
 	text "<USER>'s"
 	line "Defense rose!"
 	prompt
@@ -1066,8 +1066,8 @@ DraggedOutText: ; 0x81544
 
 ParalyzedText: ; 0x81558
 	text "<TARGET>'s"
-	line "paralyzed! Maybe"
-	cont "it can't attack!"
+	line "paralyzed! It"
+	cont "might not attack!"
 	prompt
 ; 0x8157d
 
@@ -1285,7 +1285,7 @@ BattleText_LinkErrorBattleCanceled: ; 0x81863
 	prompt
 ; 0x8188e
 
-BattleText_0x8188e: ; 0x8188e
+BattleText_NoTimeLeftToday: ; 0x8188e
 	text "There is no time"
 	line "left today!"
 	done

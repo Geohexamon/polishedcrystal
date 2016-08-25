@@ -872,55 +872,55 @@ PrintPartyMenuActionText: ; 50566
 
 .Text_RecoveredSomeHP: ; 0x5058f
 	; recovered @ HP!
-	text_jump UnknownText_0x1bc0a2
+	text_jump _RecoveredHPText
 	db "@"
 ; 0x50594
 
 .Text_CuredOfPoison: ; 0x50594
 	; 's cured of poison.
-	text_jump UnknownText_0x1bc0bb
+	text_jump _CuredPoisonText
 	db "@"
 ; 0x50599
 
 .Text_RidOfParalysis: ; 0x50599
 	; 's rid of paralysis.
-	text_jump UnknownText_0x1bc0d2
+	text_jump _CuredParalysisText
 	db "@"
 ; 0x5059e
 
 .Text_BurnWasHealed: ; 0x5059e
 	; 's burn was healed.
-	text_jump UnknownText_0x1bc0ea
+	text_jump _CuredBurnText
 	db "@"
 ; 0x505a3
 
 .Text_Defrosted: ; 0x505a3
 	; was defrosted.
-	text_jump UnknownText_0x1bc101
+	text_jump _CuredFreezeText
 	db "@"
 ; 0x505a8
 
 .Text_WokeUp: ; 0x505a8
 	; woke up.
-	text_jump UnknownText_0x1bc115
+	text_jump _CuredSleepText
 	db "@"
 ; 0x505ad
 
 .Text_HealthReturned: ; 0x505ad
 	; 's health returned.
-	text_jump UnknownText_0x1bc123
+	text_jump _HealthReturnedText
 	db "@"
 ; 0x505b2
 
 .Text_Revitalized: ; 0x505b2
 	; is revitalized.
-	text_jump UnknownText_0x1bc13a
+	text_jump _MonIsRevitalizedText
 	db "@"
 ; 0x505b7
 
 .Text_GrewToLevel: ; 0x505b7
 	; grew to level @ !@ @
-	text_jump UnknownText_0x1bc14f
+	text_jump _MonGrewToLevelText
 	db "@"
 ; 0x505bc
 

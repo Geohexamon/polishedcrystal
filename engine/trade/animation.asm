@@ -1236,7 +1236,7 @@ TradeAnim_SentToOTText: ; 29701
 
 UnknownText_0x29732: ; 0x29732
 	; was sent to @ .
-	text_jump UnknownText_0x1bc6e9
+	text_jump _MonWasSentToText
 	db "@"
 ; 0x29737
 

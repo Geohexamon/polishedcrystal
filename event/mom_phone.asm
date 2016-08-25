@@ -245,31 +245,31 @@ _MomText_HiHowAreYou: ; 0xfd1b1
 
 _MomText_FoundAnItem: ; 0xfd1b6
 	; I found a useful item shopping, so
-	text_jump UnknownText_0x1bc62a
+	text_jump _MomBoughtItem1Text
 	db "@"
 ; 0xfd1bb
 
 _MomText_BoughtWithYourMoney: ; 0xfd1bb
 	; I bought it with your money. Sorry!
-	text_jump UnknownText_0x1bc64e
+	text_jump _MomBoughtItem2Text
 	db "@"
 ; 0xfd1c0
 
 _MomText_ItsInPC: ; 0xfd1c0
 	; It's in your PC. You'll like it!
-	text_jump UnknownText_0x1bc673
+	text_jump _MomBoughtItem3Text
 	db "@"
 ; 0xfd1c5
 
 _MomText_FoundADoll: ; 0xfd1c5
 	; While shopping today, I saw this adorable doll, so
-	text_jump UnknownText_0x1bc693
+	text_jump _MomBoughtItem4Text
 	db "@"
 ; 0xfd1ca
 
 _MomText_ItsInRoom: ; 0xfd1ca
 	; It's in your room. You'll love it!
-	text_jump UnknownText_0x1bc6c7
+	text_jump _MomBoughtItem5Text
 	db "@"
 ; 0xfd1cf
 

@@ -8469,7 +8469,7 @@ BattleCommand_Screen: ; 372fc
 	set SCREENS_LIGHT_SCREEN, [hl]
 	ld a, 5
 	ld [bc], a
-	ld hl, LightScreenEffectText
+	ld hl, SpecialDefRaisedText
 	jr .good
 
 .Reflect:
@@ -8482,7 +8482,7 @@ BattleCommand_Screen: ; 372fc
 
 	ld a, 5
 	ld [bc], a
-	ld hl, ReflectEffectText
+	ld hl, DefRaisedText
 
 .good
 	call AnimateCurrentMove
