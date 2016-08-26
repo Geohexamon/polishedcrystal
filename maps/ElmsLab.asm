@@ -180,8 +180,8 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	spriteface ELMSLAB_ELM, DOWN
 	refreshscreen $0
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic CHARMANDER
+	cry CHARMANDER
 	waitbutton
 	closepokepic
 	opentext
@@ -193,12 +193,12 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	buttonsound
 	waitsfx
-	pokenamemem CYNDAQUIL, $0
+	pokenamemem CHARMANDER, $0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke CYNDAQUIL, 5, BERRY
+	givepoke CHARMANDER, 5, BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -221,8 +221,8 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	spriteface ELMSLAB_ELM, DOWN
 	refreshscreen $0
-	pokepic TOTODILE
-	cry TOTODILE
+	pokepic GASTLY
+	cry GASTLY
 	waitbutton
 	closepokepic
 	opentext
@@ -234,12 +234,12 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	buttonsound
 	waitsfx
-	pokenamemem TOTODILE, $0
+	pokenamemem GASTLY, $0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke TOTODILE, 5, BERRY
+	givepoke GASTLY, 5, BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
@@ -260,8 +260,8 @@ ChikoritaPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	spriteface ELMSLAB_ELM, DOWN
 	refreshscreen $0
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic LARVITAR
+	cry LARVITAR
 	waitbutton
 	closepokepic
 	opentext
@@ -273,12 +273,12 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	buttonsound
 	waitsfx
-	pokenamemem CHIKORITA, $0
+	pokenamemem LARVITAR, $0
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	buttonsound
-	givepoke CHIKORITA, 5, BERRY
+	givepoke LARVITAR, 5, BERRY
 	writetext LyraChoosesStarterText
 	waitbutton
 	closetext
